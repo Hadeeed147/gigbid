@@ -37,3 +37,6 @@ Thumbs.db
 # sqlite runtime state
 gigsim/data/*.sqlite
 tests/**/_*.sqlite
+
+# test sqlite files
+mcp_servers/**/_*.sqlite
