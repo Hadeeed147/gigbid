@@ -1,0 +1,135 @@
+# GigBid runtime configuration.
+# Every model, budget, threshold and rule source lives here (never in code).
+# Select a profile with GIGBID_PROFILE=open|paid (default: open).
+
+active_profile: ${GIGBID_PROFILE:-open}
+
+# ---------------------------------------------------------------------------
+# Model providers. All are OpenAI-compatible endpoints, so one client class
+# serves Groq, OpenRouter, Ollama and vLLM. Keys come from env vars only.
+# ---------------------------------------------------------------------------
+providers:
+  groq:
+    base_url: https://api.groq.com/openai/v1
+    api_key_env: GROQ_API_KEY
+    # USD per 1M tokens (input, output); used for the cost column in traces/evals.
+    prices:
+      openai/gpt-oss-20b: [0.075, 0.30]
+      openai/gpt-oss-120b: [0.15, 0.60]
+      llama-3.1-8b-instant: [0.05, 0.08]
+      qwen/qwen3-32b: [0.29, 0.59]
+  ollama:
+    base_url: ${OLLAMA_BASE_URL:-http://localhost:11434/v1}
+    api_key_env: OLLAMA_API_KEY   # ignored by Ollama, any value works
+    prices: {}                    # local: cost reported as hardware + tokens/s
+  openrouter:
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    prices: {}
+  openai:
+    base_url: https://api.openai.com/v1
+    api_key_env: OPENAI_API_KEY
+    prices:
+      gpt-4.1-mini: [0.40, 1.60]
+
+# ---------------------------------------------------------------------------
+# Profiles: route by node. Cheap, frequent nodes -> small model;
+# Writer/Critic/Liaison -> strongest affordable model.
+# ---------------------------------------------------------------------------
+profiles:
+  open:
+    small:    {provider: groq, model: openai/gpt-oss-20b, temperature: 0.0}
+    strong:   {provider: groq, model: openai/gpt-oss-120b, temperature: 0.3}
+    fallback: {provider: groq, model: llama-3.1-8b-instant, temperature: 0.0}
+  # Alternative open configuration compared on the dev set (see docs/adr/0004).
+  open_alt:
+    small:    {provider: groq, model: llama-3.1-8b-instant, temperature: 0.0}
+    strong:   {provider: groq, model: qwen/qwen3-32b, temperature: 0.3}
+    fallback: {provider: groq, model: openai/gpt-oss-20b, temperature: 0.0}
+  local:
+    small:    {provider: ollama, model: "qwen3:4b", temperature: 0.0}
+    strong:   {provider: ollama, model: "qwen3:4b", temperature: 0.3}
+    fallback: {provider: ollama, model: "qwen3:4b", temperature: 0.0}
+  paid:
+    small:    {provider: groq, model: openai/gpt-oss-20b, temperature: 0.0}
+    strong:   {provider: openai, model: gpt-4.1-mini, temperature: 0.3}
+    fallback: {provider: groq, model: llama-3.1-8b-instant, temperature: 0.0}
+
+# Which tier each node uses.
+node_models:
+  scout: small
+  analyst: small
+  risk: small
+  matcher: small
+  pricing: small
+  writer: strong
+  verifier: small
+  critic: strong
+  compliance: small
+  liaison: strong
+  intent: small
+
+# Embeddings + reranker are open models in every profile (CPU via ONNX).
+embeddings:
+  model: BAAI/bge-small-en-v1.5
+  dim: 384
+reranker:
+  model: Xenova/ms-marco-MiniLM-L-6-v2
+
+# ---------------------------------------------------------------------------
+# RAG: shipped variant is chosen by evals (docs/adr/0003), not by default.
+# ---------------------------------------------------------------------------
+rag:
+  variant: ${GIGBID_RAG_VARIANT:-v8_corrective}
+  k: 6
+  chunk_size: 700
+  chunk_overlap: 100
+  rrf_k: 60
+  rerank_candidates: 30
+  outcome_boost: {won: 0.25, replied: 0.12, ignored: -0.05}
+  corrective:
+    min_relevance: 0.35
+    max_requeries: 1
+
+# ---------------------------------------------------------------------------
+# Decision thresholds and loop limits.
+# ---------------------------------------------------------------------------
+decision:
+  bid_min_fit: 0.55
+  watch_min_fit: 0.40
+  max_risk_to_bid: 0.6
+  scam_risk_threshold: 0.7
+  auto_skip_below_fit: 0.25   # only used when the user's autonomy allows auto-skip
+
+loops:
+  max_critic_revisions: 2
+  thread_step_budget: 40
+  thread_token_budget: 60000
+
+node_runtime:
+  timeout_s: 60
+  max_retries: 2
+  backoff_base_s: 1.5
+
+# ---------------------------------------------------------------------------
+# Marketplace + platform rules. Rules live in the policy pack (data/policy_pack)
+# and are loaded at runtime; the change request is absorbed here.
+# ---------------------------------------------------------------------------
+marketplace:
+  mode: ${MARKETPLACE_MODE:-gigsim}      # gigsim | upwork_live
+  gigsim_url: ${GIGSIM_URL:-http://localhost:8100}
+  scout_interval_minutes:
+    gigsim: 10
+    upwork_live: 240                    # conservative: see docs/RUNBOOK.md
+  rate_limit_per_minute: 50             # stays under GigSim's 60/min
+policy_pack: data/policy_pack/policy.yaml
+
+proposal:
+  max_words: 220
+  min_words: 80
+  banned_phrases_file: data/policy_pack/banned_phrases.txt
+
+workspace:
+  backend: mock            # mock | google
+  timezone: Asia/Karachi
+  interview_slot_minutes: 30

@@ -1,0 +1,72 @@
+[project]
+name = "gigbid"
+version = "0.1.0"
+description = "GigBid: a multi-agent freelancer copilot (LangGraph + MCP + advanced RAG)"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  # agents
+  "langgraph>=0.6,<2",
+  "langgraph-checkpoint-postgres>=2.0",
+  "langgraph-supervisor>=0.0.29",
+  "langchain-core>=0.3",
+  "langchain-openai>=0.3",
+  "langchain-mcp-adapters>=0.1.9",
+  "mcp[cli]>=1.12",
+  "langsmith>=0.4",
+  # api + worker
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.32",
+  "sse-starlette>=2.1",
+  "pydantic>=2.9",
+  "pydantic-settings>=2.6",
+  "psycopg[binary,pool]>=3.2",
+  "pgvector>=0.3",
+  "redis>=5.2",
+  "arq>=0.26",
+  "httpx>=0.28",
+  "tenacity>=9.0",
+  "pyyaml>=6.0",
+  "cryptography>=43",
+  "pyjwt>=2.9",
+  "bcrypt>=4.2",
+  "python-multipart>=0.0.12",
+  # rag
+  "fastembed>=0.4",
+  "rank-bm25>=0.2.2",
+  "numpy>=1.26",
+  "pypdf>=5.0",
+  # data + eval
+  "pandas>=2.2",
+  "scikit-learn>=1.5",
+  "scipy>=1.14",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.3",
+  "pytest-asyncio>=0.24",
+  "ruff>=0.8",
+  "reportlab>=4.2",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests", "mcp_servers"]
+pythonpath = ["."]
+markers = [
+  "integration: needs GigSim + Postgres running",
+  "llm: calls a real LLM provider",
+]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+extend-exclude = ["gigsim/data", "apps/web"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501", "B008"]
