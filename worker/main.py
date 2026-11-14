@@ -31,7 +31,7 @@ async def shutdown(ctx) -> None:
 
 class WorkerSettings:
     functions = [tasks.analyse_job, tasks.resume_bid, tasks.retry_thread, tasks.scout_user, tasks.sync_pipeline,
-                 tasks.run_conversation, tasks.resume_conversation, tasks.health_check]
+                 tasks.run_conversation, tasks.resume_conversation, tasks.health_check, tasks.ingest_github]
     cron_jobs = [cron(tasks.scout_all, minute=set(range(60)), run_at_startup=False, unique=True),
                  cron(tasks.sync_all, minute=set(range(60)), unique=True),
                  cron(tasks.health_check, minute=set(range(0, 60, 2)), unique=True)]

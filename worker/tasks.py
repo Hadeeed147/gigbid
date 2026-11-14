@@ -269,6 +269,13 @@ async def resume_conversation(ctx, user_id: str, thread_id: str, decision: dict,
     return out["values"].get("status") or out["status"]
 
 
+async def ingest_github(ctx, user_id: str, login: str) -> dict:
+    """Pull the user's repos through the official GitHub MCP server into their portfolio."""
+    from rag.ingest.github import ingest
+    user = get_user(user_id)
+    return await ingest(user["tenant"], login)
+
+
 async def health_check(ctx) -> dict:
     """Marketplace reachability for the UI's degraded-mode banner."""
     hub = await get_hub()

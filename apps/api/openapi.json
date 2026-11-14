@@ -1328,6 +1328,57 @@
     ]
    }
   },
+  "/api/portfolio/github": {
+   "post": {
+    "tags": [
+     "settings",
+     "analytics"
+    ],
+    "summary": "Import Github",
+    "description": "Queue repo ingestion via the GitHub MCP server (READMEs + top-level code).",
+    "operationId": "import_github_api_portfolio_github_post",
+    "security": [
+     {
+      "HTTPBearer": []
+     }
+    ],
+    "parameters": [
+     {
+      "name": "login",
+      "in": "query",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Login"
+      }
+     }
+    ],
+    "responses": {
+     "202": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "additionalProperties": true,
+         "title": "Response Import Github Api Portfolio Github Post"
+        }
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
   "/api/portfolio/items/{item_id}": {
    "delete": {
     "tags": [

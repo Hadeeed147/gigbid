@@ -32,6 +32,11 @@ export function SettingsPage() {
   const [newSearch, setNewSearch] = useState({ query: "", category: "" });
   const [item, setItem] = useState({ title: "", text: "" });
   const [itemMsg, setItemMsg] = useState<string | null>(null);
+  const [gh, setGh] = useState("");
+  const importGithub = async () => {
+    const { error } = await api.POST("/api/portfolio/github", { params: { query: { login: gh.trim() } } });
+    setItemMsg(error ? errorText(error) : "Importing your repositories. They appear in your portfolio in a minute or two.");
+  };
 
   const save = async () => {
     const { error } = await api.PUT("/api/settings", {
@@ -220,6 +225,15 @@ export function SettingsPage() {
           Add to portfolio
         </button>
         {itemMsg && <p className="small" role="status">{itemMsg}</p>}
+        <div className="row" style={{ marginTop: 16 }}>
+          <label className="sr-only" htmlFor="gh">GitHub username</label>
+          <input id="gh" type="text" placeholder="GitHub username" style={{ maxWidth: 220 }} value={gh}
+                 onChange={(e) => setGh(e.target.value)} />
+          <button className="btn" disabled={!gh.trim()} onClick={importGithub}>
+            Import repos from GitHub
+          </button>
+        </div>
+        <p className="small muted">Reads public READMEs and code through the official GitHub connection. Nothing is written to GitHub.</p>
       </section>
     </>
   );

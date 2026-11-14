@@ -133,6 +133,22 @@ marketplace:
     gigsim: 10
     upwork_live: 240                    # conservative: see docs/RUNBOOK.md
   rate_limit_per_minute: 50             # stays under GigSim's 60/min
+  # Port method -> tool name on the official Upwork MCP server. Verify after connecting with:
+  #   uv run python -m mcp_servers.marketplace.adapters.upwork_live --discover <user_id>
+  upwork_tool_map:
+    search_jobs: search_jobs
+    get_job: get_job_details
+    get_client_history: get_client_details
+    get_connects_balance: get_connects_balance
+    list_threads: list_rooms
+    list_messages: get_room_messages
+    create_proposal_draft: create_proposal_draft
+    send_message: create_message_draft
+
+github:
+  mcp_url: ${GITHUB_MCP_URL:-https://api.githubcopilot.com/mcp/}   # official GitHub MCP server (remote)
+  max_repos: 8
+  max_code_files: 4
 policy_pack: data/policy_pack/policy.yaml
 
 mcp:

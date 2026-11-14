@@ -1,6 +1,7 @@
 """Settings, saved searches, memory viewer, portfolio uploads, analytics, health."""
 from __future__ import annotations
 
+import re
 import uuid
 from collections import Counter
 from datetime import date
@@ -10,7 +11,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from agent.memory.store import delete_memory, list_memory
 from apps.api import db
 from apps.api.auth.security import current_user
-from apps.api.deps import iso
+from apps.api.deps import arq, iso
 from apps.api.schemas.models import (
     AnalyticsOut,
     HealthOut,
@@ -87,6 +88,15 @@ def add_portfolio_item(body: PortfolioItemIn, user: dict = Depends(current_user)
                    project_id=f"{tenant}:user:{uuid.uuid4().hex[:6]}", date=date.today().isoformat(), source="user")
     n = get_store().add_item(item)
     return PortfolioItemOut(item_id=iid, title=body.title, type=body.type, source="user", chunks_indexed=n)
+
+
+@router.post("/portfolio/github", status_code=202)
+async def import_github(login: str, user: dict = Depends(current_user), pool=Depends(arq)) -> dict:
+    """Queue repo ingestion via the GitHub MCP server (READMEs + top-level code)."""
+    if not re.fullmatch(r"[A-Za-z0-9-]{1,39}", login):
+        raise HTTPException(422, "not a valid GitHub login")
+    j = await pool.enqueue_job("ingest_github", user["id"], login, _job_id=f"gh:{user['id']}:{login}")
+    return {"queued": j is not None}
 
 
 @router.delete("/portfolio/items/{item_id:path}")
