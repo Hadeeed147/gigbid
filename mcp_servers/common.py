@@ -40,20 +40,27 @@ def auth_kwargs(port: int) -> dict:
             "auth": AuthSettings(issuer_url=base, resource_server_url=base, required_scopes=["gigbid"])}
 
 
-def identity(ctx: Context | None) -> tuple[str, str]:
-    """(user_id, trace_id) from request headers set by the agent's tool interceptor."""
-    user, trace = "anonymous", ""
+def caller(ctx: Context | None) -> tuple[str, str, str]:
+    """(user_id, trace_id, tenant) from headers set by the agent's tool interceptor
+    (HTTP), or from the in-process context variable."""
+    user, trace, tenant = "anonymous", "", ""
     try:
         req = ctx.request_context.request if ctx else None
         if req is not None:
             user = req.headers.get("x-gigbid-user", user)
             trace = req.headers.get("x-trace-id", "")
+            tenant = req.headers.get("x-gigbid-tenant", "")
     except (AttributeError, LookupError, ValueError):
         pass
     from mcp_servers import local_identity
     if user == "anonymous" and local_identity.get():
-        user, trace = local_identity.get()
-    return user, trace or uuid.uuid4().hex
+        user, trace, tenant = local_identity.get()
+    return user, trace or uuid.uuid4().hex, tenant or user
+
+
+def identity(ctx: Context | None) -> tuple[str, str]:
+    user, trace, _ = caller(ctx)
+    return user, trace
 
 
 class RateLimiter:

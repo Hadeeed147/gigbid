@@ -12,7 +12,7 @@ from mcp.types import ToolAnnotations
 from pydantic import BaseModel, Field
 
 from data.generators.skills import SKILLS
-from mcp_servers.common import AuditLog, identity
+from mcp_servers.common import AuditLog, caller
 from rag.retriever import get_store, get_variant
 from rag.variants.base import RetrievalQuery
 
@@ -30,8 +30,8 @@ def tenant_of(ctx: Context | None) -> tuple[str, str]:
         import rag.retriever as r
         r.PERSONAS_DIR = Path(standalone).parent
         return Path(standalone).name, ""
-    user, trace = identity(ctx)
-    return user.split(":", 1)[-1] if ":" in user else user, trace
+    _, trace, tenant = caller(ctx)
+    return tenant, trace
 
 
 class SearchFilters(BaseModel):

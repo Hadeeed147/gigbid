@@ -43,4 +43,3 @@ rules:
 proposal_limits:
   max_words: 220
   min_words: 80
-required_disclosures: []

@@ -127,6 +127,17 @@ marketplace:
   rate_limit_per_minute: 50             # stays under GigSim's 60/min
 policy_pack: data/policy_pack/policy.yaml
 
+mcp:
+  transport: ${GIGBID_MCP_TRANSPORT:-http}   # http (deployed) | inprocess (evals/tests)
+
+pricing:
+  mode: rules        # rules (deterministic, auditable) | llm
+
+memory:
+  style_min_support: 2       # an edit pattern must recur in >= 2 distinct edits before promotion
+  outcome_min_samples: 3     # a category needs >= 3 outcomes before an outcome lesson is promoted
+  max_style_rules: 12
+
 proposal:
   max_words: 220
   min_words: 80

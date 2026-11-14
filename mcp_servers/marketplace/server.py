@@ -26,7 +26,7 @@ from pydantic import BaseModel, Field
 
 from agent.marketplace_port import MarketplaceRejected, MarketplaceUnavailable, get_adapter
 from common.config import ROOT, cfg
-from mcp_servers.common import AuditLog, RateLimiter, auth_kwargs, identity
+from mcp_servers.common import AuditLog, RateLimiter, auth_kwargs, caller
 
 PORT = 8202
 mcp = FastMCP("gigbid-marketplace", instructions=(
@@ -65,8 +65,20 @@ def _idem(key: str, value: dict | None = None) -> dict | None:
         return value
 
 
+def account_for(user: str, tenant: str) -> str:
+    """The marketplace account to act as: the user's own connected account, else the persona's seeded one."""
+    from common import token_store
+    try:
+        if token_store.get(user, "gigsim") or token_store.get(user, "upwork_oauth"):
+            return user
+    except Exception:
+        pass
+    return tenant or user
+
+
 async def _run(ctx: Context | None, tool: str, args: dict, fn) -> Any:
-    user, trace = identity(ctx)
+    user, trace, tenant = caller(ctx)
+    user = account_for(user, tenant)
     await anyio.to_thread.run_sync(_limiter.wait, user)
     try:
         result = await anyio.to_thread.run_sync(lambda: fn(user))

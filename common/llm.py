@@ -110,6 +110,11 @@ def _invoke(spec: dict, node: str, messages: list[dict], schema: type[BaseModel]
 def chat(node: str, messages: list[dict], schema: type[T] | None = None, *, profile: str | None = None,
          spec_override: dict | None = None) -> T | str:
     """Call the model configured for `node`. Returns a validated `schema` instance or text."""
+    from common import fake_llm
+    if fake_llm.enabled():
+        if (u := current_usage.get()) is not None:
+            u.add(node, "fake", 0, 0, 0.0, 0.0)
+        return fake_llm.respond(node, messages, schema)
     spec = spec_override or model_spec(node, profile)
     if schema is not None:
         messages = messages[:-1] + [{
