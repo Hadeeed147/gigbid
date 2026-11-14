@@ -1,0 +1,176 @@
+{
+ "python": [
+  "Python"
+ ],
+ "docker": [
+  "Docker",
+  "docker-compose"
+ ],
+ "aws": [
+  "AWS",
+  "S3",
+  "Lambda",
+  "EC2"
+ ],
+ "celery": [
+  "Celery"
+ ],
+ "airflow": [
+  "Airflow",
+  "Apache Airflow"
+ ],
+ "postgres": [
+  "PostgreSQL",
+  "Postgres"
+ ],
+ "redis": [
+  "Redis"
+ ],
+ "fastapi": [
+  "FastAPI"
+ ],
+ "pytorch": [
+  "PyTorch"
+ ],
+ "transformers": [
+  "Hugging Face Transformers",
+  "BERT"
+ ],
+ "llm_apps": [
+  "LLM",
+  "OpenAI API",
+  "GPT"
+ ],
+ "langchain": [
+  "LangChain"
+ ],
+ "langgraph": [
+  "LangGraph"
+ ],
+ "rag": [
+  "RAG",
+  "retrieval-augmented generation"
+ ],
+ "vector_db": [
+  "Pinecone",
+  "Qdrant",
+  "FAISS",
+  "pgvector"
+ ],
+ "computer_vision": [
+  "OpenCV",
+  "YOLO",
+  "computer vision"
+ ],
+ "nlp": [
+  "NLP",
+  "spaCy"
+ ],
+ "fine_tuning": [
+  "LoRA",
+  "fine-tuning",
+  "QLoRA"
+ ],
+ "mlops": [
+  "MLflow",
+  "MLOps"
+ ],
+ "sklearn": [
+  "scikit-learn",
+  "XGBoost"
+ ],
+ "forecasting": [
+  "time series forecasting",
+  "Prophet"
+ ],
+ "react": [
+  "React"
+ ],
+ "nextjs": [
+  "Next.js"
+ ],
+ "typescript": [
+  "TypeScript"
+ ],
+ "nodejs": [
+  "Node.js",
+  "Express"
+ ],
+ "django": [
+  "Django"
+ ],
+ "mongodb": [
+  "MongoDB"
+ ],
+ "graphql": [
+  "GraphQL",
+  "Apollo"
+ ],
+ "stripe": [
+  "Stripe"
+ ],
+ "tailwind": [
+  "Tailwind CSS"
+ ],
+ "websockets": [
+  "WebSockets",
+  "Socket.IO"
+ ],
+ "react_native": [
+  "React Native",
+  "Expo"
+ ],
+ "shopify": [
+  "Shopify",
+  "Liquid"
+ ],
+ "wordpress": [
+  "WordPress",
+  "WooCommerce"
+ ],
+ "sql": [
+  "SQL"
+ ],
+ "pandas": [
+  "pandas",
+  "Jupyter"
+ ],
+ "powerbi": [
+  "Power BI",
+  "DAX"
+ ],
+ "tableau": [
+  "Tableau"
+ ],
+ "excel": [
+  "Excel",
+  "VBA"
+ ],
+ "dbt": [
+  "dbt"
+ ],
+ "snowflake": [
+  "Snowflake",
+  "BigQuery"
+ ],
+ "looker": [
+  "Looker",
+  "Looker Studio"
+ ],
+ "ab_testing": [
+  "A/B testing",
+  "experimentation"
+ ],
+ "statistics": [
+  "statistics",
+  "regression analysis"
+ ],
+ "google_analytics": [
+  "Google Analytics",
+  "GA4"
+ ],
+ "etl": [
+  "ETL",
+  "data pipeline"
+ ]
+}
