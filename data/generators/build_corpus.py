@@ -297,7 +297,7 @@ def job_text(reqs: list[str], rng: random.Random, explicit_p: float, vague: bool
     title = f"{skill_name(lead)} {rng.choice(['developer', 'expert', 'specialist', 'engineer'])} needed for " \
             f"{rng.choice(['a new', 'an existing', 'our'])} {rng.choice(['platform', 'project', 'product', 'dashboard', 'pipeline'])}"
     parts = [describe(s, rng, explicit_p) for s in reqs]
-    desc = (f"We are looking for someone to help with the following:\n" + "\n".join(f"- {p}" for p in parts) +
+    desc = ("We are looking for someone to help with the following:\n" + "\n".join(f"- {p}" for p in parts) +
             f"\n\nPlease include examples of similar work. Timeline: {rng.choice(['2 weeks', '1 month', '6 weeks', 'ongoing'])}.")
     return title, desc
 
