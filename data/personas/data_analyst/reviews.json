@@ -1,0 +1,156 @@
+[
+ {
+  "id": "data_analyst:review:00",
+  "project_id": "data_analyst:p12",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 4.8,
+  "text": "Very good work on our sales performance dashboard. Jupyter \u2014 and it cut cloud costs by 32%. Communicated clearly and delivered on time.",
+  "client_industry": "retail",
+  "date": "2020-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:review:01",
+  "project_id": "data_analyst:p11",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 5,
+  "text": "Solid work on our hr attrition study. Tableau \u2014 and it cut manual work by 62%. Communicated clearly and delivered on time.",
+  "client_industry": "legal",
+  "date": "2026-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:review:02",
+  "project_id": "data_analyst:p18",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 5,
+  "text": "Very good work on our finance month-end automation. Window functions and ctes over the order tables \u2014 and it lifted conversion by 18%. Communicated clearly and delivered on time.",
+  "client_industry": "non-profit",
+  "date": "2023-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:review:03",
+  "project_id": "data_analyst:p19",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 4.5,
+  "text": "Excellent work on our ad spend roi dashboard. Drag-and-drop visual dashboards published for executives \u2014 and it lifted conversion by 52%. Communicated clearly and delivered on time.",
+  "client_industry": "legal",
+  "date": "2020-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:review:04",
+  "project_id": "data_analyst:p00",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 5,
+  "text": "Very good work on our supply chain cost model. Dbt \u2014 and it reduced response time from 17 hours to 18 minutes. Communicated clearly and delivered on time.",
+  "client_industry": "logistics",
+  "date": "2026-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:review:05",
+  "project_id": "data_analyst:p09",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 5,
+  "text": "Great work on our cohort retention model. Designed controlled experiments with power analysis \u2014 and it saved the team 26 hours a week. Communicated clearly and delivered on time.",
+  "client_industry": "media",
+  "date": "2026-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:review:06",
+  "project_id": "data_analyst:p10",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 5,
+  "text": "Solid work on our marketing attribution model. Modelled drivers of retention with regression \u2014 and it cut cloud costs by 32%. Communicated clearly and delivered on time.",
+  "client_industry": "non-profit",
+  "date": "2025-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:review:07",
+  "project_id": "data_analyst:p13",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 4.5,
+  "text": "Solid work on our store demand forecast. Columnar warehouse queries over billions of rows \u2014 and it reached 24% accuracy on the held-out set. Communicated clearly and delivered on time.",
+  "client_industry": "logistics",
+  "date": "2025-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:review:08",
+  "project_id": "data_analyst:p17",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 5,
+  "text": "Great work on our ops sla tracker. Postgresql \u2014 and it brought report refresh down to 14 minutes. Communicated clearly and delivered on time.",
+  "client_industry": "travel",
+  "date": "2019-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:review:09",
+  "project_id": "data_analyst:p15",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 5,
+  "text": "Great work on our loan portfolio report. Dax \u2014 and it handled 17k requests a day. Communicated clearly and delivered on time.",
+  "client_industry": "healthcare",
+  "date": "2019-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:review:10",
+  "project_id": "data_analyst:p06",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 4.8,
+  "text": "Great work on our product usage analytics. Scripting the whole pipeline end to end \u2014 and it reached 38% accuracy on the held-out set. Communicated clearly and delivered on time.",
+  "client_industry": "education",
+  "date": "2026-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:review:11",
+  "project_id": "data_analyst:p08",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 4.5,
+  "text": "Great work on our warehouse modelling layer. Data pipeline \u2014 and it cut cloud costs by 62%. Communicated clearly and delivered on time.",
+  "client_industry": "logistics",
+  "date": "2026-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:review:12",
+  "project_id": "data_analyst:p07",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 5,
+  "text": "Solid work on our customer churn analysis. Looker \u2014 and it cut manual work by 40%. Communicated clearly and delivered on time.",
+  "client_industry": "healthcare",
+  "date": "2023-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:review:13",
+  "project_id": "data_analyst:p03",
+  "type": "review",
+  "persona": "data_analyst",
+  "rating": 5,
+  "text": "Very good work on our pricing elasticity analysis. Predicted weekly demand per store \u2014 and it brought report refresh down to 8 minutes. Communicated clearly and delivered on time.",
+  "client_industry": "SaaS",
+  "date": "2026-11-01",
+  "source": "synthetic"
+ }
+]

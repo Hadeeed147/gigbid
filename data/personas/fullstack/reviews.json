@@ -1,0 +1,156 @@
+[
+ {
+  "id": "fullstack:review:00",
+  "project_id": "fullstack:p14",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 5,
+  "text": "Solid work on our invoicing tool. Shipped reproducible images to the client's servers \u2014 and it grew active users to 88k. Communicated clearly and delivered on time.",
+  "client_industry": "marketing agency",
+  "date": "2019-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:review:01",
+  "project_id": "fullstack:p17",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 4.8,
+  "text": "Great work on our headless storefront. Python \u2014 and it cut manual work by 56%. Communicated clearly and delivered on time.",
+  "client_industry": "retail",
+  "date": "2025-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:review:02",
+  "project_id": "fullstack:p12",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 5,
+  "text": "Excellent work on our community forum. Next.js \u2014 and it cut manual work by 47%. Communicated clearly and delivered on time.",
+  "client_industry": "healthcare",
+  "date": "2025-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:review:03",
+  "project_id": "fullstack:p10",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 5,
+  "text": "Great work on our event ticketing site. Hybrid static and server rendering on vercel \u2014 and it brought report refresh down to 6 minutes. Communicated clearly and delivered on time.",
+  "client_industry": "real estate",
+  "date": "2021-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:review:04",
+  "project_id": "fullstack:p07",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 5,
+  "text": "Very good work on our auction platform. Tailwind css \u2014 and it cut cloud costs by 57%. Communicated clearly and delivered on time.",
+  "client_industry": "logistics",
+  "date": "2022-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:review:05",
+  "project_id": "fullstack:p18",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 5,
+  "text": "Very good work on our real-time chat app. Live chat with presence indicators \u2014 and it brought report refresh down to 5 minutes. Communicated clearly and delivered on time.",
+  "client_industry": "manufacturing",
+  "date": "2021-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:review:06",
+  "project_id": "fullstack:p20",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 5,
+  "text": "Solid work on our learning management system. Strict typing across front end and back end \u2014 and it grew active users to 18k. Communicated clearly and delivered on time.",
+  "client_industry": "fintech",
+  "date": "2025-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:review:07",
+  "project_id": "fullstack:p11",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 4.8,
+  "text": "Solid work on our subscription box shop. Typescript \u2014 and it cut cloud costs by 58%. Communicated clearly and delivered on time.",
+  "client_industry": "healthcare",
+  "date": "2019-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:review:08",
+  "project_id": "fullstack:p09",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 5,
+  "text": "Solid work on our internal hr portal. Postgres \u2014 and it grew active users to 16k. Communicated clearly and delivered on time.",
+  "client_industry": "legal",
+  "date": "2020-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:review:09",
+  "project_id": "fullstack:p08",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 5,
+  "text": "Very good work on our booking platform. Stripe \u2014 and it cut manual work by 33%. Communicated clearly and delivered on time.",
+  "client_industry": "legal",
+  "date": "2023-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:review:10",
+  "project_id": "fullstack:p13",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 4.8,
+  "text": "Solid work on our survey builder. Serverless functions triggered on file upload \u2014 and it lifted conversion by 44%. Communicated clearly and delivered on time.",
+  "client_industry": "e-commerce",
+  "date": "2023-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:review:11",
+  "project_id": "fullstack:p02",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 4.8,
+  "text": "Very good work on our property listing portal. Typescript \u2014 and it saved the team 6 hours a week. Communicated clearly and delivered on time.",
+  "client_industry": "e-commerce",
+  "date": "2022-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:review:12",
+  "project_id": "fullstack:p01",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 5,
+  "text": "Great work on our multi-vendor marketplace. A fast key-value store for session data and rate limiting \u2014 and it grew active users to 79k. Communicated clearly and delivered on time.",
+  "client_industry": "fintech",
+  "date": "2025-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:review:13",
+  "project_id": "fullstack:p00",
+  "type": "review",
+  "persona": "fullstack",
+  "rating": 4.5,
+  "text": "Solid work on our news site migration. Postgres \u2014 and it grew active users to 24k. Communicated clearly and delivered on time.",
+  "client_industry": "manufacturing",
+  "date": "2022-11-01",
+  "source": "synthetic"
+ }
+]

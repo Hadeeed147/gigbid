@@ -1,0 +1,29 @@
+{
+ "persona": "data_analyst",
+ "name": "Hira Qureshi",
+ "title": "Data Analyst \u2014 SQL, dbt, Power BI, Tableau",
+ "hourly_rate": 30,
+ "rate_floor": 22,
+ "years": 5,
+ "home_category": "Data Analytics",
+ "skills": [
+  "sql",
+  "python",
+  "pandas",
+  "powerbi",
+  "tableau",
+  "excel",
+  "dbt",
+  "snowflake",
+  "looker",
+  "ab_testing",
+  "statistics",
+  "google_analytics",
+  "etl",
+  "airflow",
+  "postgres",
+  "forecasting",
+  "sklearn"
+ ],
+ "source": "synthetic"
+}

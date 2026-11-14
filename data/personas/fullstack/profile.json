@@ -1,0 +1,31 @@
+{
+ "persona": "fullstack",
+ "name": "Bilal Ahmed",
+ "title": "Full-Stack Developer \u2014 React, Next.js, Node, Django",
+ "hourly_rate": 40,
+ "rate_floor": 30,
+ "years": 7,
+ "home_category": "Web Development",
+ "skills": [
+  "react",
+  "nextjs",
+  "typescript",
+  "nodejs",
+  "django",
+  "postgres",
+  "mongodb",
+  "graphql",
+  "stripe",
+  "tailwind",
+  "websockets",
+  "react_native",
+  "redis",
+  "docker",
+  "aws",
+  "celery",
+  "python",
+  "fastapi",
+  "wordpress"
+ ],
+ "source": "synthetic"
+}

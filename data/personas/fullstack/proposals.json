@@ -1,0 +1,3054 @@
+[
+ {
+  "id": "fullstack:proposal:000",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WordPress expert needed for our pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "wordpress",
+   "postgres"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:001",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Tailwind CSS expert needed for our pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "websockets",
+   "graphql",
+   "tailwind",
+   "fastapi",
+   "docker",
+   "stripe"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe. On the job board I used Stripe, GraphQL, React Native.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p03",
+   "fullstack:p05"
+  ],
+  "outcome": "ignored",
+  "date": "2025-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:002",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Node.js expert needed for an existing dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "tailwind",
+   "docker",
+   "react_native",
+   "websockets",
+   "nodejs"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the travel itinerary planner I built for a media client, which saved the team 19 hours a week.\n\nOn the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe. On the learning management system I used Tailwind CSS, Node.js, React Native.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p03",
+   "fullstack:p20"
+  ],
+  "outcome": "ignored",
+  "date": "2023-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:003",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Shopify expert needed for our pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "websockets",
+   "tableau",
+   "shopify"
+  ],
+  "text": "Your our pipeline sounds a lot like the property listing portal I built for a e-commerce client, which saved the team 6 hours a week.\n\nOn the property listing portal I used WebSockets, Stripe, TypeScript. On the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p02",
+   "fullstack:p03"
+  ],
+  "outcome": "replied",
+  "date": "2023-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:004",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Django developer needed for our pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "django",
+   "mongodb"
+  ],
+  "text": "Your our pipeline sounds a lot like the survey builder I built for a e-commerce client, which lifted conversion by 44%.\n\nOn the survey builder I used MongoDB, AWS, Django. On the food delivery admin I used MongoDB, Node.js, Django.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p13",
+   "fullstack:p19"
+  ],
+  "outcome": "won",
+  "date": "2023-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:005",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Help us make sense of our data",
+  "job_category": "Web Development",
+  "job_skills": [
+   "aws",
+   "docker",
+   "nodejs"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the saas billing dashboard I used Next.js, Django, Node.js. On the internal hr portal I used Tailwind CSS, PostgreSQL, TypeScript.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p06",
+   "fullstack:p09"
+  ],
+  "outcome": "ignored",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:006",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Build something smart for our team",
+  "job_category": "Web Development",
+  "job_skills": [
+   "stripe",
+   "nodejs",
+   "redis",
+   "celery",
+   "nextjs",
+   "fastapi"
+  ],
+  "text": "Your our team sounds a lot like the event ticketing site I built for a real estate client, which brought report refresh down to 6 minutes.\n\nOn the event ticketing site I used Next.js, Stripe, FastAPI. On the clinic appointment system I used GraphQL, Next.js, Redis.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p10",
+   "fullstack:p16"
+  ],
+  "outcome": "ignored",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:007",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Shopify specialist needed for an existing product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "aws",
+   "postgres",
+   "nextjs",
+   "shopify",
+   "dbt",
+   "tableau"
+  ],
+  "text": "Your an existing product sounds a lot like the internal hr portal I built for a legal client, which grew active users to 16k.\n\nOn the internal hr portal I used Tailwind CSS, PostgreSQL, TypeScript. On the community forum I used PostgreSQL, Next.js, Tailwind CSS.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p09",
+   "fullstack:p12"
+  ],
+  "outcome": "ignored",
+  "date": "2026-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:008",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA engineer needed for an existing project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "docker",
+   "tableau",
+   "fine_tuning"
+  ],
+  "text": "Your an existing project sounds a lot like the invoicing tool I built for a marketing agency client, which grew active users to 88k.\n\nOn the invoicing tool I used TypeScript, PostgreSQL, WordPress. On the fitness tracking mobile app I used React, Celery, Docker. For your project I would start with Docker, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p14",
+   "fullstack:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2025-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:009",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Stripe expert needed for our platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "stripe",
+   "aws"
+  ],
+  "text": "Your our platform sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the property listing portal I used WebSockets, Stripe, TypeScript. For your project I would start with Stripe, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2023-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:010",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Redis specialist needed for our dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "redis",
+   "graphql"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\nOn the clinic appointment system I used GraphQL, Next.js, Redis. On the news site migration I used PostgreSQL, Redis, React.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p16",
+   "fullstack:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2023-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:011",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "GraphQL specialist needed for our platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "aws",
+   "websockets",
+   "graphql",
+   "django",
+   "celery",
+   "postgres"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:012",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "OpenCV expert needed for our project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "celery",
+   "powerbi",
+   "computer_vision"
+  ],
+  "text": "Your our project sounds a lot like the fitness tracking mobile app I built for a fintech client, which handled 37k requests a day.\n\nOn the fitness tracking mobile app I used React, Celery, Docker. On the news site migration I used PostgreSQL, Redis, React. For your project I would start with Celery, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p15",
+   "fullstack:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:013",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WordPress specialist needed for our pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "wordpress",
+   "fine_tuning"
+  ],
+  "text": "Your our pipeline sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the invoicing tool I used TypeScript, PostgreSQL, WordPress.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p14"
+  ],
+  "outcome": "ignored",
+  "date": "2024-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:014",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "MongoDB engineer needed for a new platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "mongodb",
+   "react_native",
+   "redis"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the clinic appointment system I used GraphQL, Next.js, Redis. On the news site migration I used PostgreSQL, Redis, React.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p16",
+   "fullstack:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:015",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Tailwind CSS developer needed for an existing project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "python",
+   "nextjs",
+   "graphql",
+   "aws",
+   "tailwind",
+   "django"
+  ],
+  "text": "Your an existing project sounds a lot like the headless storefront I built for a retail client, which cut manual work by 56%.\n\nOn the headless storefront I used Tailwind CSS, GraphQL, Python. On the community forum I used PostgreSQL, Next.js, Tailwind CSS.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p17",
+   "fullstack:p12"
+  ],
+  "outcome": "won",
+  "date": "2024-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:016",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Next.js developer needed for an existing dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "nextjs",
+   "python",
+   "postgres"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:017",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WordPress developer needed for a new product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "nodejs",
+   "postgres",
+   "wordpress",
+   "websockets",
+   "stripe"
+  ],
+  "text": "Your a new product sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the property listing portal I used WebSockets, Stripe, TypeScript. For your project I would start with Node.js, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p02"
+  ],
+  "outcome": "won",
+  "date": "2022-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:018",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WebSockets expert needed for an existing platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "mongodb",
+   "typescript",
+   "websockets",
+   "aws",
+   "docker",
+   "python"
+  ],
+  "text": "Your an existing platform sounds a lot like the property listing portal I built for a e-commerce client, which saved the team 6 hours a week.\n\nOn the property listing portal I used WebSockets, Stripe, TypeScript. On the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p02",
+   "fullstack:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2025-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:019",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Looker specialist needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "react_native",
+   "websockets",
+   "docker",
+   "fine_tuning",
+   "looker",
+   "computer_vision"
+  ],
+  "text": "Your an existing platform sounds a lot like the travel itinerary planner I built for a media client, which saved the team 19 hours a week.\n\nOn the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe. On the real-time chat app I used WebSockets, React Native, React. For your project I would start with React Native, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p03",
+   "fullstack:p18"
+  ],
+  "outcome": "won",
+  "date": "2026-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:020",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Next.js developer needed for a new dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "nextjs",
+   "mongodb",
+   "dbt",
+   "shopify"
+  ],
+  "text": "Your a new dashboard sounds a lot like the saas billing dashboard I built for a fintech client, which handled 44k requests a day.\n\nOn the saas billing dashboard I used Next.js, Django, Node.js. On the auction platform I used Next.js, Tailwind CSS, React Native.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p06",
+   "fullstack:p07"
+  ],
+  "outcome": "ignored",
+  "date": "2025-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:021",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Redis specialist needed for our platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "docker",
+   "tailwind",
+   "redis",
+   "typescript",
+   "python"
+  ],
+  "text": "Your our platform sounds a lot like the internal hr portal I built for a legal client, which grew active users to 16k.\n\nOn the internal hr portal I used Tailwind CSS, PostgreSQL, TypeScript. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with Docker, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p09",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2023-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:022",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "React expert needed for our pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "react",
+   "celery",
+   "websockets"
+  ],
+  "text": "Your our pipeline sounds a lot like the fitness tracking mobile app I built for a fintech client, which handled 37k requests a day.\n\nOn the fitness tracking mobile app I used React, Celery, Docker. On the real-time chat app I used WebSockets, React Native, React.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p15",
+   "fullstack:p18"
+  ],
+  "outcome": "won",
+  "date": "2025-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:023",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WebSockets engineer needed for an existing dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "redis",
+   "aws",
+   "websockets"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the booking platform I built for a legal client, which cut manual work by 33%.\n\nOn the booking platform I used Stripe, WebSockets, Redis. On the internal hr portal I used Tailwind CSS, PostgreSQL, TypeScript. For your project I would start with Redis, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p08",
+   "fullstack:p09"
+  ],
+  "outcome": "ignored",
+  "date": "2024-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:024",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "React Native developer needed for a new dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "react_native",
+   "python",
+   "docker",
+   "redis"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\nOn the subscription box shop I used TypeScript, React Native, Node.js. On the clinic appointment system I used GraphQL, Next.js, Redis.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p11",
+   "fullstack:p16"
+  ],
+  "outcome": "ignored",
+  "date": "2025-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:025",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WordPress specialist needed for a new platform",
+  "job_category": "E-commerce",
+  "job_skills": [
+   "python",
+   "wordpress"
+  ],
+  "text": "Your a new platform sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the subscription box shop I used TypeScript, React Native, Node.js.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p11"
+  ],
+  "outcome": "ignored",
+  "date": "2025-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:026",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Shopify developer needed for our project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "fine_tuning",
+   "powerbi",
+   "shopify",
+   "computer_vision",
+   "tableau"
+  ],
+  "text": "Your our project sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2022-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:027",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WebSockets specialist needed for our pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "websockets",
+   "nextjs",
+   "python",
+   "typescript",
+   "mongodb"
+  ],
+  "text": "Your our pipeline sounds a lot like the property listing portal I built for a e-commerce client, which saved the team 6 hours a week.\n\nOn the property listing portal I used WebSockets, Stripe, TypeScript. On the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p02",
+   "fullstack:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:028",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WordPress developer needed for a new dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "wordpress",
+   "nextjs",
+   "typescript",
+   "dbt",
+   "fine_tuning",
+   "computer_vision"
+  ],
+  "text": "Your a new dashboard sounds a lot like the invoicing tool I built for a marketing agency client, which grew active users to 88k.\n\nOn the invoicing tool I used TypeScript, PostgreSQL, WordPress. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with WordPress, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p14",
+   "fullstack:p01"
+  ],
+  "outcome": "won",
+  "date": "2026-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:029",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "TypeScript engineer needed for a new pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "python",
+   "typescript",
+   "celery",
+   "django"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:030",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Redis engineer needed for our platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "redis",
+   "typescript",
+   "wordpress",
+   "tailwind",
+   "react_native",
+   "nextjs"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:031",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WordPress expert needed for a new pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "wordpress",
+   "websockets",
+   "django"
+  ],
+  "text": "Your a new pipeline sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with WordPress, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2023-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:032",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Shopify expert needed for an existing product",
+  "job_category": "E-commerce",
+  "job_skills": [
+   "tableau",
+   "shopify"
+  ],
+  "text": "Your an existing product sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with Tableau, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2023-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:033",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Shopify engineer needed for our platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "tableau",
+   "shopify",
+   "dbt",
+   "looker",
+   "fine_tuning"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:034",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA developer needed for an existing product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "react",
+   "fine_tuning",
+   "powerbi"
+  ],
+  "text": "Your an existing product sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React. For your project I would start with React, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2024-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:035",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Power BI engineer needed for an existing project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "nextjs",
+   "nodejs",
+   "stripe",
+   "looker",
+   "powerbi",
+   "tableau"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\nOn the saas billing dashboard I used Next.js, Django, Node.js. On the event ticketing site I used Next.js, Stripe, FastAPI.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p06",
+   "fullstack:p10"
+  ],
+  "outcome": "ignored",
+  "date": "2024-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:036",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "OpenCV engineer needed for a new product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "graphql",
+   "computer_vision",
+   "fine_tuning"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:037",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Looker expert needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "redis",
+   "python",
+   "shopify",
+   "computer_vision",
+   "looker"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2026-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:038",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "GraphQL specialist needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "react",
+   "graphql"
+  ],
+  "text": "Your our product sounds a lot like the headless storefront I built for a retail client, which cut manual work by 56%.\n\nOn the headless storefront I used Tailwind CSS, GraphQL, Python. On the news site migration I used PostgreSQL, Redis, React. For your project I would start with React, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p17",
+   "fullstack:p00"
+  ],
+  "outcome": "won",
+  "date": "2022-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:039",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Tailwind CSS developer needed for our platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "tailwind",
+   "fine_tuning"
+  ],
+  "text": "Your our platform sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe. For your project I would start with Tailwind CSS, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2022-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:040",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Node.js engineer needed for our pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "postgres",
+   "nodejs"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:041",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Power BI expert needed for a new pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "celery",
+   "powerbi",
+   "looker"
+  ],
+  "text": "Your a new pipeline sounds a lot like the fitness tracking mobile app I built for a fintech client, which handled 37k requests a day.\n\nOn the fitness tracking mobile app I used React, Celery, Docker. On the news site migration I used PostgreSQL, Redis, React. For your project I would start with Celery, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p15",
+   "fullstack:p00"
+  ],
+  "outcome": "won",
+  "date": "2026-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:042",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "dbt specialist needed for our pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "aws",
+   "websockets",
+   "fine_tuning",
+   "dbt",
+   "tableau"
+  ],
+  "text": "Your our pipeline sounds a lot like the property listing portal I built for a e-commerce client, which saved the team 6 hours a week.\n\nOn the property listing portal I used WebSockets, Stripe, TypeScript. On the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p02",
+   "fullstack:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2024-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:043",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA expert needed for a new platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "powerbi",
+   "looker",
+   "dbt",
+   "fine_tuning"
+  ],
+  "text": "Your a new platform sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2023-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:044",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Next.js expert needed for our dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "nextjs",
+   "mongodb",
+   "looker",
+   "computer_vision"
+  ],
+  "text": "Your our dashboard sounds a lot like the saas billing dashboard I built for a fintech client, which handled 44k requests a day.\n\nOn the saas billing dashboard I used Next.js, Django, Node.js. On the auction platform I used Next.js, Tailwind CSS, React Native. For your project I would start with Next.js, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p06",
+   "fullstack:p07"
+  ],
+  "outcome": "ignored",
+  "date": "2024-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:045",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "dbt developer needed for a new product",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "aws",
+   "dbt",
+   "computer_vision"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:046",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Tailwind CSS specialist needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "aws",
+   "tailwind",
+   "redis"
+  ],
+  "text": "Your our product sounds a lot like the internal hr portal I built for a legal client, which grew active users to 16k.\n\nOn the internal hr portal I used Tailwind CSS, PostgreSQL, TypeScript. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with AWS, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p09",
+   "fullstack:p01"
+  ],
+  "outcome": "replied",
+  "date": "2024-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:047",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Node.js engineer needed for a new pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "celery",
+   "stripe",
+   "nodejs",
+   "mongodb",
+   "wordpress"
+  ],
+  "text": "Your a new pipeline sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the food delivery admin I used MongoDB, Node.js, Django.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p19"
+  ],
+  "outcome": "won",
+  "date": "2023-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:048",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "OpenCV developer needed for an existing project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "nextjs",
+   "mongodb",
+   "computer_vision",
+   "powerbi",
+   "fine_tuning"
+  ],
+  "text": "Your an existing project sounds a lot like the saas billing dashboard I built for a fintech client, which handled 44k requests a day.\n\nOn the saas billing dashboard I used Next.js, Django, Node.js. On the auction platform I used Next.js, Tailwind CSS, React Native. For your project I would start with Next.js, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p06",
+   "fullstack:p07"
+  ],
+  "outcome": "won",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:049",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA expert needed for an existing pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "aws",
+   "fine_tuning",
+   "shopify"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:050",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Power BI engineer needed for our pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "powerbi",
+   "looker"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:051",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WebSockets developer needed for a new dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "websockets",
+   "aws",
+   "mongodb"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:052",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Node.js expert needed for a new pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "postgres",
+   "nodejs",
+   "react"
+  ],
+  "text": "Your a new pipeline sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2024-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:053",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Node.js developer needed for our pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "wordpress",
+   "fastapi",
+   "nodejs",
+   "tailwind"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:054",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "React engineer needed for an existing project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "react",
+   "fastapi"
+  ],
+  "text": "Your an existing project sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React. For your project I would start with React, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2024-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:055",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "React developer needed for a new pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "postgres",
+   "python",
+   "aws",
+   "react"
+  ],
+  "text": "Your a new pipeline sounds a lot like the headless storefront I built for a retail client, which cut manual work by 56%.\n\nOn the headless storefront I used Tailwind CSS, GraphQL, Python. On the news site migration I used PostgreSQL, Redis, React. For your project I would start with PostgreSQL, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p17",
+   "fullstack:p00"
+  ],
+  "outcome": "replied",
+  "date": "2025-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:056",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Stripe developer needed for our project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "stripe",
+   "tableau",
+   "dbt"
+  ],
+  "text": "Your our project sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the property listing portal I used WebSockets, Stripe, TypeScript. For your project I would start with Stripe, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2023-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:057",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "dbt expert needed for an existing dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "celery",
+   "tailwind",
+   "nextjs",
+   "dbt",
+   "tableau",
+   "fine_tuning"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the auction platform I built for a logistics client, which cut cloud costs by 57%.\n\nOn the auction platform I used Next.js, Tailwind CSS, React Native. On the community forum I used PostgreSQL, Next.js, Tailwind CSS.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p07",
+   "fullstack:p12"
+  ],
+  "outcome": "replied",
+  "date": "2025-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:058",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "dbt expert needed for an existing platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "computer_vision",
+   "powerbi",
+   "dbt"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2026-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:059",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "React engineer needed for an existing dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "wordpress",
+   "docker",
+   "react"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the invoicing tool I used TypeScript, PostgreSQL, WordPress. On the fitness tracking mobile app I used React, Celery, Docker.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p14",
+   "fullstack:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2026-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:060",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Tableau developer needed for a new product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "computer_vision",
+   "shopify",
+   "tableau",
+   "dbt"
+  ],
+  "text": "Your a new product sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with OpenCV, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2024-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:061",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA developer needed for our project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "docker",
+   "fine_tuning"
+  ],
+  "text": "Your our project sounds a lot like the invoicing tool I built for a marketing agency client, which grew active users to 88k.\n\nOn the invoicing tool I used TypeScript, PostgreSQL, WordPress. On the fitness tracking mobile app I used React, Celery, Docker. For your project I would start with Docker, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p14",
+   "fullstack:p15"
+  ],
+  "outcome": "won",
+  "date": "2023-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:062",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Looker expert needed for our product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "looker",
+   "tableau",
+   "dbt",
+   "powerbi",
+   "computer_vision"
+  ],
+  "text": "Your our product sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with Looker, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "won",
+  "date": "2026-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:063",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Power BI specialist needed for our product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "tailwind",
+   "aws",
+   "dbt",
+   "powerbi",
+   "fine_tuning"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:064",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "PostgreSQL specialist needed for a new product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "aws",
+   "postgres"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:065",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Celery developer needed for our platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "celery",
+   "websockets"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:066",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Next.js specialist needed for a new product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "wordpress",
+   "redis",
+   "nextjs",
+   "nodejs"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:067",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Next.js engineer needed for a new product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "react",
+   "nextjs",
+   "stripe"
+  ],
+  "text": "Your a new product sounds a lot like the logistics tracking dashboard I built for a travel client, which reduced response time from 21 hours to 17 minutes.\n\nOn the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React. On the event ticketing site I used Next.js, Stripe, FastAPI. For your project I would start with React, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p04",
+   "fullstack:p10"
+  ],
+  "outcome": "ignored",
+  "date": "2022-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:068",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "TypeScript expert needed for an existing platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "python",
+   "docker",
+   "react_native",
+   "typescript"
+  ],
+  "text": "Your an existing platform sounds a lot like the subscription box shop I built for a healthcare client, which cut cloud costs by 58%.\n\nOn the subscription box shop I used TypeScript, React Native, Node.js. On the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p11",
+   "fullstack:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2025-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:069",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Build something smart for our team",
+  "job_category": "Web Development",
+  "job_skills": [
+   "celery",
+   "fastapi",
+   "redis",
+   "python"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:070",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Need help improving our internal process",
+  "job_category": "Web Development",
+  "job_skills": [
+   "fastapi",
+   "mongodb",
+   "graphql",
+   "nextjs"
+  ],
+  "text": "Your Need help improving our internal process sounds a lot like the event ticketing site I built for a real estate client, which brought report refresh down to 6 minutes.\n\nOn the event ticketing site I used Next.js, Stripe, FastAPI. On the clinic appointment system I used GraphQL, Next.js, Redis.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p10",
+   "fullstack:p16"
+  ],
+  "outcome": "ignored",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:071",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Shopify engineer needed for an existing pipeline",
+  "job_category": "E-commerce",
+  "job_skills": [
+   "python",
+   "postgres",
+   "wordpress",
+   "looker",
+   "shopify",
+   "powerbi"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:072",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Redis specialist needed for our project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "redis",
+   "looker"
+  ],
+  "text": "Your our project sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "replied",
+  "date": "2025-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:073",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "GraphQL specialist needed for our dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "wordpress",
+   "postgres",
+   "graphql",
+   "python"
+  ],
+  "text": "Your our dashboard sounds a lot like the community forum I built for a healthcare client, which cut manual work by 47%.\n\nOn the community forum I used PostgreSQL, Next.js, Tailwind CSS. On the invoicing tool I used TypeScript, PostgreSQL, WordPress. For your project I would start with WordPress, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p12",
+   "fullstack:p14"
+  ],
+  "outcome": "ignored",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:074",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Django specialist needed for an existing product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "aws",
+   "stripe",
+   "fastapi",
+   "django",
+   "graphql",
+   "nextjs"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:075",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "FastAPI expert needed for a new product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "typescript",
+   "fastapi"
+  ],
+  "text": "Your a new product sounds a lot like the property listing portal I built for a e-commerce client, which saved the team 6 hours a week.\n\nOn the property listing portal I used WebSockets, Stripe, TypeScript. On the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p02",
+   "fullstack:p03"
+  ],
+  "outcome": "replied",
+  "date": "2024-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:076",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Power BI engineer needed for an existing project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "react",
+   "powerbi"
+  ],
+  "text": "Your an existing project sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2023-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:077",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Help us make sense of our data",
+  "job_category": "Web Development",
+  "job_skills": [
+   "aws",
+   "fastapi",
+   "docker"
+  ],
+  "text": "Your Help us make sense of our data sounds a lot like the internal hr portal I built for a legal client, which grew active users to 16k.\n\nOn the internal hr portal I used Tailwind CSS, PostgreSQL, TypeScript. On the event ticketing site I used Next.js, Stripe, FastAPI. For your project I would start with AWS, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p09",
+   "fullstack:p10"
+  ],
+  "outcome": "ignored",
+  "date": "2026-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:078",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Stripe developer needed for our project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "python",
+   "celery",
+   "fastapi",
+   "react",
+   "stripe"
+  ],
+  "text": "Your our project sounds a lot like the logistics tracking dashboard I built for a travel client, which reduced response time from 21 hours to 17 minutes.\n\nOn the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React. On the event ticketing site I used Next.js, Stripe, FastAPI. For your project I would start with Python, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p04",
+   "fullstack:p10"
+  ],
+  "outcome": "won",
+  "date": "2026-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:079",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Stripe engineer needed for a new project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "fastapi",
+   "stripe"
+  ],
+  "text": "Your a new project sounds a lot like the event ticketing site I built for a real estate client, which brought report refresh down to 6 minutes.\n\nOn the event ticketing site I used Next.js, Stripe, FastAPI. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with FastAPI, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p10",
+   "fullstack:p01"
+  ],
+  "outcome": "won",
+  "date": "2026-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:080",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "OpenCV specialist needed for our pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "fastapi",
+   "graphql",
+   "docker",
+   "computer_vision",
+   "fine_tuning",
+   "dbt"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\nOn the job board I used Stripe, GraphQL, React Native. On the event ticketing site I used Next.js, Stripe, FastAPI.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p05",
+   "fullstack:p10"
+  ],
+  "outcome": "ignored",
+  "date": "2023-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:081",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WordPress expert needed for an existing platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "docker",
+   "wordpress"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:082",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Shopify specialist needed for a new dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "wordpress",
+   "graphql",
+   "typescript",
+   "computer_vision",
+   "fine_tuning",
+   "shopify"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:083",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA expert needed for a new product",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "react_native",
+   "python",
+   "celery",
+   "shopify",
+   "powerbi",
+   "fine_tuning"
+  ],
+  "text": "Your a new product sounds a lot like the subscription box shop I built for a healthcare client, which cut cloud costs by 58%.\n\nOn the subscription box shop I used TypeScript, React Native, Node.js. On the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p11",
+   "fullstack:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2026-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:084",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Shopify expert needed for an existing product",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "aws",
+   "docker",
+   "shopify",
+   "fine_tuning"
+  ],
+  "text": "Your an existing product sounds a lot like the internal hr portal I built for a legal client, which grew active users to 16k.\n\nOn the internal hr portal I used Tailwind CSS, PostgreSQL, TypeScript. On the survey builder I used MongoDB, AWS, Django.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p09",
+   "fullstack:p13"
+  ],
+  "outcome": "ignored",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:085",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WordPress expert needed for our project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "react_native",
+   "wordpress",
+   "computer_vision",
+   "tableau"
+  ],
+  "text": "Your our project sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe. For your project I would start with React Native, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p03"
+  ],
+  "outcome": "replied",
+  "date": "2024-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:086",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Tailwind CSS engineer needed for a new platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "postgres",
+   "python",
+   "mongodb",
+   "celery",
+   "tailwind",
+   "stripe"
+  ],
+  "text": "Your a new platform sounds a lot like the logistics tracking dashboard I built for a travel client, which reduced response time from 21 hours to 17 minutes.\n\nOn the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React. On the community forum I used PostgreSQL, Next.js, Tailwind CSS. For your project I would start with PostgreSQL, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p04",
+   "fullstack:p12"
+  ],
+  "outcome": "ignored",
+  "date": "2024-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:087",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA expert needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "postgres",
+   "typescript",
+   "aws",
+   "tableau",
+   "computer_vision",
+   "fine_tuning"
+  ],
+  "text": "Your an existing platform sounds a lot like the internal hr portal I built for a legal client, which grew active users to 16k.\n\nOn the internal hr portal I used Tailwind CSS, PostgreSQL, TypeScript. On the invoicing tool I used TypeScript, PostgreSQL, WordPress. For your project I would start with PostgreSQL, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p09",
+   "fullstack:p14"
+  ],
+  "outcome": "won",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:088",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Redis engineer needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "stripe",
+   "aws",
+   "nextjs",
+   "wordpress",
+   "postgres",
+   "redis"
+  ],
+  "text": "Your our product sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React. For your project I would start with Stripe, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2023-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:089",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA expert needed for an existing dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "redis",
+   "postgres",
+   "websockets",
+   "powerbi",
+   "fine_tuning",
+   "shopify"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React. For your project I would start with Redis, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2024-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:090",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "GraphQL specialist needed for an existing project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "mongodb",
+   "aws",
+   "graphql",
+   "nextjs",
+   "fastapi",
+   "nodejs"
+  ],
+  "text": "Your an existing project sounds a lot like the saas billing dashboard I built for a fintech client, which handled 44k requests a day.\n\nOn the saas billing dashboard I used Next.js, Django, Node.js. On the event ticketing site I used Next.js, Stripe, FastAPI. For your project I would start with MongoDB, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p06",
+   "fullstack:p10"
+  ],
+  "outcome": "ignored",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:091",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "GraphQL engineer needed for an existing project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "graphql",
+   "nextjs",
+   "python",
+   "react",
+   "react_native",
+   "websockets"
+  ],
+  "text": "Your an existing project sounds a lot like the subscription box shop I built for a healthcare client, which cut cloud costs by 58%.\n\nOn the subscription box shop I used TypeScript, React Native, Node.js. On the clinic appointment system I used GraphQL, Next.js, Redis. For your project I would start with GraphQL, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p11",
+   "fullstack:p16"
+  ],
+  "outcome": "replied",
+  "date": "2026-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:092",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "FastAPI specialist needed for our pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "nodejs",
+   "fastapi",
+   "react_native",
+   "mongodb"
+  ],
+  "text": "Your our pipeline sounds a lot like the subscription box shop I built for a healthcare client, which cut cloud costs by 58%.\n\nOn the subscription box shop I used TypeScript, React Native, Node.js. On the food delivery admin I used MongoDB, Node.js, Django. For your project I would start with Node.js, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p11",
+   "fullstack:p19"
+  ],
+  "outcome": "replied",
+  "date": "2022-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:093",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "React Native engineer needed for an existing dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "docker",
+   "stripe",
+   "wordpress",
+   "react_native"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe. For your project I would start with Docker, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p03"
+  ],
+  "outcome": "won",
+  "date": "2023-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:094",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "FastAPI specialist needed for our platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "fastapi",
+   "redis",
+   "nextjs"
+  ],
+  "text": "Your our platform sounds a lot like the event ticketing site I built for a real estate client, which brought report refresh down to 6 minutes.\n\nOn the event ticketing site I used Next.js, Stripe, FastAPI. On the clinic appointment system I used GraphQL, Next.js, Redis. For your project I would start with FastAPI, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p10",
+   "fullstack:p16"
+  ],
+  "outcome": "ignored",
+  "date": "2025-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:095",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "dbt developer needed for an existing platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "tableau",
+   "looker",
+   "shopify",
+   "dbt"
+  ],
+  "text": "Your an existing platform sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with Tableau, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2022-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:096",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Stripe specialist needed for an existing dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "websockets",
+   "typescript",
+   "stripe",
+   "postgres",
+   "aws"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:097",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Celery developer needed for a new dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "celery",
+   "nodejs"
+  ],
+  "text": "Your a new dashboard sounds a lot like the saas billing dashboard I built for a fintech client, which handled 44k requests a day.\n\nOn the saas billing dashboard I used Next.js, Django, Node.js. On the subscription box shop I used TypeScript, React Native, Node.js.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p06",
+   "fullstack:p11"
+  ],
+  "outcome": "ignored",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:098",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "React specialist needed for a new project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "docker",
+   "stripe",
+   "react",
+   "postgres",
+   "aws"
+  ],
+  "text": "Your a new project sounds a lot like the logistics tracking dashboard I built for a travel client, which reduced response time from 21 hours to 17 minutes.\n\nOn the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React. On the news site migration I used PostgreSQL, Redis, React. For your project I would start with Docker, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p04",
+   "fullstack:p00"
+  ],
+  "outcome": "replied",
+  "date": "2022-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:099",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "dbt expert needed for a new product",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "tailwind",
+   "celery",
+   "fine_tuning",
+   "dbt"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:100",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Redis engineer needed for an existing project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "react_native",
+   "redis",
+   "nextjs",
+   "powerbi",
+   "dbt",
+   "fine_tuning"
+  ],
+  "text": "Your an existing project sounds a lot like the clinic appointment system I built for a education client, which reached 70% accuracy on the held-out set.\n\nOn the clinic appointment system I used GraphQL, Next.js, Redis. On the auction platform I used Next.js, Tailwind CSS, React Native.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p16",
+   "fullstack:p07"
+  ],
+  "outcome": "won",
+  "date": "2023-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:101",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WebSockets specialist needed for an existing product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "react_native",
+   "websockets"
+  ],
+  "text": "Your an existing product sounds a lot like the travel itinerary planner I built for a media client, which saved the team 19 hours a week.\n\nOn the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe. On the real-time chat app I used WebSockets, React Native, React. For your project I would start with React Native, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p03",
+   "fullstack:p18"
+  ],
+  "outcome": "replied",
+  "date": "2026-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:102",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WebSockets specialist needed for our dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "django",
+   "react_native",
+   "typescript",
+   "nextjs",
+   "websockets",
+   "stripe"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe. On the property listing portal I used WebSockets, Stripe, TypeScript.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p03",
+   "fullstack:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2022-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:103",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Power BI expert needed for our product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "python",
+   "powerbi"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:104",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "MongoDB specialist needed for a new project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "mongodb",
+   "redis",
+   "python"
+  ],
+  "text": "Your a new project sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with MongoDB, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2026-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:105",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA expert needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "typescript",
+   "mongodb",
+   "redis",
+   "fine_tuning",
+   "looker",
+   "dbt"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the booking platform I used Stripe, WebSockets, Redis. On the internal hr portal I used Tailwind CSS, PostgreSQL, TypeScript.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p08",
+   "fullstack:p09"
+  ],
+  "outcome": "ignored",
+  "date": "2024-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:106",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WordPress engineer needed for a new pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "postgres",
+   "react",
+   "wordpress"
+  ],
+  "text": "Your a new pipeline sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2024-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:107",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Looker developer needed for our dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "wordpress",
+   "python",
+   "looker",
+   "powerbi"
+  ],
+  "text": "Your our dashboard sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the subscription box shop I used TypeScript, React Native, Node.js. For your project I would start with WordPress, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p11"
+  ],
+  "outcome": "replied",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:108",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Redis specialist needed for an existing dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "nodejs",
+   "redis"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with Node.js, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2024-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:109",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "MongoDB developer needed for a new pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "mongodb",
+   "docker"
+  ],
+  "text": "Your a new pipeline sounds a lot like the survey builder I built for a e-commerce client, which lifted conversion by 44%.\n\nOn the survey builder I used MongoDB, AWS, Django. On the invoicing tool I used TypeScript, PostgreSQL, WordPress. For your project I would start with MongoDB, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p13",
+   "fullstack:p14"
+  ],
+  "outcome": "won",
+  "date": "2023-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:110",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WordPress expert needed for an existing dashboard",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "django",
+   "aws",
+   "nextjs",
+   "python",
+   "celery",
+   "wordpress"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the saas billing dashboard I built for a fintech client, which handled 44k requests a day.\n\nOn the saas billing dashboard I used Next.js, Django, Node.js. On the community forum I used PostgreSQL, Next.js, Tailwind CSS. For your project I would start with Django, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p06",
+   "fullstack:p12"
+  ],
+  "outcome": "ignored",
+  "date": "2025-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:111",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Stripe engineer needed for our dashboard",
+  "job_category": "E-commerce",
+  "job_skills": [
+   "stripe",
+   "wordpress",
+   "docker",
+   "looker",
+   "dbt",
+   "shopify"
+  ],
+  "text": "Your our dashboard sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the invoicing tool I used TypeScript, PostgreSQL, WordPress. For your project I would start with Stripe, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p14"
+  ],
+  "outcome": "ignored",
+  "date": "2025-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:112",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Node.js specialist needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "wordpress",
+   "nodejs",
+   "postgres"
+  ],
+  "text": "Your our product sounds a lot like the invoicing tool I built for a marketing agency client, which grew active users to 88k.\n\nOn the invoicing tool I used TypeScript, PostgreSQL, WordPress. On the news site migration I used PostgreSQL, Redis, React. For your project I would start with WordPress, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p14",
+   "fullstack:p00"
+  ],
+  "outcome": "won",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:113",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA expert needed for a new product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "python",
+   "nextjs",
+   "graphql",
+   "dbt",
+   "fine_tuning",
+   "looker"
+  ],
+  "text": "Your a new product sounds a lot like the community forum I built for a healthcare client, which cut manual work by 47%.\n\nOn the community forum I used PostgreSQL, Next.js, Tailwind CSS. On the clinic appointment system I used GraphQL, Next.js, Redis.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p12",
+   "fullstack:p16"
+  ],
+  "outcome": "replied",
+  "date": "2024-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:114",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA expert needed for an existing pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "docker",
+   "postgres",
+   "fine_tuning",
+   "dbt"
+  ],
+  "text": "Your an existing pipeline sounds a lot like the invoicing tool I built for a marketing agency client, which grew active users to 88k.\n\nOn the invoicing tool I used TypeScript, PostgreSQL, WordPress. On the news site migration I used PostgreSQL, Redis, React. For your project I would start with Docker, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p14",
+   "fullstack:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2023-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:115",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WebSockets engineer needed for a new pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "websockets",
+   "react"
+  ],
+  "text": "Your a new pipeline sounds a lot like the real-time chat app I built for a manufacturing client, which brought report refresh down to 5 minutes.\n\nOn the real-time chat app I used WebSockets, React Native, React. On the news site migration I used PostgreSQL, Redis, React. For your project I would start with WebSockets, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p18",
+   "fullstack:p00"
+  ],
+  "outcome": "replied",
+  "date": "2023-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:116",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Node.js developer needed for an existing pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "redis",
+   "celery",
+   "aws",
+   "nodejs",
+   "postgres",
+   "graphql"
+  ],
+  "text": "Your an existing pipeline sounds a lot like the internal hr portal I built for a legal client, which grew active users to 16k.\n\nOn the internal hr portal I used Tailwind CSS, PostgreSQL, TypeScript. On the news site migration I used PostgreSQL, Redis, React. For your project I would start with Redis, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p09",
+   "fullstack:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2022-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:117",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Next.js engineer needed for an existing project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "celery",
+   "python",
+   "redis",
+   "websockets",
+   "nextjs"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:118",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Tailwind CSS expert needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "react",
+   "typescript",
+   "wordpress",
+   "tailwind",
+   "docker"
+  ],
+  "text": "Your our product sounds a lot like the invoicing tool I built for a marketing agency client, which grew active users to 88k.\n\nOn the invoicing tool I used TypeScript, PostgreSQL, WordPress. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with React, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p14",
+   "fullstack:p01"
+  ],
+  "outcome": "won",
+  "date": "2025-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:119",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WordPress specialist needed for a new product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "celery",
+   "nextjs",
+   "wordpress"
+  ],
+  "text": "Your a new product sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the saas billing dashboard I used Next.js, Django, Node.js. For your project I would start with Celery, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p06"
+  ],
+  "outcome": "won",
+  "date": "2024-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:120",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Next.js expert needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "fastapi",
+   "nextjs",
+   "docker",
+   "postgres"
+  ],
+  "text": "Your our product sounds a lot like the event ticketing site I built for a real estate client, which brought report refresh down to 6 minutes.\n\nOn the event ticketing site I used Next.js, Stripe, FastAPI. On the community forum I used PostgreSQL, Next.js, Tailwind CSS. For your project I would start with FastAPI, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p10",
+   "fullstack:p12"
+  ],
+  "outcome": "ignored",
+  "date": "2024-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:121",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Node.js specialist needed for a new dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "fastapi",
+   "nodejs"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the saas billing dashboard I used Next.js, Django, Node.js. On the event ticketing site I used Next.js, Stripe, FastAPI.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p06",
+   "fullstack:p10"
+  ],
+  "outcome": "ignored",
+  "date": "2024-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:122",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "OpenCV expert needed for our platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "aws",
+   "computer_vision"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:123",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "MongoDB specialist needed for an existing product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "mongodb",
+   "nodejs",
+   "tailwind",
+   "docker",
+   "postgres"
+  ],
+  "text": "Your an existing product sounds a lot like the logistics tracking dashboard I built for a travel client, which reduced response time from 21 hours to 17 minutes.\n\nOn the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React. On the internal hr portal I used Tailwind CSS, PostgreSQL, TypeScript.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p04",
+   "fullstack:p09"
+  ],
+  "outcome": "replied",
+  "date": "2023-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:124",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "GraphQL specialist needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "graphql",
+   "fine_tuning",
+   "dbt"
+  ],
+  "text": "Your an existing platform sounds a lot like the job board I built for a legal client, which cut manual work by 47%.\n\nOn the job board I used Stripe, GraphQL, React Native. On the clinic appointment system I used GraphQL, Next.js, Redis. For your project I would start with GraphQL, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p05",
+   "fullstack:p16"
+  ],
+  "outcome": "replied",
+  "date": "2023-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:125",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "GraphQL specialist needed for our platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "aws",
+   "graphql",
+   "tailwind"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:126",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Power BI developer needed for our product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "docker",
+   "tableau",
+   "powerbi"
+  ],
+  "text": "Your our product sounds a lot like the invoicing tool I built for a marketing agency client, which grew active users to 88k.\n\nOn the invoicing tool I used TypeScript, PostgreSQL, WordPress. On the fitness tracking mobile app I used React, Celery, Docker. For your project I would start with Docker, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p14",
+   "fullstack:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2024-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:127",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Tailwind CSS expert needed for a new platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "typescript",
+   "tailwind",
+   "postgres",
+   "fastapi"
+  ],
+  "text": "Your a new platform sounds a lot like the internal hr portal I built for a legal client, which grew active users to 16k.\n\nOn the internal hr portal I used Tailwind CSS, PostgreSQL, TypeScript. On the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe. For your project I would start with TypeScript, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p09",
+   "fullstack:p03"
+  ],
+  "outcome": "replied",
+  "date": "2024-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:128",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WordPress developer needed for our pipeline",
+  "job_category": "E-commerce",
+  "job_skills": [
+   "wordpress",
+   "dbt"
+  ],
+  "text": "Your our pipeline sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the invoicing tool I used TypeScript, PostgreSQL, WordPress. For your project I would start with WordPress, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p14"
+  ],
+  "outcome": "replied",
+  "date": "2025-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:129",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Looker specialist needed for an existing project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "django",
+   "redis",
+   "dbt",
+   "looker"
+  ],
+  "text": "Your an existing project sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with Django, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "won",
+  "date": "2023-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:130",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Django specialist needed for a new dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "django",
+   "graphql"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:131",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WebSockets specialist needed for an existing product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "wordpress",
+   "websockets",
+   "dbt",
+   "computer_vision"
+  ],
+  "text": "Your an existing product sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the property listing portal I used WebSockets, Stripe, TypeScript. For your project I would start with WordPress, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2023-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:132",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA engineer needed for a new dashboard",
+  "job_category": "Mobile Development",
+  "job_skills": [
+   "typescript",
+   "react_native",
+   "shopify",
+   "tableau",
+   "fine_tuning"
+  ],
+  "text": "Your a new dashboard sounds a lot like the travel itinerary planner I built for a media client, which saved the team 19 hours a week.\n\nOn the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe. On the subscription box shop I used TypeScript, React Native, Node.js.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p03",
+   "fullstack:p11"
+  ],
+  "outcome": "ignored",
+  "date": "2024-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:133",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Celery developer needed for our platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "celery",
+   "python",
+   "react_native",
+   "mongodb",
+   "postgres"
+  ],
+  "text": "Your our platform sounds a lot like the subscription box shop I built for a healthcare client, which cut cloud costs by 58%.\n\nOn the subscription box shop I used TypeScript, React Native, Node.js. On the community forum I used PostgreSQL, Next.js, Tailwind CSS. For your project I would start with Celery, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p11",
+   "fullstack:p12"
+  ],
+  "outcome": "won",
+  "date": "2022-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:134",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA expert needed for an existing dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "dbt",
+   "shopify",
+   "tableau",
+   "computer_vision",
+   "powerbi",
+   "fine_tuning"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2024-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:135",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WebSockets engineer needed for an existing product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "websockets",
+   "looker",
+   "computer_vision"
+  ],
+  "text": "Your an existing product sounds a lot like the property listing portal I built for a e-commerce client, which saved the team 6 hours a week.\n\nOn the property listing portal I used WebSockets, Stripe, TypeScript. On the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe. For your project I would start with WebSockets, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p02",
+   "fullstack:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2026-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:136",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "React Native specialist needed for a new dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "react_native",
+   "postgres",
+   "powerbi",
+   "dbt",
+   "tableau"
+  ],
+  "text": "Your a new dashboard sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the travel itinerary planner I used WebSockets, Tailwind CSS, Stripe.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p03"
+  ],
+  "outcome": "replied",
+  "date": "2026-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:137",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA engineer needed for a new pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "fine_tuning",
+   "computer_vision"
+  ],
+  "text": "Your a new pipeline sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with LoRA, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2024-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:138",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Shopify specialist needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "redis",
+   "shopify"
+  ],
+  "text": "Your our product sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2026-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:139",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "WordPress engineer needed for an existing project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "react",
+   "fastapi",
+   "wordpress",
+   "stripe",
+   "docker"
+  ],
+  "text": "Your an existing project sounds a lot like the multi-vendor marketplace I built for a fintech client, which grew active users to 79k.\n\nOn the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. On the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React. For your project I would start with React, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p01",
+   "fullstack:p04"
+  ],
+  "outcome": "won",
+  "date": "2024-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:140",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Node.js expert needed for our platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "nodejs",
+   "powerbi",
+   "fine_tuning"
+  ],
+  "text": "Your our platform sounds a lot like the saas billing dashboard I built for a fintech client, which handled 44k requests a day.\n\nOn the saas billing dashboard I used Next.js, Django, Node.js. On the subscription box shop I used TypeScript, React Native, Node.js.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p06",
+   "fullstack:p11"
+  ],
+  "outcome": "won",
+  "date": "2022-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:141",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "MongoDB specialist needed for a new platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "fastapi",
+   "aws",
+   "mongodb",
+   "nextjs",
+   "postgres"
+  ],
+  "text": "Your a new platform sounds a lot like the internal hr portal I built for a legal client, which grew active users to 16k.\n\nOn the internal hr portal I used Tailwind CSS, PostgreSQL, TypeScript. On the event ticketing site I used Next.js, Stripe, FastAPI. For your project I would start with FastAPI, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p09",
+   "fullstack:p10"
+  ],
+  "outcome": "ignored",
+  "date": "2025-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:142",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Power BI expert needed for an existing project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "wordpress",
+   "nodejs",
+   "computer_vision",
+   "powerbi",
+   "tableau"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:143",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Node.js expert needed for an existing platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "python",
+   "tailwind",
+   "nodejs",
+   "nextjs",
+   "graphql"
+  ],
+  "text": "Your an existing platform sounds a lot like the community forum I built for a healthcare client, which cut manual work by 47%.\n\nOn the community forum I used PostgreSQL, Next.js, Tailwind CSS. On the headless storefront I used Tailwind CSS, GraphQL, Python. For your project I would start with Python, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "fullstack:p12",
+   "fullstack:p17"
+  ],
+  "outcome": "ignored",
+  "date": "2024-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:144",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "dbt developer needed for our dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "computer_vision",
+   "dbt",
+   "looker",
+   "tableau",
+   "shopify"
+  ],
+  "text": "Your our dashboard sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with OpenCV, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2023-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:145",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "LoRA expert needed for a new product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "docker",
+   "redis",
+   "react",
+   "dbt",
+   "computer_vision",
+   "fine_tuning"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React.\n\nThanks for reading.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2024-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:146",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "MongoDB developer needed for a new pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "graphql",
+   "mongodb",
+   "aws"
+  ],
+  "text": "Your a new pipeline sounds a lot like the survey builder I built for a e-commerce client, which lifted conversion by 44%.\n\nOn the survey builder I used MongoDB, AWS, Django. On the headless storefront I used Tailwind CSS, GraphQL, Python. For your project I would start with GraphQL, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p13",
+   "fullstack:p17"
+  ],
+  "outcome": "ignored",
+  "date": "2024-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:147",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Tableau specialist needed for an existing platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "nodejs",
+   "wordpress",
+   "docker",
+   "looker",
+   "tableau",
+   "dbt"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:148",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Node.js specialist needed for an existing product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "mongodb",
+   "react",
+   "postgres",
+   "aws",
+   "nodejs",
+   "nextjs"
+  ],
+  "text": "Your an existing product sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the logistics tracking dashboard I used Tailwind CSS, PostgreSQL, React.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2023-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:proposal:149",
+  "type": "proposal",
+  "persona": "fullstack",
+  "job_title": "Tableau engineer needed for a new dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "tableau",
+   "looker",
+   "fine_tuning",
+   "shopify"
+  ],
+  "text": "Your a new dashboard sounds a lot like the news site migration I built for a manufacturing client, which grew active users to 24k.\n\nOn the news site migration I used PostgreSQL, Redis, React. On the multi-vendor marketplace I used Redis, Tailwind CSS, WordPress. For your project I would start with Tableau, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "fullstack:p00",
+   "fullstack:p01"
+  ],
+  "outcome": "won",
+  "date": "2026-05-10",
+  "source": "synthetic"
+ }
+]

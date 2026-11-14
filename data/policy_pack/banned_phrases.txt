@@ -1,0 +1,7 @@
+# Phrases the user (or style memory) never wants in a proposal. One per line.
+I am passionate
+Dear Sir/Madam
+I am writing to apply
+I have read your job description
+perfect fit
+I am the best

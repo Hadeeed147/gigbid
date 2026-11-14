@@ -1,0 +1,1101 @@
+[
+ {
+  "id": "ai_ml:p00",
+  "persona": "ai_ml",
+  "name": "Claims Triage Agent",
+  "skills": [
+   "vector_db",
+   "langchain",
+   "postgres",
+   "pytorch",
+   "mlops"
+  ],
+  "industry": "travel",
+  "year": 2019,
+  "client": "Bright Learning",
+  "result": "cut manual work by 63%",
+  "has_repo": false,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p01",
+  "persona": "ai_ml",
+  "name": "Demand Forecasting Service",
+  "skills": [
+   "mlops",
+   "rag",
+   "airflow"
+  ],
+  "industry": "marketing agency",
+  "year": 2024,
+  "client": "Harbor Finance",
+  "result": "handled 33k requests a day",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p02",
+  "persona": "ai_ml",
+  "name": "Contract Clause Extractor",
+  "skills": [
+   "langchain",
+   "fastapi",
+   "postgres"
+  ],
+  "industry": "media",
+  "year": 2023,
+  "client": "Nova Labs",
+  "result": "cut cloud costs by 32%",
+  "has_repo": false,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p03",
+  "persona": "ai_ml",
+  "name": "Llm Evaluation Harness",
+  "skills": [
+   "sklearn",
+   "celery",
+   "transformers",
+   "fine_tuning",
+   "airflow"
+  ],
+  "industry": "fintech",
+  "year": 2021,
+  "client": "Summit Logistics",
+  "result": "saved the team 25 hours a week",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p04",
+  "persona": "ai_ml",
+  "name": "Knowledge-Base Copilot",
+  "skills": [
+   "transformers",
+   "vector_db",
+   "computer_vision"
+  ],
+  "industry": "e-commerce",
+  "year": 2023,
+  "client": "Atlas Labs",
+  "result": "cut manual work by 70%",
+  "has_repo": false,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p05",
+  "persona": "ai_ml",
+  "name": "Product Search Reranker",
+  "skills": [
+   "computer_vision",
+   "langgraph",
+   "rag"
+  ],
+  "industry": "education",
+  "year": 2025,
+  "client": "Lumen Logistics",
+  "result": "grew active users to 79k",
+  "has_repo": true,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p06",
+  "persona": "ai_ml",
+  "name": "Sales Call Summariser",
+  "skills": [
+   "langchain",
+   "vector_db",
+   "python",
+   "llm_apps",
+   "computer_vision"
+  ],
+  "industry": "media",
+  "year": 2023,
+  "client": "North Commerce",
+  "result": "reached 21% accuracy on the held-out set",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p07",
+  "persona": "ai_ml",
+  "name": "Inventory Anomaly Detector",
+  "skills": [
+   "pytorch",
+   "mlops",
+   "fastapi",
+   "rag"
+  ],
+  "industry": "e-commerce",
+  "year": 2022,
+  "client": "Blue Labs",
+  "result": "reduced response time from 15 hours to 4 minutes",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p08",
+  "persona": "ai_ml",
+  "name": "Defect Detection Pipeline",
+  "skills": [
+   "forecasting",
+   "fastapi",
+   "python"
+  ],
+  "industry": "SaaS",
+  "year": 2024,
+  "client": "Atlas Analytics",
+  "result": "brought report refresh down to 16 minutes",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p09",
+  "persona": "ai_ml",
+  "name": "Churn Prediction Model",
+  "skills": [
+   "transformers",
+   "nlp",
+   "mlops",
+   "postgres"
+  ],
+  "industry": "non-profit",
+  "year": 2020,
+  "client": "Atlas Realty",
+  "result": "reached 43% accuracy on the held-out set",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p10",
+  "persona": "ai_ml",
+  "name": "Support-Ticket Triage Assistant",
+  "skills": [
+   "pytorch",
+   "mlops",
+   "llm_apps",
+   "aws",
+   "docker"
+  ],
+  "industry": "retail",
+  "year": 2025,
+  "client": "Cedar Works",
+  "result": "saved the team 6 hours a week",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p11",
+  "persona": "ai_ml",
+  "name": "Recommendation Engine",
+  "skills": [
+   "llm_apps",
+   "python",
+   "fastapi",
+   "sklearn"
+  ],
+  "industry": "SaaS",
+  "year": 2020,
+  "client": "Pixel Health",
+  "result": "brought report refresh down to 11 minutes",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p12",
+  "persona": "ai_ml",
+  "name": "Lead Qualification Agent",
+  "skills": [
+   "vector_db",
+   "langchain",
+   "celery",
+   "langgraph",
+   "rag"
+  ],
+  "industry": "real estate",
+  "year": 2019,
+  "client": "Summit Labs",
+  "result": "saved the team 20 hours a week",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p13",
+  "persona": "ai_ml",
+  "name": "Multilingual Faq Bot",
+  "skills": [
+   "python",
+   "vector_db",
+   "computer_vision",
+   "llm_apps"
+  ],
+  "industry": "fintech",
+  "year": 2022,
+  "client": "Cedar Realty",
+  "result": "lifted conversion by 41%",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p14",
+  "persona": "ai_ml",
+  "name": "Invoice Ocr And Parser",
+  "skills": [
+   "langgraph",
+   "rag",
+   "nlp"
+  ],
+  "industry": "fintech",
+  "year": 2023,
+  "client": "Pixel Health",
+  "result": "grew active users to 75k",
+  "has_repo": true,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p15",
+  "persona": "ai_ml",
+  "name": "Agentic Research Assistant",
+  "skills": [
+   "airflow",
+   "aws",
+   "forecasting",
+   "fine_tuning",
+   "computer_vision"
+  ],
+  "industry": "SaaS",
+  "year": 2024,
+  "client": "River Works",
+  "result": "cut manual work by 46%",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p16",
+  "persona": "ai_ml",
+  "name": "Document Q&A Chatbot",
+  "skills": [
+   "langchain",
+   "pytorch",
+   "nlp"
+  ],
+  "industry": "manufacturing",
+  "year": 2023,
+  "client": "River Media",
+  "result": "brought report refresh down to 3 minutes",
+  "has_repo": true,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p17",
+  "persona": "ai_ml",
+  "name": "Fraud Scoring Api",
+  "skills": [
+   "transformers",
+   "computer_vision",
+   "mlops",
+   "forecasting",
+   "llm_apps"
+  ],
+  "industry": "e-commerce",
+  "year": 2024,
+  "client": "Lumen Realty",
+  "result": "lifted conversion by 22%",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p18",
+  "persona": "ai_ml",
+  "name": "Voice-Of-Customer Topic Miner",
+  "skills": [
+   "mlops",
+   "langchain",
+   "aws",
+   "computer_vision"
+  ],
+  "industry": "real estate",
+  "year": 2021,
+  "client": "River Logistics",
+  "result": "handled 46k requests a day",
+  "has_repo": false,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:p19",
+  "persona": "ai_ml",
+  "name": "Drone Footage Counter",
+  "skills": [
+   "rag",
+   "computer_vision",
+   "vector_db"
+  ],
+  "industry": "real estate",
+  "year": 2024,
+  "client": "Lumen Commerce",
+  "result": "cut cloud costs by 30%",
+  "has_repo": true,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p00",
+  "persona": "fullstack",
+  "name": "News Site Migration",
+  "skills": [
+   "postgres",
+   "redis",
+   "react",
+   "django"
+  ],
+  "industry": "manufacturing",
+  "year": 2022,
+  "client": "Harbor Works",
+  "result": "grew active users to 24k",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p01",
+  "persona": "fullstack",
+  "name": "Multi-Vendor Marketplace",
+  "skills": [
+   "redis",
+   "tailwind",
+   "wordpress",
+   "stripe"
+  ],
+  "industry": "fintech",
+  "year": 2025,
+  "client": "North Health",
+  "result": "grew active users to 79k",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p02",
+  "persona": "fullstack",
+  "name": "Property Listing Portal",
+  "skills": [
+   "websockets",
+   "stripe",
+   "typescript"
+  ],
+  "industry": "e-commerce",
+  "year": 2022,
+  "client": "Nova Logistics",
+  "result": "saved the team 6 hours a week",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p03",
+  "persona": "fullstack",
+  "name": "Travel Itinerary Planner",
+  "skills": [
+   "websockets",
+   "tailwind",
+   "stripe",
+   "typescript",
+   "react_native"
+  ],
+  "industry": "media",
+  "year": 2019,
+  "client": "North Health",
+  "result": "saved the team 19 hours a week",
+  "has_repo": true,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p04",
+  "persona": "fullstack",
+  "name": "Logistics Tracking Dashboard",
+  "skills": [
+   "tailwind",
+   "postgres",
+   "react",
+   "redis",
+   "stripe"
+  ],
+  "industry": "travel",
+  "year": 2021,
+  "client": "Harbor Finance",
+  "result": "reduced response time from 21 hours to 17 minutes",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p05",
+  "persona": "fullstack",
+  "name": "Job Board",
+  "skills": [
+   "stripe",
+   "graphql",
+   "react_native",
+   "tailwind"
+  ],
+  "industry": "legal",
+  "year": 2025,
+  "client": "Pixel Labs",
+  "result": "cut manual work by 47%",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p06",
+  "persona": "fullstack",
+  "name": "Saas Billing Dashboard",
+  "skills": [
+   "nextjs",
+   "django",
+   "nodejs"
+  ],
+  "industry": "fintech",
+  "year": 2019,
+  "client": "Lumen Labs",
+  "result": "handled 44k requests a day",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p07",
+  "persona": "fullstack",
+  "name": "Auction Platform",
+  "skills": [
+   "nextjs",
+   "tailwind",
+   "react_native"
+  ],
+  "industry": "logistics",
+  "year": 2022,
+  "client": "Atlas Media",
+  "result": "cut cloud costs by 57%",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p08",
+  "persona": "fullstack",
+  "name": "Booking Platform",
+  "skills": [
+   "stripe",
+   "websockets",
+   "redis",
+   "typescript"
+  ],
+  "industry": "legal",
+  "year": 2023,
+  "client": "Blue Learning",
+  "result": "cut manual work by 33%",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p09",
+  "persona": "fullstack",
+  "name": "Internal Hr Portal",
+  "skills": [
+   "tailwind",
+   "postgres",
+   "typescript",
+   "redis",
+   "aws"
+  ],
+  "industry": "legal",
+  "year": 2020,
+  "client": "Summit Commerce",
+  "result": "grew active users to 16k",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p10",
+  "persona": "fullstack",
+  "name": "Event Ticketing Site",
+  "skills": [
+   "nextjs",
+   "stripe",
+   "fastapi",
+   "redis"
+  ],
+  "industry": "real estate",
+  "year": 2021,
+  "client": "Nova Works",
+  "result": "brought report refresh down to 6 minutes",
+  "has_repo": true,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p11",
+  "persona": "fullstack",
+  "name": "Subscription Box Shop",
+  "skills": [
+   "typescript",
+   "react_native",
+   "nodejs",
+   "react",
+   "python"
+  ],
+  "industry": "healthcare",
+  "year": 2019,
+  "client": "Nova Finance",
+  "result": "cut cloud costs by 58%",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p12",
+  "persona": "fullstack",
+  "name": "Community Forum",
+  "skills": [
+   "postgres",
+   "nextjs",
+   "tailwind",
+   "python"
+  ],
+  "industry": "healthcare",
+  "year": 2025,
+  "client": "Summit Logistics",
+  "result": "cut manual work by 47%",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p13",
+  "persona": "fullstack",
+  "name": "Survey Builder",
+  "skills": [
+   "mongodb",
+   "aws",
+   "django"
+  ],
+  "industry": "e-commerce",
+  "year": 2023,
+  "client": "River Health",
+  "result": "lifted conversion by 44%",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p14",
+  "persona": "fullstack",
+  "name": "Invoicing Tool",
+  "skills": [
+   "typescript",
+   "postgres",
+   "wordpress",
+   "docker"
+  ],
+  "industry": "marketing agency",
+  "year": 2019,
+  "client": "Summit Learning",
+  "result": "grew active users to 88k",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p15",
+  "persona": "fullstack",
+  "name": "Fitness Tracking Mobile App",
+  "skills": [
+   "react",
+   "celery",
+   "docker"
+  ],
+  "industry": "fintech",
+  "year": 2020,
+  "client": "Summit Labs",
+  "result": "handled 37k requests a day",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p16",
+  "persona": "fullstack",
+  "name": "Clinic Appointment System",
+  "skills": [
+   "graphql",
+   "nextjs",
+   "redis",
+   "stripe",
+   "react_native"
+  ],
+  "industry": "education",
+  "year": 2022,
+  "client": "Cedar Finance",
+  "result": "reached 70% accuracy on the held-out set",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p17",
+  "persona": "fullstack",
+  "name": "Headless Storefront",
+  "skills": [
+   "tailwind",
+   "graphql",
+   "python",
+   "react",
+   "aws"
+  ],
+  "industry": "retail",
+  "year": 2025,
+  "client": "Atlas Realty",
+  "result": "cut manual work by 56%",
+  "has_repo": true,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p18",
+  "persona": "fullstack",
+  "name": "Real-Time Chat App",
+  "skills": [
+   "websockets",
+   "react_native",
+   "react"
+  ],
+  "industry": "manufacturing",
+  "year": 2021,
+  "client": "Blue Learning",
+  "result": "brought report refresh down to 5 minutes",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p19",
+  "persona": "fullstack",
+  "name": "Food Delivery Admin",
+  "skills": [
+   "mongodb",
+   "nodejs",
+   "django"
+  ],
+  "industry": "non-profit",
+  "year": 2019,
+  "client": "Lumen Finance",
+  "result": "cut manual work by 28%",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "fullstack:p20",
+  "persona": "fullstack",
+  "name": "Learning Management System",
+  "skills": [
+   "tailwind",
+   "nodejs",
+   "react_native",
+   "typescript"
+  ],
+  "industry": "fintech",
+  "year": 2025,
+  "client": "North Works",
+  "result": "grew active users to 18k",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p00",
+  "persona": "data_analyst",
+  "name": "Supply Chain Cost Model",
+  "skills": [
+   "forecasting",
+   "dbt",
+   "tableau"
+  ],
+  "industry": "logistics",
+  "year": 2026,
+  "client": "Harbor Commerce",
+  "result": "reduced response time from 17 hours to 18 minutes",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p01",
+  "persona": "data_analyst",
+  "name": "Executive Revenue Dashboard",
+  "skills": [
+   "ab_testing",
+   "tableau",
+   "airflow",
+   "snowflake",
+   "python"
+  ],
+  "industry": "education",
+  "year": 2025,
+  "client": "River Health",
+  "result": "reached 53% accuracy on the held-out set",
+  "has_repo": false,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p02",
+  "persona": "data_analyst",
+  "name": "Web Funnel Analysis",
+  "skills": [
+   "snowflake",
+   "tableau",
+   "powerbi",
+   "dbt"
+  ],
+  "industry": "manufacturing",
+  "year": 2023,
+  "client": "Summit Logistics",
+  "result": "cut manual work by 65%",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p03",
+  "persona": "data_analyst",
+  "name": "Pricing Elasticity Analysis",
+  "skills": [
+   "statistics",
+   "sql",
+   "forecasting",
+   "postgres",
+   "sklearn"
+  ],
+  "industry": "SaaS",
+  "year": 2026,
+  "client": "Pixel Learning",
+  "result": "brought report refresh down to 8 minutes",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p04",
+  "persona": "data_analyst",
+  "name": "Data Quality Monitor",
+  "skills": [
+   "python",
+   "tableau",
+   "forecasting",
+   "postgres"
+  ],
+  "industry": "education",
+  "year": 2022,
+  "client": "Peak Media",
+  "result": "brought report refresh down to 11 minutes",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p05",
+  "persona": "data_analyst",
+  "name": "Survey Insights Report",
+  "skills": [
+   "pandas",
+   "powerbi",
+   "forecasting",
+   "python"
+  ],
+  "industry": "logistics",
+  "year": 2026,
+  "client": "Bright Learning",
+  "result": "saved the team 24 hours a week",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p06",
+  "persona": "data_analyst",
+  "name": "Product Usage Analytics",
+  "skills": [
+   "statistics",
+   "python",
+   "ab_testing",
+   "forecasting",
+   "etl"
+  ],
+  "industry": "education",
+  "year": 2026,
+  "client": "Peak Media",
+  "result": "reached 38% accuracy on the held-out set",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p07",
+  "persona": "data_analyst",
+  "name": "Customer Churn Analysis",
+  "skills": [
+   "looker",
+   "sql",
+   "powerbi"
+  ],
+  "industry": "healthcare",
+  "year": 2023,
+  "client": "River Works",
+  "result": "cut manual work by 40%",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p08",
+  "persona": "data_analyst",
+  "name": "Warehouse Modelling Layer",
+  "skills": [
+   "ab_testing",
+   "etl",
+   "pandas",
+   "python",
+   "dbt"
+  ],
+  "industry": "logistics",
+  "year": 2026,
+  "client": "Pixel Health",
+  "result": "cut cloud costs by 62%",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p09",
+  "persona": "data_analyst",
+  "name": "Cohort Retention Model",
+  "skills": [
+   "statistics",
+   "sql",
+   "ab_testing",
+   "looker"
+  ],
+  "industry": "media",
+  "year": 2026,
+  "client": "Cedar Health",
+  "result": "saved the team 26 hours a week",
+  "has_repo": true,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p10",
+  "persona": "data_analyst",
+  "name": "Marketing Attribution Model",
+  "skills": [
+   "excel",
+   "statistics",
+   "sklearn"
+  ],
+  "industry": "non-profit",
+  "year": 2025,
+  "client": "River Works",
+  "result": "cut cloud costs by 32%",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p11",
+  "persona": "data_analyst",
+  "name": "Hr Attrition Study",
+  "skills": [
+   "tableau",
+   "excel",
+   "statistics"
+  ],
+  "industry": "legal",
+  "year": 2026,
+  "client": "North Media",
+  "result": "cut manual work by 62%",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p12",
+  "persona": "data_analyst",
+  "name": "Sales Performance Dashboard",
+  "skills": [
+   "excel",
+   "pandas",
+   "sql"
+  ],
+  "industry": "retail",
+  "year": 2020,
+  "client": "Summit Finance",
+  "result": "cut cloud costs by 32%",
+  "has_repo": true,
+  "cryptic_repo": true,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p13",
+  "persona": "data_analyst",
+  "name": "Store Demand Forecast",
+  "skills": [
+   "snowflake",
+   "pandas",
+   "airflow"
+  ],
+  "industry": "logistics",
+  "year": 2025,
+  "client": "Bright Finance",
+  "result": "reached 24% accuracy on the held-out set",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p14",
+  "persona": "data_analyst",
+  "name": "Inventory Kpi Report",
+  "skills": [
+   "google_analytics",
+   "pandas",
+   "excel",
+   "statistics"
+  ],
+  "industry": "manufacturing",
+  "year": 2022,
+  "client": "Bright Logistics",
+  "result": "reduced response time from 4 hours to 3 minutes",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p15",
+  "persona": "data_analyst",
+  "name": "Loan Portfolio Report",
+  "skills": [
+   "excel",
+   "powerbi",
+   "python",
+   "dbt",
+   "pandas"
+  ],
+  "industry": "healthcare",
+  "year": 2019,
+  "client": "Atlas Media",
+  "result": "handled 17k requests a day",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p16",
+  "persona": "data_analyst",
+  "name": "Donor Segmentation",
+  "skills": [
+   "statistics",
+   "excel",
+   "ab_testing",
+   "snowflake",
+   "forecasting"
+  ],
+  "industry": "healthcare",
+  "year": 2019,
+  "client": "Harbor Analytics",
+  "result": "brought report refresh down to 18 minutes",
+  "has_repo": true,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p17",
+  "persona": "data_analyst",
+  "name": "Ops Sla Tracker",
+  "skills": [
+   "pandas",
+   "ab_testing",
+   "sklearn",
+   "postgres",
+   "airflow"
+  ],
+  "industry": "travel",
+  "year": 2019,
+  "client": "Summit Commerce",
+  "result": "brought report refresh down to 14 minutes",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p18",
+  "persona": "data_analyst",
+  "name": "Finance Month-End Automation",
+  "skills": [
+   "python",
+   "looker",
+   "dbt",
+   "forecasting",
+   "sql"
+  ],
+  "industry": "non-profit",
+  "year": 2023,
+  "client": "Pixel Finance",
+  "result": "lifted conversion by 18%",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:p19",
+  "persona": "data_analyst",
+  "name": "Ad Spend Roi Dashboard",
+  "skills": [
+   "snowflake",
+   "sql",
+   "tableau",
+   "etl",
+   "dbt"
+  ],
+  "industry": "legal",
+  "year": 2020,
+  "client": "Harbor Finance",
+  "result": "lifted conversion by 52%",
+  "has_repo": false,
+  "cryptic_repo": false,
+  "source": "synthetic"
+ }
+]

@@ -1,0 +1,3069 @@
+[
+ {
+  "id": "ai_ml:proposal:000",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Tableau developer needed for an existing platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "forecasting",
+   "tableau",
+   "dbt"
+  ],
+  "text": "Your an existing platform sounds a lot like the defect detection pipeline I built for a SaaS client, which brought report refresh down to 16 minutes.\n\nOn the defect detection pipeline I used time series forecasting, FastAPI, Python. On the agentic research assistant I used Airflow, AWS, time series forecasting. For your project I would start with time series forecasting, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p08",
+   "ai_ml:p15"
+  ],
+  "outcome": "replied",
+  "date": "2025-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:001",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "React Native developer needed for an existing pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "vector_db",
+   "react_native"
+  ],
+  "text": "Your an existing pipeline sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the knowledge-base copilot I used Hugging Face Transformers, Pinecone, OpenCV.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2022-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:002",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "WordPress expert needed for our pipeline",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "rag",
+   "airflow",
+   "dbt",
+   "wordpress"
+  ],
+  "text": "Your our pipeline sounds a lot like the demand forecasting service I built for a marketing agency client, which handled 33k requests a day.\n\nOn the demand forecasting service I used MLflow, RAG, Airflow. On the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. For your project I would start with RAG, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p01",
+   "ai_ml:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2025-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:003",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Power BI expert needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "powerbi",
+   "stripe",
+   "django"
+  ],
+  "text": "Your our product sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the demand forecasting service I used MLflow, RAG, Airflow. For your project I would start with Power BI, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2026-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:004",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Build something smart for our team",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "fine_tuning",
+   "celery",
+   "computer_vision"
+  ],
+  "text": "Your our team sounds a lot like the llm evaluation harness I built for a fintech client, which saved the team 25 hours a week.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the agentic research assistant I used Airflow, AWS, time series forecasting. For your project I would start with LoRA, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:005",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "WordPress engineer needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "mongodb",
+   "wordpress",
+   "graphql",
+   "stripe"
+  ],
+  "text": "Your our product sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the demand forecasting service I used MLflow, RAG, Airflow. For your project I would start with MongoDB, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2025-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:006",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "GraphQL expert needed for our project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "looker",
+   "graphql",
+   "dbt"
+  ],
+  "text": "Your our project sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the demand forecasting service I used MLflow, RAG, Airflow. For your project I would start with Looker, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2023-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:007",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Looker specialist needed for our platform",
+  "job_category": "Mobile Development",
+  "job_skills": [
+   "react_native",
+   "looker"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:008",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "MongoDB developer needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "postgres",
+   "fastapi",
+   "wordpress",
+   "mongodb"
+  ],
+  "text": "Your our product sounds a lot like the contract clause extractor I built for a media client, which cut cloud costs by 32%.\n\nOn the contract clause extractor I used LangChain, FastAPI, PostgreSQL. On the claims triage agent I used Pinecone, LangChain, PostgreSQL.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p02",
+   "ai_ml:p00"
+  ],
+  "outcome": "won",
+  "date": "2025-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:009",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "NLP specialist needed for our pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "nlp",
+   "fine_tuning",
+   "aws",
+   "llm_apps"
+  ],
+  "text": "Your our pipeline sounds a lot like the support-ticket triage assistant I built for a retail client, which saved the team 6 hours a week.\n\nOn the support-ticket triage assistant I used PyTorch, MLflow, LLM. On the agentic research assistant I used Airflow, AWS, time series forecasting. For your project I would start with NLP, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p10",
+   "ai_ml:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2026-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:010",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Pinecone engineer needed for our project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "vector_db",
+   "python"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:011",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Django specialist needed for our platform",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "python",
+   "dbt",
+   "django"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:012",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Pinecone specialist needed for a new dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "vector_db",
+   "stripe",
+   "looker"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:013",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LLM engineer needed for our platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "mlops",
+   "llm_apps",
+   "fine_tuning",
+   "python"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the sales call summariser I used LangChain, Pinecone, Python. On the support-ticket triage assistant I used PyTorch, MLflow, LLM.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p06",
+   "ai_ml:p10"
+  ],
+  "outcome": "ignored",
+  "date": "2022-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:014",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "MLflow specialist needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "mlops",
+   "transformers",
+   "celery",
+   "sklearn",
+   "computer_vision",
+   "fastapi"
+  ],
+  "text": "Your an existing platform sounds a lot like the llm evaluation harness I built for a fintech client, which saved the team 25 hours a week.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the fraud scoring api I used Hugging Face Transformers, OpenCV, MLflow. For your project I would start with MLflow, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p17"
+  ],
+  "outcome": "ignored",
+  "date": "2026-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:015",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Celery expert needed for an existing product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "celery",
+   "postgres"
+  ],
+  "text": "Your an existing product sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the contract clause extractor I used LangChain, FastAPI, PostgreSQL. For your project I would start with Celery, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p02"
+  ],
+  "outcome": "replied",
+  "date": "2024-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:016",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "time series forecasting engineer needed for a new platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "forecasting",
+   "computer_vision"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:017",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Stripe expert needed for a new pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "transformers",
+   "stripe"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the knowledge-base copilot I used Hugging Face Transformers, Pinecone, OpenCV.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p04"
+  ],
+  "outcome": "replied",
+  "date": "2025-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:018",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Stripe developer needed for a new product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "celery",
+   "langchain",
+   "stripe",
+   "looker",
+   "dbt"
+  ],
+  "text": "Your a new product sounds a lot like the lead qualification agent I built for a real estate client, which saved the team 20 hours a week.\n\nOn the lead qualification agent I used Pinecone, LangChain, Celery. On the claims triage agent I used Pinecone, LangChain, PostgreSQL. For your project I would start with Celery, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p12",
+   "ai_ml:p00"
+  ],
+  "outcome": "replied",
+  "date": "2026-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:019",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "scikit-learn engineer needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "python",
+   "llm_apps",
+   "postgres",
+   "sklearn"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the recommendation engine I used LLM, Python, FastAPI. On the sales call summariser I used LangChain, Pinecone, Python.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p11",
+   "ai_ml:p06"
+  ],
+  "outcome": "ignored",
+  "date": "2026-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:020",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LLM developer needed for a new project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "vector_db",
+   "llm_apps",
+   "fine_tuning",
+   "python",
+   "forecasting"
+  ],
+  "text": "Your a new project sounds a lot like the sales call summariser I built for a media client, which reached 21% accuracy on the held-out set.\n\nOn the sales call summariser I used LangChain, Pinecone, Python. On the multilingual faq bot I used Python, Pinecone, OpenCV.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p06",
+   "ai_ml:p13"
+  ],
+  "outcome": "replied",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:021",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "NLP developer needed for our platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "llm_apps",
+   "nlp"
+  ],
+  "text": "Your our platform sounds a lot like the sales call summariser I built for a media client, which reached 21% accuracy on the held-out set.\n\nOn the sales call summariser I used LangChain, Pinecone, Python. On the churn prediction model I used Hugging Face Transformers, NLP, MLflow. For your project I would start with LLM, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p06",
+   "ai_ml:p09"
+  ],
+  "outcome": "won",
+  "date": "2026-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:022",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Pinecone specialist needed for our platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "rag",
+   "celery",
+   "vector_db",
+   "docker"
+  ],
+  "text": "Your our platform sounds a lot like the lead qualification agent I built for a real estate client, which saved the team 20 hours a week.\n\nOn the lead qualification agent I used Pinecone, LangChain, Celery. On the drone footage counter I used RAG, OpenCV, Pinecone.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p12",
+   "ai_ml:p19"
+  ],
+  "outcome": "ignored",
+  "date": "2023-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:023",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Looker developer needed for an existing dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "postgres",
+   "docker",
+   "looker",
+   "shopify"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the contract clause extractor I used LangChain, FastAPI, PostgreSQL. For your project I would start with PostgreSQL, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p02"
+  ],
+  "outcome": "replied",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:024",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Power BI expert needed for an existing dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "llm_apps",
+   "rag",
+   "powerbi",
+   "graphql"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:025",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Need help improving our internal process",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "airflow",
+   "aws"
+  ],
+  "text": "Your Need help improving our internal process sounds a lot like the agentic research assistant I built for a SaaS client, which cut manual work by 46%.\n\nOn the agentic research assistant I used Airflow, AWS, time series forecasting. On the demand forecasting service I used MLflow, RAG, Airflow. For your project I would start with Airflow, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p15",
+   "ai_ml:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:026",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Stripe developer needed for an existing dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "forecasting",
+   "django",
+   "stripe"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the defect detection pipeline I built for a SaaS client, which brought report refresh down to 16 minutes.\n\nOn the defect detection pipeline I used time series forecasting, FastAPI, Python. On the agentic research assistant I used Airflow, AWS, time series forecasting.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p08",
+   "ai_ml:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2023-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:027",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "MongoDB engineer needed for our project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "docker",
+   "aws",
+   "tableau",
+   "mongodb"
+  ],
+  "text": "Your our project sounds a lot like the support-ticket triage assistant I built for a retail client, which saved the team 6 hours a week.\n\nOn the support-ticket triage assistant I used PyTorch, MLflow, LLM. On the agentic research assistant I used Airflow, AWS, time series forecasting.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p10",
+   "ai_ml:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2026-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:028",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "OpenCV developer needed for our product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "postgres",
+   "vector_db",
+   "fine_tuning",
+   "pytorch",
+   "langchain",
+   "computer_vision"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:029",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LangGraph expert needed for an existing product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langgraph",
+   "rag"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the product search reranker I used OpenCV, LangGraph, RAG. On the lead qualification agent I used Pinecone, LangChain, Celery.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p05",
+   "ai_ml:p12"
+  ],
+  "outcome": "ignored",
+  "date": "2022-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:030",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "GraphQL engineer needed for a new product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "vector_db",
+   "graphql"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:031",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Need help improving our internal process",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "llm_apps",
+   "vector_db",
+   "airflow"
+  ],
+  "text": "Your Need help improving our internal process sounds a lot like the sales call summariser I built for a media client, which reached 21% accuracy on the held-out set.\n\nOn the sales call summariser I used LangChain, Pinecone, Python. On the multilingual faq bot I used Python, Pinecone, OpenCV. For your project I would start with LLM, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p06",
+   "ai_ml:p13"
+  ],
+  "outcome": "replied",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:032",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Pinecone specialist needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "vector_db",
+   "computer_vision"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the knowledge-base copilot I used Hugging Face Transformers, Pinecone, OpenCV. On the sales call summariser I used LangChain, Pinecone, Python.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p04",
+   "ai_ml:p06"
+  ],
+  "outcome": "ignored",
+  "date": "2022-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:033",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LangGraph developer needed for a new platform",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "celery",
+   "python",
+   "langgraph"
+  ],
+  "text": "Your a new platform sounds a lot like the lead qualification agent I built for a real estate client, which saved the team 20 hours a week.\n\nOn the lead qualification agent I used Pinecone, LangChain, Celery. On the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. For your project I would start with Celery, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p12",
+   "ai_ml:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:034",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Airflow expert needed for a new pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "airflow",
+   "fine_tuning"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the agentic research assistant I used Airflow, AWS, time series forecasting.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2023-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:035",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LoRA specialist needed for a new dashboard",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "postgres",
+   "python",
+   "airflow",
+   "nlp",
+   "fine_tuning",
+   "aws"
+  ],
+  "text": "Your a new dashboard sounds a lot like the agentic research assistant I built for a SaaS client, which cut manual work by 46%.\n\nOn the agentic research assistant I used Airflow, AWS, time series forecasting. On the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p15",
+   "ai_ml:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2022-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:036",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "MLflow specialist needed for our dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "mlops",
+   "vector_db",
+   "react_native",
+   "wordpress",
+   "graphql"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:037",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Airflow expert needed for a new platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "airflow",
+   "fine_tuning",
+   "langgraph",
+   "postgres",
+   "langchain",
+   "fastapi"
+  ],
+  "text": "Your a new platform sounds a lot like the contract clause extractor I built for a media client, which cut cloud costs by 32%.\n\nOn the contract clause extractor I used LangChain, FastAPI, PostgreSQL. On the claims triage agent I used Pinecone, LangChain, PostgreSQL.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p02",
+   "ai_ml:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2024-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:038",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Hugging Face Transformers developer needed for our pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "nlp",
+   "llm_apps",
+   "transformers",
+   "airflow"
+  ],
+  "text": "Your our pipeline sounds a lot like the llm evaluation harness I built for a fintech client, which saved the team 25 hours a week.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the churn prediction model I used Hugging Face Transformers, NLP, MLflow.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p09"
+  ],
+  "outcome": "ignored",
+  "date": "2022-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:039",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "FastAPI specialist needed for our project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "vector_db",
+   "nlp",
+   "fastapi",
+   "llm_apps",
+   "langgraph"
+  ],
+  "text": "Your our project sounds a lot like the sales call summariser I built for a media client, which reached 21% accuracy on the held-out set.\n\nOn the sales call summariser I used LangChain, Pinecone, Python. On the recommendation engine I used LLM, Python, FastAPI. For your project I would start with Pinecone, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p06",
+   "ai_ml:p11"
+  ],
+  "outcome": "won",
+  "date": "2024-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:040",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LLM expert needed for a new project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "aws",
+   "llm_apps",
+   "fastapi",
+   "vector_db",
+   "mlops",
+   "langchain"
+  ],
+  "text": "Your a new project sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the sales call summariser I used LangChain, Pinecone, Python. For your project I would start with AWS, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p06"
+  ],
+  "outcome": "ignored",
+  "date": "2023-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:041",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Hugging Face Transformers engineer needed for our platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langgraph",
+   "fine_tuning",
+   "transformers",
+   "dbt",
+   "django",
+   "stripe"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:042",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LLM specialist needed for an existing pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langchain",
+   "computer_vision",
+   "aws",
+   "forecasting",
+   "llm_apps",
+   "sklearn"
+  ],
+  "text": "Your an existing pipeline sounds a lot like the sales call summariser I built for a media client, which reached 21% accuracy on the held-out set.\n\nOn the sales call summariser I used LangChain, Pinecone, Python. On the agentic research assistant I used Airflow, AWS, time series forecasting.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p06",
+   "ai_ml:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2025-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:043",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LLM specialist needed for a new project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "llm_apps",
+   "docker",
+   "langchain",
+   "mlops"
+  ],
+  "text": "Your a new project sounds a lot like the support-ticket triage assistant I built for a retail client, which saved the team 6 hours a week.\n\nOn the support-ticket triage assistant I used PyTorch, MLflow, LLM. On the claims triage agent I used Pinecone, LangChain, PostgreSQL. For your project I would start with LLM, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p10",
+   "ai_ml:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2026-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:044",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Hugging Face Transformers engineer needed for a new dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langchain",
+   "transformers",
+   "aws"
+  ],
+  "text": "Your a new dashboard sounds a lot like the voice-of-customer topic miner I built for a real estate client, which handled 46k requests a day.\n\nOn the voice-of-customer topic miner I used MLflow, LangChain, AWS. On the claims triage agent I used Pinecone, LangChain, PostgreSQL. For your project I would start with LangChain, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p18",
+   "ai_ml:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2023-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:045",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Hugging Face Transformers engineer needed for a new pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "pytorch",
+   "transformers",
+   "react_native",
+   "django"
+  ],
+  "text": "Your a new pipeline sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. For your project I would start with PyTorch, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2022-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:046",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Celery developer needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "postgres",
+   "pytorch",
+   "celery",
+   "rag",
+   "airflow"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:047",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "scikit-learn specialist needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "sklearn",
+   "dbt"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the recommendation engine I used LLM, Python, FastAPI.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p11"
+  ],
+  "outcome": "ignored",
+  "date": "2022-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:048",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "dbt engineer needed for our platform",
+  "job_category": "Mobile Development",
+  "job_skills": [
+   "wordpress",
+   "react_native",
+   "dbt"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:049",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LoRA engineer needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langgraph",
+   "rag",
+   "fine_tuning",
+   "aws",
+   "vector_db"
+  ],
+  "text": "Your an existing platform sounds a lot like the lead qualification agent I built for a real estate client, which saved the team 20 hours a week.\n\nOn the lead qualification agent I used Pinecone, LangChain, Celery. On the product search reranker I used OpenCV, LangGraph, RAG. For your project I would start with LangGraph, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p12",
+   "ai_ml:p05"
+  ],
+  "outcome": "ignored",
+  "date": "2022-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:050",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "NLP developer needed for a new pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langgraph",
+   "nlp",
+   "stripe",
+   "django"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:051",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LoRA expert needed for a new platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langgraph",
+   "python",
+   "fine_tuning",
+   "mlops",
+   "pytorch"
+  ],
+  "text": "Your a new platform sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the inventory anomaly detector I used PyTorch, MLflow, FastAPI.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p07"
+  ],
+  "outcome": "ignored",
+  "date": "2023-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:052",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LoRA specialist needed for a new product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "rag",
+   "fine_tuning",
+   "python"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:053",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "OpenCV specialist needed for our platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "airflow",
+   "computer_vision",
+   "docker",
+   "rag"
+  ],
+  "text": "Your our platform sounds a lot like the demand forecasting service I built for a marketing agency client, which handled 33k requests a day.\n\nOn the demand forecasting service I used MLflow, RAG, Airflow. On the product search reranker I used OpenCV, LangGraph, RAG. For your project I would start with Airflow, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p01",
+   "ai_ml:p05"
+  ],
+  "outcome": "ignored",
+  "date": "2022-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:054",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "RAG expert needed for our pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "celery",
+   "rag"
+  ],
+  "text": "Your our pipeline sounds a lot like the lead qualification agent I built for a real estate client, which saved the team 20 hours a week.\n\nOn the lead qualification agent I used Pinecone, LangChain, Celery. On the demand forecasting service I used MLflow, RAG, Airflow.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p12",
+   "ai_ml:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2025-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:055",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LangChain specialist needed for our dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "postgres",
+   "forecasting",
+   "langchain",
+   "computer_vision"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the contract clause extractor I used LangChain, FastAPI, PostgreSQL.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2024-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:056",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "WordPress developer needed for a new pipeline",
+  "job_category": "Mobile Development",
+  "job_skills": [
+   "react_native",
+   "wordpress",
+   "stripe"
+  ],
+  "text": "Your a new pipeline sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the demand forecasting service I used MLflow, RAG, Airflow. For your project I would start with React Native, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p01"
+  ],
+  "outcome": "won",
+  "date": "2026-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:057",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Build something smart for our team",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "postgres",
+   "mlops",
+   "airflow",
+   "transformers"
+  ],
+  "text": "Your our team sounds a lot like the churn prediction model I built for a non-profit client, which reached 43% accuracy on the held-out set.\n\nOn the churn prediction model I used Hugging Face Transformers, NLP, MLflow. On the claims triage agent I used Pinecone, LangChain, PostgreSQL. For your project I would start with PostgreSQL, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p09",
+   "ai_ml:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2024-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:058",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "NLP expert needed for our platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "nlp",
+   "postgres",
+   "django",
+   "wordpress"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:059",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "PyTorch specialist needed for our dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "pytorch",
+   "airflow",
+   "llm_apps"
+  ],
+  "text": "Your our dashboard sounds a lot like the support-ticket triage assistant I built for a retail client, which saved the team 6 hours a week.\n\nOn the support-ticket triage assistant I used PyTorch, MLflow, LLM. On the claims triage agent I used Pinecone, LangChain, PostgreSQL. For your project I would start with PyTorch, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p10",
+   "ai_ml:p00"
+  ],
+  "outcome": "won",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:060",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Need help improving our internal process",
+  "job_category": "Web Development",
+  "job_skills": [
+   "aws",
+   "airflow",
+   "pytorch",
+   "fastapi",
+   "postgres",
+   "docker"
+  ],
+  "text": "Your Need help improving our internal process sounds a lot like the support-ticket triage assistant I built for a retail client, which saved the team 6 hours a week.\n\nOn the support-ticket triage assistant I used PyTorch, MLflow, LLM. On the claims triage agent I used Pinecone, LangChain, PostgreSQL. For your project I would start with AWS, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p10",
+   "ai_ml:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2025-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:061",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "time series forecasting engineer needed for an existing pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langchain",
+   "docker",
+   "forecasting",
+   "fastapi"
+  ],
+  "text": "Your an existing pipeline sounds a lot like the contract clause extractor I built for a media client, which cut cloud costs by 32%.\n\nOn the contract clause extractor I used LangChain, FastAPI, PostgreSQL. On the defect detection pipeline I used time series forecasting, FastAPI, Python. For your project I would start with LangChain, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p02",
+   "ai_ml:p08"
+  ],
+  "outcome": "replied",
+  "date": "2023-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:062",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Celery specialist needed for an existing project",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "python",
+   "celery"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the sales call summariser I used LangChain, Pinecone, Python.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p06"
+  ],
+  "outcome": "ignored",
+  "date": "2022-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:063",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "MongoDB developer needed for a new platform",
+  "job_category": "E-commerce",
+  "job_skills": [
+   "wordpress",
+   "shopify",
+   "mongodb",
+   "tableau"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the demand forecasting service I used MLflow, RAG, Airflow.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2025-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:064",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "MLflow expert needed for our dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "mlops",
+   "aws",
+   "langchain",
+   "forecasting",
+   "fastapi",
+   "sklearn"
+  ],
+  "text": "Your our dashboard sounds a lot like the voice-of-customer topic miner I built for a real estate client, which handled 46k requests a day.\n\nOn the voice-of-customer topic miner I used MLflow, LangChain, AWS. On the claims triage agent I used Pinecone, LangChain, PostgreSQL. For your project I would start with MLflow, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p18",
+   "ai_ml:p00"
+  ],
+  "outcome": "replied",
+  "date": "2025-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:065",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Celery specialist needed for an existing product",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "airflow",
+   "postgres",
+   "langchain",
+   "celery",
+   "aws",
+   "llm_apps"
+  ],
+  "text": "Your an existing product sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the contract clause extractor I used LangChain, FastAPI, PostgreSQL. For your project I would start with Airflow, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p02"
+  ],
+  "outcome": "won",
+  "date": "2025-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:066",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Looking for an expert for an ongoing project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "forecasting",
+   "pytorch"
+  ],
+  "text": "Your an ongoing project sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the inventory anomaly detector I used PyTorch, MLflow, FastAPI. For your project I would start with time series forecasting, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p07"
+  ],
+  "outcome": "won",
+  "date": "2022-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:067",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Django specialist needed for an existing platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "mongodb",
+   "shopify",
+   "graphql",
+   "wordpress",
+   "django",
+   "tableau"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the demand forecasting service I used MLflow, RAG, Airflow.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2023-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:068",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Need help improving our internal process",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "python",
+   "transformers"
+  ],
+  "text": "Your Need help improving our internal process sounds a lot like the llm evaluation harness I built for a fintech client, which saved the team 25 hours a week.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the knowledge-base copilot I used Hugging Face Transformers, Pinecone, OpenCV.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p04"
+  ],
+  "outcome": "replied",
+  "date": "2023-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:069",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LangGraph expert needed for a new pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langgraph",
+   "fine_tuning",
+   "fastapi",
+   "forecasting"
+  ],
+  "text": "Your a new pipeline sounds a lot like the defect detection pipeline I built for a SaaS client, which brought report refresh down to 16 minutes.\n\nOn the defect detection pipeline I used time series forecasting, FastAPI, Python. On the agentic research assistant I used Airflow, AWS, time series forecasting.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p08",
+   "ai_ml:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2026-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:070",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "RAG developer needed for a new project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "fine_tuning",
+   "forecasting",
+   "postgres",
+   "pytorch",
+   "rag"
+  ],
+  "text": "Your a new project sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the inventory anomaly detector I used PyTorch, MLflow, FastAPI. For your project I would start with LoRA, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p07"
+  ],
+  "outcome": "replied",
+  "date": "2023-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:071",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Pinecone developer needed for an existing pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "mlops",
+   "docker",
+   "llm_apps",
+   "forecasting",
+   "vector_db"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:072",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "FastAPI expert needed for a new product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "forecasting",
+   "rag",
+   "langgraph",
+   "llm_apps",
+   "fastapi"
+  ],
+  "text": "Your a new product sounds a lot like the product search reranker I built for a education client, which grew active users to 79k.\n\nOn the product search reranker I used OpenCV, LangGraph, RAG. On the inventory anomaly detector I used PyTorch, MLflow, FastAPI. For your project I would start with time series forecasting, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p05",
+   "ai_ml:p07"
+  ],
+  "outcome": "won",
+  "date": "2022-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:073",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LoRA developer needed for our pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "postgres",
+   "docker",
+   "fine_tuning",
+   "mlops",
+   "llm_apps",
+   "langchain"
+  ],
+  "text": "Your our pipeline sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the support-ticket triage assistant I used PyTorch, MLflow, LLM. For your project I would start with PostgreSQL, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p10"
+  ],
+  "outcome": "won",
+  "date": "2023-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:074",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "OpenCV specialist needed for our project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "computer_vision",
+   "langchain",
+   "fine_tuning"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:075",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "PyTorch engineer needed for our pipeline",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "docker",
+   "python",
+   "postgres",
+   "pytorch",
+   "celery",
+   "nlp"
+  ],
+  "text": "Your our pipeline sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the churn prediction model I used Hugging Face Transformers, NLP, MLflow.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p09"
+  ],
+  "outcome": "ignored",
+  "date": "2025-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:076",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LangChain engineer needed for a new product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "sklearn",
+   "docker",
+   "langchain",
+   "fine_tuning",
+   "vector_db"
+  ],
+  "text": "Your a new product sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. For your project I would start with scikit-learn, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p03"
+  ],
+  "outcome": "replied",
+  "date": "2024-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:077",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Pinecone engineer needed for a new dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "vector_db",
+   "docker"
+  ],
+  "text": "Your a new dashboard sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the knowledge-base copilot I used Hugging Face Transformers, Pinecone, OpenCV.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2023-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:078",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LangGraph developer needed for an existing product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langgraph",
+   "aws",
+   "fastapi",
+   "nlp",
+   "transformers"
+  ],
+  "text": "Your an existing product sounds a lot like the churn prediction model I built for a non-profit client, which reached 43% accuracy on the held-out set.\n\nOn the churn prediction model I used Hugging Face Transformers, NLP, MLflow. On the invoice ocr and parser I used LangGraph, RAG, NLP. For your project I would start with LangGraph, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p09",
+   "ai_ml:p14"
+  ],
+  "outcome": "won",
+  "date": "2024-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:079",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Stripe specialist needed for a new project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "dbt",
+   "powerbi",
+   "looker",
+   "stripe"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:080",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "FastAPI specialist needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "fastapi",
+   "nlp",
+   "python",
+   "mlops"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:081",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "FastAPI expert needed for our dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "pytorch",
+   "fastapi",
+   "forecasting",
+   "llm_apps",
+   "rag"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:082",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Stripe specialist needed for an existing project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "sklearn",
+   "fastapi",
+   "stripe",
+   "dbt",
+   "graphql"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:083",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Build something smart for our team",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "rag",
+   "pytorch",
+   "transformers",
+   "forecasting",
+   "aws"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:084",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "WordPress expert needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "transformers",
+   "mlops",
+   "wordpress",
+   "dbt"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the churn prediction model I used Hugging Face Transformers, NLP, MLflow. On the fraud scoring api I used Hugging Face Transformers, OpenCV, MLflow.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p09",
+   "ai_ml:p17"
+  ],
+  "outcome": "ignored",
+  "date": "2024-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:085",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Looker developer needed for an existing project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "dbt",
+   "looker",
+   "powerbi",
+   "graphql",
+   "django",
+   "stripe"
+  ],
+  "text": "Your an existing project sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the demand forecasting service I used MLflow, RAG, Airflow.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p01"
+  ],
+  "outcome": "won",
+  "date": "2025-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:086",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "scikit-learn expert needed for an existing product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "sklearn",
+   "docker",
+   "computer_vision",
+   "airflow",
+   "celery",
+   "langchain"
+  ],
+  "text": "Your an existing product sounds a lot like the llm evaluation harness I built for a fintech client, which saved the team 25 hours a week.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the sales call summariser I used LangChain, Pinecone, Python. For your project I would start with scikit-learn, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p06"
+  ],
+  "outcome": "ignored",
+  "date": "2025-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:087",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Celery developer needed for an existing project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "celery",
+   "llm_apps"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:088",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "React Native engineer needed for a new pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "postgres",
+   "transformers",
+   "wordpress",
+   "react_native"
+  ],
+  "text": "Your a new pipeline sounds a lot like the churn prediction model I built for a non-profit client, which reached 43% accuracy on the held-out set.\n\nOn the churn prediction model I used Hugging Face Transformers, NLP, MLflow. On the claims triage agent I used Pinecone, LangChain, PostgreSQL. For your project I would start with PostgreSQL, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p09",
+   "ai_ml:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2024-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:089",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "OpenCV developer needed for our project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "forecasting",
+   "aws",
+   "computer_vision"
+  ],
+  "text": "Your our project sounds a lot like the agentic research assistant I built for a SaaS client, which cut manual work by 46%.\n\nOn the agentic research assistant I used Airflow, AWS, time series forecasting. On the fraud scoring api I used Hugging Face Transformers, OpenCV, MLflow. For your project I would start with time series forecasting, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p15",
+   "ai_ml:p17"
+  ],
+  "outcome": "ignored",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:090",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "time series forecasting developer needed for a new dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "llm_apps",
+   "fine_tuning",
+   "sklearn",
+   "forecasting",
+   "rag",
+   "celery"
+  ],
+  "text": "Your a new dashboard sounds a lot like the llm evaluation harness I built for a fintech client, which saved the team 25 hours a week.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the recommendation engine I used LLM, Python, FastAPI. For your project I would start with LLM, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p11"
+  ],
+  "outcome": "ignored",
+  "date": "2024-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:091",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Pinecone specialist needed for a new dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "pytorch",
+   "vector_db",
+   "postgres",
+   "looker",
+   "graphql",
+   "wordpress"
+  ],
+  "text": "Your a new dashboard sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the contract clause extractor I used LangChain, FastAPI, PostgreSQL.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p02"
+  ],
+  "outcome": "won",
+  "date": "2023-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:092",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LoRA expert needed for a new pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "llm_apps",
+   "fine_tuning",
+   "pytorch",
+   "stripe",
+   "graphql",
+   "wordpress"
+  ],
+  "text": "Your a new pipeline sounds a lot like the support-ticket triage assistant I built for a retail client, which saved the team 6 hours a week.\n\nOn the support-ticket triage assistant I used PyTorch, MLflow, LLM. On the claims triage agent I used Pinecone, LangChain, PostgreSQL. For your project I would start with LLM, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p10",
+   "ai_ml:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2023-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:093",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Airflow developer needed for our project",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "mlops",
+   "aws",
+   "airflow",
+   "celery"
+  ],
+  "text": "Your our project sounds a lot like the demand forecasting service I built for a marketing agency client, which handled 33k requests a day.\n\nOn the demand forecasting service I used MLflow, RAG, Airflow. On the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. For your project I would start with MLflow, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p01",
+   "ai_ml:p03"
+  ],
+  "outcome": "won",
+  "date": "2026-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:094",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "RAG expert needed for our pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "llm_apps",
+   "forecasting",
+   "fine_tuning",
+   "airflow",
+   "fastapi",
+   "rag"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the agentic research assistant I used Airflow, AWS, time series forecasting. On the demand forecasting service I used MLflow, RAG, Airflow.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p15",
+   "ai_ml:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2025-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:095",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "dbt expert needed for our product",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "docker",
+   "dbt"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the support-ticket triage assistant I used PyTorch, MLflow, LLM. On the claims triage agent I used Pinecone, LangChain, PostgreSQL.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p10",
+   "ai_ml:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2025-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:096",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "WordPress expert needed for a new platform",
+  "job_category": "E-commerce",
+  "job_skills": [
+   "llm_apps",
+   "airflow",
+   "wordpress",
+   "shopify",
+   "dbt"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the demand forecasting service I used MLflow, RAG, Airflow. On the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p01",
+   "ai_ml:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2025-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:097",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LangGraph developer needed for our pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "llm_apps",
+   "langgraph",
+   "langchain",
+   "transformers"
+  ],
+  "text": "Your our pipeline sounds a lot like the sales call summariser I built for a media client, which reached 21% accuracy on the held-out set.\n\nOn the sales call summariser I used LangChain, Pinecone, Python. On the lead qualification agent I used Pinecone, LangChain, Celery.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p06",
+   "ai_ml:p12"
+  ],
+  "outcome": "won",
+  "date": "2023-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:098",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Celery engineer needed for an existing dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "sklearn",
+   "docker",
+   "forecasting",
+   "celery",
+   "transformers",
+   "langgraph"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the llm evaluation harness I built for a fintech client, which saved the team 25 hours a week.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the lead qualification agent I used Pinecone, LangChain, Celery. For your project I would start with scikit-learn, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p12"
+  ],
+  "outcome": "replied",
+  "date": "2024-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:099",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Help us make sense of our data",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "llm_apps",
+   "airflow"
+  ],
+  "text": "Your Help us make sense of our data sounds a lot like the demand forecasting service I built for a marketing agency client, which handled 33k requests a day.\n\nOn the demand forecasting service I used MLflow, RAG, Airflow. On the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. For your project I would start with LLM, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p01",
+   "ai_ml:p03"
+  ],
+  "outcome": "won",
+  "date": "2024-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:100",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LangGraph engineer needed for an existing project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "mlops",
+   "postgres",
+   "celery",
+   "forecasting",
+   "sklearn",
+   "langgraph"
+  ],
+  "text": "Your an existing project sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. For your project I would start with MLflow, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p03"
+  ],
+  "outcome": "won",
+  "date": "2022-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:101",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "dbt developer needed for an existing product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "aws",
+   "dbt",
+   "looker"
+  ],
+  "text": "Your an existing product sounds a lot like the support-ticket triage assistant I built for a retail client, which saved the team 6 hours a week.\n\nOn the support-ticket triage assistant I used PyTorch, MLflow, LLM. On the agentic research assistant I used Airflow, AWS, time series forecasting.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p10",
+   "ai_ml:p15"
+  ],
+  "outcome": "replied",
+  "date": "2026-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:102",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LangChain engineer needed for our dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "sklearn",
+   "forecasting",
+   "python",
+   "llm_apps",
+   "langchain",
+   "celery"
+  ],
+  "text": "Your our dashboard sounds a lot like the sales call summariser I built for a media client, which reached 21% accuracy on the held-out set.\n\nOn the sales call summariser I used LangChain, Pinecone, Python. On the recommendation engine I used LLM, Python, FastAPI. For your project I would start with scikit-learn, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p06",
+   "ai_ml:p11"
+  ],
+  "outcome": "ignored",
+  "date": "2022-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:103",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "MongoDB engineer needed for our project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "graphql",
+   "wordpress",
+   "powerbi",
+   "mongodb",
+   "react_native",
+   "looker"
+  ],
+  "text": "Your our project sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the demand forecasting service I used MLflow, RAG, Airflow. For your project I would start with GraphQL, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p01"
+  ],
+  "outcome": "replied",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:104",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "time series forecasting developer needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "vector_db",
+   "forecasting"
+  ],
+  "text": "Your an existing platform sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the knowledge-base copilot I used Hugging Face Transformers, Pinecone, OpenCV. For your project I would start with Pinecone, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p04"
+  ],
+  "outcome": "won",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:105",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LLM specialist needed for our dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "llm_apps",
+   "airflow"
+  ],
+  "text": "Your our dashboard sounds a lot like the demand forecasting service I built for a marketing agency client, which handled 33k requests a day.\n\nOn the demand forecasting service I used MLflow, RAG, Airflow. On the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. For your project I would start with LLM, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p01",
+   "ai_ml:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2025-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:106",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "GraphQL engineer needed for our project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "nlp",
+   "computer_vision",
+   "graphql",
+   "stripe",
+   "powerbi"
+  ],
+  "text": "Your our project sounds a lot like the knowledge-base copilot I built for a e-commerce client, which cut manual work by 70%.\n\nOn the knowledge-base copilot I used Hugging Face Transformers, Pinecone, OpenCV. On the product search reranker I used OpenCV, LangGraph, RAG. For your project I would start with NLP, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p04",
+   "ai_ml:p05"
+  ],
+  "outcome": "ignored",
+  "date": "2026-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:107",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "OpenCV specialist needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "forecasting",
+   "computer_vision",
+   "vector_db",
+   "langchain",
+   "postgres",
+   "airflow"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:108",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Stripe developer needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "fine_tuning",
+   "aws",
+   "graphql",
+   "dbt",
+   "stripe"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the agentic research assistant I used Airflow, AWS, time series forecasting. On the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p15",
+   "ai_ml:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:109",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Stripe engineer needed for a new product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langgraph",
+   "stripe"
+  ],
+  "text": "Your a new product sounds a lot like the product search reranker I built for a education client, which grew active users to 79k.\n\nOn the product search reranker I used OpenCV, LangGraph, RAG. On the lead qualification agent I used Pinecone, LangChain, Celery.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p05",
+   "ai_ml:p12"
+  ],
+  "outcome": "won",
+  "date": "2023-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:110",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Help us make sense of our data",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "sklearn",
+   "llm_apps",
+   "celery",
+   "rag",
+   "fine_tuning",
+   "aws"
+  ],
+  "text": "Your Help us make sense of our data sounds a lot like the llm evaluation harness I built for a fintech client, which saved the team 25 hours a week.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the support-ticket triage assistant I used PyTorch, MLflow, LLM.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p10"
+  ],
+  "outcome": "ignored",
+  "date": "2024-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:111",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Build something smart for our team",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "mlops",
+   "sklearn",
+   "celery",
+   "vector_db",
+   "langchain"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:112",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Build something smart for our team",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langchain",
+   "fine_tuning",
+   "fastapi",
+   "mlops",
+   "python",
+   "nlp"
+  ],
+  "text": "Your our team sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the contract clause extractor I used LangChain, FastAPI, PostgreSQL.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:113",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "React Native specialist needed for a new project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "fine_tuning",
+   "llm_apps",
+   "react_native",
+   "tableau",
+   "stripe"
+  ],
+  "text": "Your a new project sounds a lot like the llm evaluation harness I built for a fintech client, which saved the team 25 hours a week.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the sales call summariser I used LangChain, Pinecone, Python.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p06"
+  ],
+  "outcome": "ignored",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:114",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "NLP developer needed for a new dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "airflow",
+   "vector_db",
+   "fastapi",
+   "pytorch",
+   "nlp",
+   "fine_tuning"
+  ],
+  "text": "Your a new dashboard sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2025-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:115",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LoRA engineer needed for a new project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "fine_tuning",
+   "langchain",
+   "postgres",
+   "aws",
+   "vector_db",
+   "fastapi"
+  ],
+  "text": "Your a new project sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the contract clause extractor I used LangChain, FastAPI, PostgreSQL. For your project I would start with LoRA, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2022-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:116",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Shopify specialist needed for our platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "dbt",
+   "mongodb",
+   "shopify",
+   "powerbi",
+   "django",
+   "graphql"
+  ],
+  "text": "Your our platform sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the demand forecasting service I used MLflow, RAG, Airflow.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p01"
+  ],
+  "outcome": "replied",
+  "date": "2026-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:117",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Hugging Face Transformers developer needed for our dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "transformers",
+   "airflow",
+   "forecasting"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:118",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Shopify expert needed for an existing dashboard",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "python",
+   "rag",
+   "django",
+   "dbt",
+   "shopify"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the demand forecasting service I used MLflow, RAG, Airflow. On the product search reranker I used OpenCV, LangGraph, RAG.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p01",
+   "ai_ml:p05"
+  ],
+  "outcome": "ignored",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:119",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Help us make sense of our data",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "mlops",
+   "forecasting",
+   "rag",
+   "sklearn"
+  ],
+  "text": "Your Help us make sense of our data sounds a lot like the demand forecasting service I built for a marketing agency client, which handled 33k requests a day.\n\nOn the demand forecasting service I used MLflow, RAG, Airflow. On the inventory anomaly detector I used PyTorch, MLflow, FastAPI.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p01",
+   "ai_ml:p07"
+  ],
+  "outcome": "ignored",
+  "date": "2026-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:120",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Need help improving our internal process",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "rag",
+   "langchain",
+   "transformers"
+  ],
+  "text": "Your Need help improving our internal process sounds a lot like the lead qualification agent I built for a real estate client, which saved the team 20 hours a week.\n\nOn the lead qualification agent I used Pinecone, LangChain, Celery. On the claims triage agent I used Pinecone, LangChain, PostgreSQL. For your project I would start with RAG, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p12",
+   "ai_ml:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2024-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:121",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LLM developer needed for an existing product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "fastapi",
+   "llm_apps"
+  ],
+  "text": "Your an existing product sounds a lot like the recommendation engine I built for a SaaS client, which brought report refresh down to 11 minutes.\n\nOn the recommendation engine I used LLM, Python, FastAPI. On the contract clause extractor I used LangChain, FastAPI, PostgreSQL. For your project I would start with FastAPI, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p11",
+   "ai_ml:p02"
+  ],
+  "outcome": "won",
+  "date": "2026-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:122",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Help us make sense of our data",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "rag",
+   "airflow"
+  ],
+  "text": "Your Help us make sense of our data sounds a lot like the demand forecasting service I built for a marketing agency client, which handled 33k requests a day.\n\nOn the demand forecasting service I used MLflow, RAG, Airflow. On the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p01",
+   "ai_ml:p03"
+  ],
+  "outcome": "won",
+  "date": "2026-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:123",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Pinecone specialist needed for an existing project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "docker",
+   "vector_db",
+   "nlp",
+   "mlops",
+   "postgres"
+  ],
+  "text": "Your an existing project sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the churn prediction model I used Hugging Face Transformers, NLP, MLflow.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p09"
+  ],
+  "outcome": "ignored",
+  "date": "2025-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:124",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Looking for an expert for an ongoing project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "aws",
+   "sklearn",
+   "fine_tuning"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the agentic research assistant I used Airflow, AWS, time series forecasting.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:125",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "MongoDB developer needed for a new product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "computer_vision",
+   "langgraph",
+   "shopify",
+   "stripe",
+   "mongodb"
+  ],
+  "text": "Your a new product sounds a lot like the product search reranker I built for a education client, which grew active users to 79k.\n\nOn the product search reranker I used OpenCV, LangGraph, RAG. On the knowledge-base copilot I used Hugging Face Transformers, Pinecone, OpenCV.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p05",
+   "ai_ml:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2026-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:126",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Tableau expert needed for a new product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "aws",
+   "forecasting",
+   "llm_apps",
+   "tableau",
+   "looker",
+   "mongodb"
+  ],
+  "text": "Your a new product sounds a lot like the support-ticket triage assistant I built for a retail client, which saved the team 6 hours a week.\n\nOn the support-ticket triage assistant I used PyTorch, MLflow, LLM. On the agentic research assistant I used Airflow, AWS, time series forecasting. For your project I would start with AWS, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p10",
+   "ai_ml:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2022-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:127",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "scikit-learn engineer needed for an existing pipeline",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "airflow",
+   "python",
+   "aws",
+   "vector_db",
+   "sklearn"
+  ],
+  "text": "Your an existing pipeline sounds a lot like the llm evaluation harness I built for a fintech client, which saved the team 25 hours a week.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the sales call summariser I used LangChain, Pinecone, Python.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p06"
+  ],
+  "outcome": "ignored",
+  "date": "2024-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:128",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Power BI specialist needed for an existing pipeline",
+  "job_category": "E-commerce",
+  "job_skills": [
+   "celery",
+   "powerbi",
+   "wordpress"
+  ],
+  "text": "Your an existing pipeline sounds a lot like the llm evaluation harness I built for a fintech client, which saved the team 25 hours a week.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the lead qualification agent I used Pinecone, LangChain, Celery.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p12"
+  ],
+  "outcome": "ignored",
+  "date": "2026-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:129",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LangGraph specialist needed for a new platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "llm_apps",
+   "fine_tuning",
+   "sklearn",
+   "langgraph"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the recommendation engine I used LLM, Python, FastAPI.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p11"
+  ],
+  "outcome": "ignored",
+  "date": "2025-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:130",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "dbt engineer needed for a new project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "postgres",
+   "sklearn",
+   "looker",
+   "graphql",
+   "dbt"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the contract clause extractor I used LangChain, FastAPI, PostgreSQL.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:131",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Tableau expert needed for a new pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "fastapi",
+   "llm_apps",
+   "python",
+   "django",
+   "graphql",
+   "tableau"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the recommendation engine I used LLM, Python, FastAPI. On the sales call summariser I used LangChain, Pinecone, Python.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p11",
+   "ai_ml:p06"
+  ],
+  "outcome": "ignored",
+  "date": "2024-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:132",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Celery developer needed for our platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "transformers",
+   "llm_apps",
+   "celery",
+   "langgraph"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:133",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Shopify expert needed for our platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "looker",
+   "shopify",
+   "powerbi"
+  ],
+  "text": "Your our platform sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the demand forecasting service I used MLflow, RAG, Airflow.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2024-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:134",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "FastAPI engineer needed for an existing pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "nlp",
+   "postgres",
+   "fastapi"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the contract clause extractor I used LangChain, FastAPI, PostgreSQL. On the churn prediction model I used Hugging Face Transformers, NLP, MLflow.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p02",
+   "ai_ml:p09"
+  ],
+  "outcome": "ignored",
+  "date": "2022-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:135",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "RAG developer needed for our platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "computer_vision",
+   "rag",
+   "aws",
+   "django",
+   "shopify",
+   "tableau"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:136",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Power BI expert needed for a new pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "dbt",
+   "graphql",
+   "powerbi"
+  ],
+  "text": "Your a new pipeline sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the demand forecasting service I used MLflow, RAG, Airflow. For your project I would start with dbt, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p01"
+  ],
+  "outcome": "replied",
+  "date": "2022-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:137",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "scikit-learn specialist needed for a new pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "sklearn",
+   "celery",
+   "postgres"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:138",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LangChain expert needed for a new dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "forecasting",
+   "vector_db",
+   "langchain"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:139",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Hugging Face Transformers expert needed for an existing dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "transformers",
+   "computer_vision"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the knowledge-base copilot I built for a e-commerce client, which cut manual work by 70%.\n\nOn the knowledge-base copilot I used Hugging Face Transformers, Pinecone, OpenCV. On the fraud scoring api I used Hugging Face Transformers, OpenCV, MLflow.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p04",
+   "ai_ml:p17"
+  ],
+  "outcome": "replied",
+  "date": "2025-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:140",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Pinecone engineer needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "sklearn",
+   "vector_db",
+   "langchain",
+   "python",
+   "airflow"
+  ],
+  "text": "Your an existing platform sounds a lot like the sales call summariser I built for a media client, which reached 21% accuracy on the held-out set.\n\nOn the sales call summariser I used LangChain, Pinecone, Python. On the claims triage agent I used Pinecone, LangChain, PostgreSQL.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p06",
+   "ai_ml:p00"
+  ],
+  "outcome": "won",
+  "date": "2023-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:141",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "LangChain expert needed for an existing product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langchain",
+   "python"
+  ],
+  "text": "Your an existing product sounds a lot like the sales call summariser I built for a media client, which reached 21% accuracy on the held-out set.\n\nOn the sales call summariser I used LangChain, Pinecone, Python. On the claims triage agent I used Pinecone, LangChain, PostgreSQL.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p06",
+   "ai_ml:p00"
+  ],
+  "outcome": "won",
+  "date": "2024-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:142",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "OpenCV expert needed for our project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "fastapi",
+   "computer_vision"
+  ],
+  "text": "Your our project sounds a lot like the contract clause extractor I built for a media client, which cut cloud costs by 32%.\n\nOn the contract clause extractor I used LangChain, FastAPI, PostgreSQL. On the knowledge-base copilot I used Hugging Face Transformers, Pinecone, OpenCV. For your project I would start with FastAPI, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p02",
+   "ai_ml:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2022-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:143",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "MLflow developer needed for a new dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "pytorch",
+   "llm_apps",
+   "postgres",
+   "python",
+   "transformers",
+   "mlops"
+  ],
+  "text": "Your a new dashboard sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the churn prediction model I used Hugging Face Transformers, NLP, MLflow.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p09"
+  ],
+  "outcome": "ignored",
+  "date": "2025-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:144",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "MLflow expert needed for an existing dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "langchain",
+   "airflow",
+   "aws",
+   "python",
+   "langgraph",
+   "mlops"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:145",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "OpenCV developer needed for our dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "transformers",
+   "vector_db",
+   "computer_vision",
+   "fine_tuning",
+   "python"
+  ],
+  "text": "Your our dashboard sounds a lot like the knowledge-base copilot I built for a e-commerce client, which cut manual work by 70%.\n\nOn the knowledge-base copilot I used Hugging Face Transformers, Pinecone, OpenCV. On the sales call summariser I used LangChain, Pinecone, Python.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p04",
+   "ai_ml:p06"
+  ],
+  "outcome": "won",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:146",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Pinecone specialist needed for our product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "vector_db",
+   "computer_vision"
+  ],
+  "text": "Your our product sounds a lot like the knowledge-base copilot I built for a e-commerce client, which cut manual work by 70%.\n\nOn the knowledge-base copilot I used Hugging Face Transformers, Pinecone, OpenCV. On the sales call summariser I used LangChain, Pinecone, Python. For your project I would start with Pinecone, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "ai_ml:p04",
+   "ai_ml:p06"
+  ],
+  "outcome": "ignored",
+  "date": "2024-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:147",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "time series forecasting expert needed for our project",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "forecasting",
+   "docker",
+   "python"
+  ],
+  "text": "Your our project sounds a lot like the defect detection pipeline I built for a SaaS client, which brought report refresh down to 16 minutes.\n\nOn the defect detection pipeline I used time series forecasting, FastAPI, Python. On the sales call summariser I used LangChain, Pinecone, Python. For your project I would start with time series forecasting, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p08",
+   "ai_ml:p06"
+  ],
+  "outcome": "ignored",
+  "date": "2023-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:148",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Help us make sense of our data",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "postgres",
+   "airflow",
+   "transformers",
+   "vector_db",
+   "docker",
+   "mlops"
+  ],
+  "text": "Your Help us make sense of our data sounds a lot like the claims triage agent I built for a travel client, which cut manual work by 63%.\n\nOn the claims triage agent I used Pinecone, LangChain, PostgreSQL. On the churn prediction model I used Hugging Face Transformers, NLP, MLflow. For your project I would start with PostgreSQL, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "ai_ml:p00",
+   "ai_ml:p09"
+  ],
+  "outcome": "ignored",
+  "date": "2024-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:proposal:149",
+  "type": "proposal",
+  "persona": "ai_ml",
+  "job_title": "Celery engineer needed for an existing product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "vector_db",
+   "transformers",
+   "celery",
+   "llm_apps"
+  ],
+  "text": "Your an existing product sounds a lot like the llm evaluation harness I built for a fintech client, which saved the team 25 hours a week.\n\nOn the llm evaluation harness I used scikit-learn, Celery, Hugging Face Transformers. On the knowledge-base copilot I used Hugging Face Transformers, Pinecone, OpenCV.\n\nCan start Monday.",
+  "cited_projects": [
+   "ai_ml:p03",
+   "ai_ml:p04"
+  ],
+  "outcome": "replied",
+  "date": "2023-09-10",
+  "source": "synthetic"
+ }
+]

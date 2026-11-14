@@ -1,0 +1,156 @@
+[
+ {
+  "id": "ai_ml:review:00",
+  "project_id": "ai_ml:p00",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 4.8,
+  "text": "Excellent work on our claims triage agent. Wrote the model in a define-by-run deep learning framework \u2014 and it cut manual work by 63%. Communicated clearly and delivered on time.",
+  "client_industry": "travel",
+  "date": "2019-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:review:01",
+  "project_id": "ai_ml:p18",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 5,
+  "text": "Great work on our voice-of-customer topic miner. Chained retrieval and generation steps with a popular orchestration library \u2014 and it handled 46k requests a day. Communicated clearly and delivered on time.",
+  "client_industry": "real estate",
+  "date": "2021-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:review:02",
+  "project_id": "ai_ml:p08",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 5,
+  "text": "Solid work on our defect detection pipeline. Fastapi \u2014 and it brought report refresh down to 16 minutes. Communicated clearly and delivered on time.",
+  "client_industry": "SaaS",
+  "date": "2024-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:review:03",
+  "project_id": "ai_ml:p04",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 4.5,
+  "text": "Solid work on our knowledge-base copilot. Opencv \u2014 and it cut manual work by 70%. Communicated clearly and delivered on time.",
+  "client_industry": "e-commerce",
+  "date": "2023-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:review:04",
+  "project_id": "ai_ml:p15",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 5,
+  "text": "Great work on our agentic research assistant. Opencv \u2014 and it cut manual work by 46%. Communicated clearly and delivered on time.",
+  "client_industry": "SaaS",
+  "date": "2024-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:review:05",
+  "project_id": "ai_ml:p06",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 5,
+  "text": "Very good work on our sales call summariser. Pinecone \u2014 and it reached 21% accuracy on the held-out set. Communicated clearly and delivered on time.",
+  "client_industry": "media",
+  "date": "2023-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:review:06",
+  "project_id": "ai_ml:p05",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 4.8,
+  "text": "Solid work on our product search reranker. Yolo \u2014 and it grew active users to 79k. Communicated clearly and delivered on time.",
+  "client_industry": "education",
+  "date": "2025-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:review:07",
+  "project_id": "ai_ml:p19",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 5,
+  "text": "Great work on our drone footage counter. Computer vision \u2014 and it cut cloud costs by 30%. Communicated clearly and delivered on time.",
+  "client_industry": "real estate",
+  "date": "2024-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:review:08",
+  "project_id": "ai_ml:p14",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 4.8,
+  "text": "Great work on our invoice ocr and parser. Classified support tickets by intent \u2014 and it grew active users to 75k. Communicated clearly and delivered on time.",
+  "client_industry": "fintech",
+  "date": "2023-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:review:09",
+  "project_id": "ai_ml:p11",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 5,
+  "text": "Great work on our recommendation engine. Llm \u2014 and it brought report refresh down to 11 minutes. Communicated clearly and delivered on time.",
+  "client_industry": "SaaS",
+  "date": "2020-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:review:10",
+  "project_id": "ai_ml:p12",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 5,
+  "text": "Excellent work on our lead qualification agent. Langchain \u2014 and it saved the team 20 hours a week. Communicated clearly and delivered on time.",
+  "client_industry": "real estate",
+  "date": "2019-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:review:11",
+  "project_id": "ai_ml:p17",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 4.8,
+  "text": "Great work on our fraud scoring api. Fine-tuned a pretrained encoder on the client's labelled tickets \u2014 and it lifted conversion by 22%. Communicated clearly and delivered on time.",
+  "client_industry": "e-commerce",
+  "date": "2024-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:review:12",
+  "project_id": "ai_ml:p01",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 4.8,
+  "text": "Solid work on our demand forecasting service. Apache airflow \u2014 and it handled 33k requests a day. Communicated clearly and delivered on time.",
+  "client_industry": "marketing agency",
+  "date": "2024-11-01",
+  "source": "synthetic"
+ },
+ {
+  "id": "ai_ml:review:13",
+  "project_id": "ai_ml:p03",
+  "type": "review",
+  "persona": "ai_ml",
+  "rating": 4.5,
+  "text": "Solid work on our llm evaluation harness. Xgboost \u2014 and it saved the team 25 hours a week. Communicated clearly and delivered on time.",
+  "client_industry": "fintech",
+  "date": "2021-11-01",
+  "source": "synthetic"
+ }
+]

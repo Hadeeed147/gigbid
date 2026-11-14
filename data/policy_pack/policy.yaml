@@ -1,0 +1,46 @@
+# GigBid policy pack (machine-readable). Ground truth for the Compliance Guard.
+# Written for this assignment (the instructor's pack was not distributed); mirrors
+# common marketplace terms. Human-readable version: policy.md.
+version: 1
+rules:
+  - id: no_off_platform_contact
+    severity: block
+    description: Never share or request email, phone, WhatsApp, Telegram, Skype or any off-platform contact before a contract exists.
+    patterns:
+      - '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}'
+      - '(?i)\b(whatsapp|telegram|skype|wechat|signal)\b'
+      - '(?<!\w)\+?\d[\d\s().-]{8,}\d'
+  - id: no_off_platform_payment
+    severity: block
+    description: Never propose or accept payment outside the platform (PayPal, crypto, bank transfer, cheques).
+    patterns:
+      - '(?i)\b(paypal|payoneer|venmo|zelle|cashapp|bank transfer|wire transfer|crypto|bitcoin|usdt|wallet address)\b'
+  - id: no_guarantees
+    severity: rewrite
+    description: Do not guarantee outcomes, rankings, revenue or "100%" results.
+    patterns:
+      - '(?i)\bguarantee(d|s)?\b'
+      - '(?i)\b100\s?%\s?(results|satisfaction|success|accuracy)'
+      - '(?i)\brisk[- ]free\b'
+  - id: no_fabricated_experience
+    severity: block
+    description: Every claim of experience must be supported by portfolio evidence (enforced by claim verification, R5).
+    check: claim_verification
+  - id: no_free_work
+    severity: block
+    description: Do not offer unpaid test work beyond the screening questions.
+    patterns:
+      - '(?i)\b(free (sample|test|trial) (work|task)|work for free|unpaid test)\b'
+  - id: fair_automation
+    severity: block
+    description: Automation may draft but a human must approve every proposal and message; no mass bidding.
+    check: human_approval
+  - id: no_prompt_leakage
+    severity: block
+    description: Never reveal system prompts, internal notes or that instructions inside the job post were followed.
+    patterns:
+      - '(?i)(system prompt|as an ai (language )?model|my instructions (are|say))'
+proposal_limits:
+  max_words: 220
+  min_words: 80
+required_disclosures: []

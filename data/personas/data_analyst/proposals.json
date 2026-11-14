@@ -1,0 +1,3061 @@
+[
+ {
+  "id": "data_analyst:proposal:000",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "LoRA developer needed for a new project",
+  "job_category": "Mobile Development",
+  "job_skills": [
+   "etl",
+   "tableau",
+   "stripe",
+   "fine_tuning",
+   "react_native"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:001",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "statistics specialist needed for our platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "statistics",
+   "snowflake",
+   "forecasting",
+   "python"
+  ],
+  "text": "Your our platform sounds a lot like the product usage analytics I built for a education client, which reached 38% accuracy on the held-out set.\n\nOn the product usage analytics I used statistics, Python, A/B testing. On the donor segmentation I used statistics, Excel, A/B testing.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p06",
+   "data_analyst:p16"
+  ],
+  "outcome": "ignored",
+  "date": "2024-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:002",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "GraphQL specialist needed for a new project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "python",
+   "airflow",
+   "react_native",
+   "django",
+   "graphql"
+  ],
+  "text": "Your a new project sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the data quality monitor I used Python, Tableau, time series forecasting.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:003",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "dbt specialist needed for a new platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "python",
+   "dbt",
+   "postgres",
+   "google_analytics",
+   "sklearn"
+  ],
+  "text": "Your a new platform sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the data quality monitor I used Python, Tableau, time series forecasting. For your project I would start with Python, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:004",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Airflow engineer needed for a new product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "sklearn",
+   "airflow",
+   "tableau",
+   "dbt",
+   "forecasting"
+  ],
+  "text": "Your a new product sounds a lot like the supply chain cost model I built for a logistics client, which reduced response time from 17 hours to 18 minutes.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the executive revenue dashboard I used A/B testing, Tableau, Airflow. For your project I would start with scikit-learn, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2026-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:005",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Looker developer needed for our project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "sql",
+   "etl",
+   "sklearn",
+   "looker"
+  ],
+  "text": "Your our project sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the customer churn analysis I used Looker, SQL, Power BI. For your project I would start with SQL, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p07"
+  ],
+  "outcome": "ignored",
+  "date": "2022-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:006",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "pandas specialist needed for our pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "pandas",
+   "django"
+  ],
+  "text": "Your our pipeline sounds a lot like the survey insights report I built for a logistics client, which saved the team 24 hours a week.\n\nOn the survey insights report I used pandas, Power BI, time series forecasting. On the warehouse modelling layer I used A/B testing, ETL, pandas. For your project I would start with pandas, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p05",
+   "data_analyst:p08"
+  ],
+  "outcome": "ignored",
+  "date": "2022-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:007",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Power BI expert needed for an existing pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "powerbi",
+   "react_native",
+   "fine_tuning"
+  ],
+  "text": "Your an existing pipeline sounds a lot like the web funnel analysis I built for a manufacturing client, which cut manual work by 65%.\n\nOn the web funnel analysis I used Snowflake, Tableau, Power BI. On the survey insights report I used pandas, Power BI, time series forecasting. For your project I would start with Power BI, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p02",
+   "data_analyst:p05"
+  ],
+  "outcome": "won",
+  "date": "2022-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:008",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "dbt engineer needed for a new product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "powerbi",
+   "dbt",
+   "graphql",
+   "computer_vision",
+   "django"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:009",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Build something smart for our team",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "airflow",
+   "excel",
+   "sklearn",
+   "tableau"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the marketing attribution model I used Excel, statistics, scikit-learn.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p10"
+  ],
+  "outcome": "ignored",
+  "date": "2023-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:010",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Power BI developer needed for an existing platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "powerbi",
+   "stripe",
+   "django"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the web funnel analysis I used Snowflake, Tableau, Power BI. On the survey insights report I used pandas, Power BI, time series forecasting.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p02",
+   "data_analyst:p05"
+  ],
+  "outcome": "ignored",
+  "date": "2022-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:011",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Help us make sense of our data",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "looker",
+   "python",
+   "airflow",
+   "forecasting",
+   "statistics"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:012",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Tableau engineer needed for a new pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "tableau",
+   "python",
+   "google_analytics"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the data quality monitor I used Python, Tableau, time series forecasting.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2023-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:013",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Airflow engineer needed for our dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "ab_testing",
+   "airflow",
+   "stripe",
+   "computer_vision",
+   "django"
+  ],
+  "text": "Your our dashboard sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the ops sla tracker I used pandas, A/B testing, scikit-learn.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p17"
+  ],
+  "outcome": "won",
+  "date": "2025-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:014",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "GraphQL developer needed for an existing product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "google_analytics",
+   "graphql"
+  ],
+  "text": "Your an existing product sounds a lot like the inventory kpi report I built for a manufacturing client, which reduced response time from 4 hours to 3 minutes.\n\nOn the inventory kpi report I used Google Analytics, pandas, Excel. On the supply chain cost model I used time series forecasting, dbt, Tableau. For your project I would start with Google Analytics, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p14",
+   "data_analyst:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2024-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:015",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Tableau engineer needed for our platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "google_analytics",
+   "snowflake",
+   "excel",
+   "tableau",
+   "airflow",
+   "powerbi"
+  ],
+  "text": "Your our platform sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the web funnel analysis I used Snowflake, Tableau, Power BI. For your project I would start with Google Analytics, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p02"
+  ],
+  "outcome": "won",
+  "date": "2025-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:016",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "pandas specialist needed for a new dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "sql",
+   "pandas",
+   "powerbi"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the survey insights report I used pandas, Power BI, time series forecasting. On the customer churn analysis I used Looker, SQL, Power BI.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p05",
+   "data_analyst:p07"
+  ],
+  "outcome": "replied",
+  "date": "2025-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:017",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Power BI expert needed for an existing pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "sql",
+   "powerbi",
+   "google_analytics"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:018",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "MongoDB engineer needed for our pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "computer_vision",
+   "mongodb"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:019",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "time series forecasting specialist needed for an existing product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "looker",
+   "forecasting"
+  ],
+  "text": "Your an existing product sounds a lot like the finance month-end automation I built for a non-profit client, which lifted conversion by 18%.\n\nOn the finance month-end automation I used Python, Looker, dbt. On the supply chain cost model I used time series forecasting, dbt, Tableau. For your project I would start with Looker, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p18",
+   "data_analyst:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2023-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:020",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "dbt engineer needed for an existing platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "snowflake",
+   "google_analytics",
+   "postgres",
+   "powerbi",
+   "dbt"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the web funnel analysis I used Snowflake, Tableau, Power BI. On the loan portfolio report I used Excel, Power BI, Python.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p02",
+   "data_analyst:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:021",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "statistics expert needed for a new dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "airflow",
+   "sql",
+   "statistics"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "won",
+  "date": "2025-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:022",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "pandas developer needed for our platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "statistics",
+   "sql",
+   "sklearn",
+   "pandas",
+   "airflow"
+  ],
+  "text": "Your our platform sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the ops sla tracker I used pandas, A/B testing, scikit-learn.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p17"
+  ],
+  "outcome": "ignored",
+  "date": "2022-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:023",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Stripe engineer needed for a new pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "stripe",
+   "computer_vision",
+   "react_native",
+   "fine_tuning"
+  ],
+  "text": "Your a new pipeline sounds a lot like the supply chain cost model I built for a logistics client, which reduced response time from 17 hours to 18 minutes.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the executive revenue dashboard I used A/B testing, Tableau, Airflow.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2022-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:024",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "ETL engineer needed for a new pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "statistics",
+   "etl",
+   "excel",
+   "airflow",
+   "ab_testing"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\nOn the product usage analytics I used statistics, Python, A/B testing. On the donor segmentation I used statistics, Excel, A/B testing.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p06",
+   "data_analyst:p16"
+  ],
+  "outcome": "ignored",
+  "date": "2024-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:025",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Help us make sense of our data",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "airflow",
+   "excel",
+   "sklearn"
+  ],
+  "text": "Your Help us make sense of our data sounds a lot like the marketing attribution model I built for a non-profit client, which cut cloud costs by 32%.\n\nOn the marketing attribution model I used Excel, statistics, scikit-learn. On the ops sla tracker I used pandas, A/B testing, scikit-learn. For your project I would start with Airflow, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p10",
+   "data_analyst:p17"
+  ],
+  "outcome": "ignored",
+  "date": "2022-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:026",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Build something smart for our team",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "etl",
+   "dbt"
+  ],
+  "text": "Your our team sounds a lot like the warehouse modelling layer I built for a logistics client, which cut cloud costs by 62%.\n\nOn the warehouse modelling layer I used A/B testing, ETL, pandas. On the ad spend roi dashboard I used Snowflake, SQL, Tableau.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p08",
+   "data_analyst:p19"
+  ],
+  "outcome": "won",
+  "date": "2023-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:027",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Airflow developer needed for a new project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "ab_testing",
+   "forecasting",
+   "airflow"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:028",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Help us make sense of our data",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "forecasting",
+   "python",
+   "etl",
+   "google_analytics",
+   "tableau",
+   "sklearn"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:029",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Stripe engineer needed for a new project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "dbt",
+   "stripe",
+   "mongodb"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the web funnel analysis I used Snowflake, Tableau, Power BI.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2025-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:030",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "MongoDB specialist needed for a new product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "ab_testing",
+   "tableau",
+   "stripe",
+   "mongodb",
+   "fine_tuning"
+  ],
+  "text": "Your a new product sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the supply chain cost model I used time series forecasting, dbt, Tableau. For your project I would start with A/B testing, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2022-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:031",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Excel developer needed for our project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "forecasting",
+   "sql",
+   "ab_testing",
+   "excel",
+   "airflow",
+   "pandas"
+  ],
+  "text": "Your our project sounds a lot like the sales performance dashboard I built for a retail client, which cut cloud costs by 32%.\n\nOn the sales performance dashboard I used Excel, pandas, SQL. On the donor segmentation I used statistics, Excel, A/B testing. For your project I would start with time series forecasting, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p12",
+   "data_analyst:p16"
+  ],
+  "outcome": "replied",
+  "date": "2026-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:032",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "A/B testing expert needed for a new platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "ab_testing",
+   "postgres",
+   "dbt"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the warehouse modelling layer I used A/B testing, ETL, pandas. On the ops sla tracker I used pandas, A/B testing, scikit-learn.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p08",
+   "data_analyst:p17"
+  ],
+  "outcome": "ignored",
+  "date": "2023-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:033",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Tableau developer needed for an existing product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "excel",
+   "tableau",
+   "pandas",
+   "dbt",
+   "powerbi"
+  ],
+  "text": "Your an existing product sounds a lot like the loan portfolio report I built for a healthcare client, which handled 17k requests a day.\n\nOn the loan portfolio report I used Excel, Power BI, Python. On the web funnel analysis I used Snowflake, Tableau, Power BI. For your project I would start with Excel, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p15",
+   "data_analyst:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2025-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:034",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Django developer needed for a new pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "pandas",
+   "snowflake",
+   "computer_vision",
+   "django",
+   "graphql"
+  ],
+  "text": "Your a new pipeline sounds a lot like the store demand forecast I built for a logistics client, which reached 24% accuracy on the held-out set.\n\nOn the store demand forecast I used Snowflake, pandas, Airflow. On the executive revenue dashboard I used A/B testing, Tableau, Airflow.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p13",
+   "data_analyst:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2022-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:035",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Looker specialist needed for a new platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "looker",
+   "powerbi",
+   "statistics",
+   "forecasting",
+   "python",
+   "ab_testing"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the product usage analytics I used statistics, Python, A/B testing. On the survey insights report I used pandas, Power BI, time series forecasting.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p06",
+   "data_analyst:p05"
+  ],
+  "outcome": "replied",
+  "date": "2023-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:036",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "scikit-learn specialist needed for our product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "python",
+   "forecasting",
+   "etl",
+   "looker",
+   "sklearn"
+  ],
+  "text": "Your our product sounds a lot like the product usage analytics I built for a education client, which reached 38% accuracy on the held-out set.\n\nOn the product usage analytics I used statistics, Python, A/B testing. On the finance month-end automation I used Python, Looker, dbt. For your project I would start with Python, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p06",
+   "data_analyst:p18"
+  ],
+  "outcome": "replied",
+  "date": "2022-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:037",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Looker expert needed for an existing pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "postgres",
+   "looker",
+   "snowflake",
+   "statistics"
+  ],
+  "text": "Your an existing pipeline sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the cohort retention model I used statistics, SQL, A/B testing.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p09"
+  ],
+  "outcome": "replied",
+  "date": "2025-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:038",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "statistics developer needed for a new product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "etl",
+   "airflow",
+   "postgres",
+   "statistics",
+   "pandas"
+  ],
+  "text": "Your a new product sounds a lot like the ops sla tracker I built for a travel client, which brought report refresh down to 14 minutes.\n\nOn the ops sla tracker I used pandas, A/B testing, scikit-learn. On the pricing elasticity analysis I used statistics, SQL, time series forecasting.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p17",
+   "data_analyst:p03"
+  ],
+  "outcome": "replied",
+  "date": "2025-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:039",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "dbt specialist needed for our product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "ab_testing",
+   "sql",
+   "etl",
+   "airflow",
+   "dbt"
+  ],
+  "text": "Your our product sounds a lot like the warehouse modelling layer I built for a logistics client, which cut cloud costs by 62%.\n\nOn the warehouse modelling layer I used A/B testing, ETL, pandas. On the ad spend roi dashboard I used Snowflake, SQL, Tableau. For your project I would start with A/B testing, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p08",
+   "data_analyst:p19"
+  ],
+  "outcome": "won",
+  "date": "2026-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:040",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Power BI specialist needed for an existing product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "powerbi",
+   "sql",
+   "statistics",
+   "airflow"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:041",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "ETL developer needed for a new platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "sql",
+   "etl",
+   "sklearn",
+   "looker"
+  ],
+  "text": "Your a new platform sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the customer churn analysis I used Looker, SQL, Power BI. For your project I would start with SQL, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p07"
+  ],
+  "outcome": "won",
+  "date": "2026-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:042",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Tableau developer needed for our product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "tableau",
+   "airflow"
+  ],
+  "text": "Your our product sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the supply chain cost model I used time series forecasting, dbt, Tableau. For your project I would start with Tableau, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p00"
+  ],
+  "outcome": "won",
+  "date": "2024-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:043",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "statistics expert needed for a new project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "python",
+   "statistics"
+  ],
+  "text": "Your a new project sounds a lot like the product usage analytics I built for a education client, which reached 38% accuracy on the held-out set.\n\nOn the product usage analytics I used statistics, Python, A/B testing. On the executive revenue dashboard I used A/B testing, Tableau, Airflow. For your project I would start with Python, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p06",
+   "data_analyst:p01"
+  ],
+  "outcome": "won",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:044",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Django expert needed for a new platform",
+  "job_category": "E-commerce",
+  "job_skills": [
+   "wordpress",
+   "react_native",
+   "shopify",
+   "django",
+   "stripe"
+  ],
+  "text": "Your a new platform sounds a lot like the supply chain cost model I built for a logistics client, which reduced response time from 17 hours to 18 minutes.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the executive revenue dashboard I used A/B testing, Tableau, Airflow. For your project I would start with WordPress, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p01"
+  ],
+  "outcome": "won",
+  "date": "2022-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:045",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Power BI engineer needed for our platform",
+  "job_category": "Web Development",
+  "job_skills": [
+   "postgres",
+   "powerbi"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the web funnel analysis I used Snowflake, Tableau, Power BI. On the pricing elasticity analysis I used statistics, SQL, time series forecasting.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p02",
+   "data_analyst:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:046",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "scikit-learn engineer needed for a new project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "sklearn",
+   "wordpress"
+  ],
+  "text": "Your a new project sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the marketing attribution model I used Excel, statistics, scikit-learn. For your project I would start with scikit-learn, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p10"
+  ],
+  "outcome": "ignored",
+  "date": "2022-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:047",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "WordPress developer needed for our product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "fine_tuning",
+   "stripe",
+   "wordpress",
+   "computer_vision",
+   "django"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:048",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Build something smart for our team",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "etl",
+   "airflow"
+  ],
+  "text": "Your our team sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the product usage analytics I used statistics, Python, A/B testing. For your project I would start with ETL, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p06"
+  ],
+  "outcome": "replied",
+  "date": "2024-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:049",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "GraphQL expert needed for a new project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "google_analytics",
+   "stripe",
+   "graphql"
+  ],
+  "text": "Your a new project sounds a lot like the inventory kpi report I built for a manufacturing client, which reduced response time from 4 hours to 3 minutes.\n\nOn the inventory kpi report I used Google Analytics, pandas, Excel. On the supply chain cost model I used time series forecasting, dbt, Tableau.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p14",
+   "data_analyst:p00"
+  ],
+  "outcome": "replied",
+  "date": "2026-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:050",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Snowflake specialist needed for our project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "dbt",
+   "snowflake"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:051",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "ETL engineer needed for our dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "etl",
+   "postgres",
+   "graphql",
+   "wordpress"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:052",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "OpenCV developer needed for a new project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "fine_tuning",
+   "react_native",
+   "graphql",
+   "computer_vision",
+   "shopify"
+  ],
+  "text": "Your a new project sounds a lot like the supply chain cost model I built for a logistics client, which reduced response time from 17 hours to 18 minutes.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the executive revenue dashboard I used A/B testing, Tableau, Airflow.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2025-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:053",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Looker expert needed for our product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "sql",
+   "looker",
+   "computer_vision",
+   "shopify"
+  ],
+  "text": "Your our product sounds a lot like the customer churn analysis I built for a healthcare client, which cut manual work by 40%.\n\nOn the customer churn analysis I used Looker, SQL, Power BI. On the cohort retention model I used statistics, SQL, A/B testing. For your project I would start with SQL, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p07",
+   "data_analyst:p09"
+  ],
+  "outcome": "won",
+  "date": "2024-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:054",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "statistics engineer needed for our product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "etl",
+   "python",
+   "statistics",
+   "excel"
+  ],
+  "text": "Your our product sounds a lot like the product usage analytics I built for a education client, which reached 38% accuracy on the held-out set.\n\nOn the product usage analytics I used statistics, Python, A/B testing. On the warehouse modelling layer I used A/B testing, ETL, pandas. For your project I would start with ETL, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p06",
+   "data_analyst:p08"
+  ],
+  "outcome": "replied",
+  "date": "2026-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:055",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "WordPress expert needed for an existing product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "pandas",
+   "excel",
+   "computer_vision",
+   "fine_tuning",
+   "wordpress"
+  ],
+  "text": "Your an existing product sounds a lot like the sales performance dashboard I built for a retail client, which cut cloud costs by 32%.\n\nOn the sales performance dashboard I used Excel, pandas, SQL. On the inventory kpi report I used Google Analytics, pandas, Excel. For your project I would start with pandas, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p12",
+   "data_analyst:p14"
+  ],
+  "outcome": "ignored",
+  "date": "2026-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:056",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "scikit-learn developer needed for an existing product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "sklearn",
+   "excel",
+   "etl",
+   "ab_testing",
+   "looker",
+   "forecasting"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:057",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "scikit-learn specialist needed for an existing dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "sql",
+   "python",
+   "excel",
+   "sklearn",
+   "postgres",
+   "forecasting"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the data quality monitor I used Python, Tableau, time series forecasting.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2023-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:058",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Looker specialist needed for a new product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "looker",
+   "tableau",
+   "excel"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:059",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "React Native engineer needed for our platform",
+  "job_category": "Mobile Development",
+  "job_skills": [
+   "react_native",
+   "wordpress",
+   "stripe"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:060",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "LoRA expert needed for our platform",
+  "job_category": "E-commerce",
+  "job_skills": [
+   "shopify",
+   "fine_tuning",
+   "graphql",
+   "wordpress"
+  ],
+  "text": "Your our platform sounds a lot like the supply chain cost model I built for a logistics client, which reduced response time from 17 hours to 18 minutes.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the executive revenue dashboard I used A/B testing, Tableau, Airflow. For your project I would start with Shopify, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2023-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:061",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "A/B testing expert needed for our product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "tableau",
+   "ab_testing",
+   "sklearn"
+  ],
+  "text": "Your our product sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the ops sla tracker I used pandas, A/B testing, scikit-learn. For your project I would start with Tableau, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p17"
+  ],
+  "outcome": "ignored",
+  "date": "2022-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:062",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Tableau specialist needed for an existing project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "powerbi",
+   "tableau",
+   "pandas",
+   "sql",
+   "dbt",
+   "snowflake"
+  ],
+  "text": "Your an existing project sounds a lot like the web funnel analysis I built for a manufacturing client, which cut manual work by 65%.\n\nOn the web funnel analysis I used Snowflake, Tableau, Power BI. On the ad spend roi dashboard I used Snowflake, SQL, Tableau.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p02",
+   "data_analyst:p19"
+  ],
+  "outcome": "ignored",
+  "date": "2024-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:063",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Snowflake engineer needed for our platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "tableau",
+   "statistics",
+   "ab_testing",
+   "google_analytics",
+   "snowflake"
+  ],
+  "text": "Your our platform sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the donor segmentation I used statistics, Excel, A/B testing.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p16"
+  ],
+  "outcome": "ignored",
+  "date": "2024-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:064",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "MongoDB developer needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "postgres",
+   "snowflake",
+   "mongodb",
+   "react_native"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the web funnel analysis I used Snowflake, Tableau, Power BI.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2022-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:065",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Google Analytics specialist needed for an existing pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "ab_testing",
+   "etl",
+   "python",
+   "sklearn",
+   "google_analytics"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\nOn the product usage analytics I used statistics, Python, A/B testing. On the warehouse modelling layer I used A/B testing, ETL, pandas.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p06",
+   "data_analyst:p08"
+  ],
+  "outcome": "replied",
+  "date": "2025-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:066",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Google Analytics expert needed for an existing project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "python",
+   "dbt",
+   "google_analytics"
+  ],
+  "text": "Your an existing project sounds a lot like the warehouse modelling layer I built for a logistics client, which cut cloud costs by 62%.\n\nOn the warehouse modelling layer I used A/B testing, ETL, pandas. On the loan portfolio report I used Excel, Power BI, Python. For your project I would start with Python, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p08",
+   "data_analyst:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2025-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:067",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "time series forecasting expert needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "sklearn",
+   "forecasting"
+  ],
+  "text": "Your an existing platform sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the supply chain cost model I used time series forecasting, dbt, Tableau.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p00"
+  ],
+  "outcome": "replied",
+  "date": "2025-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:068",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "ETL developer needed for a new product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "etl",
+   "graphql",
+   "react_native"
+  ],
+  "text": "Your a new product sounds a lot like the product usage analytics I built for a education client, which reached 38% accuracy on the held-out set.\n\nOn the product usage analytics I used statistics, Python, A/B testing. On the warehouse modelling layer I used A/B testing, ETL, pandas.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p06",
+   "data_analyst:p08"
+  ],
+  "outcome": "ignored",
+  "date": "2025-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:069",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Tableau developer needed for our dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "postgres",
+   "tableau"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the data quality monitor I used Python, Tableau, time series forecasting. On the supply chain cost model I used time series forecasting, dbt, Tableau.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p04",
+   "data_analyst:p00"
+  ],
+  "outcome": "won",
+  "date": "2025-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:070",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "GraphQL engineer needed for our product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "sklearn",
+   "excel",
+   "graphql",
+   "django"
+  ],
+  "text": "Your our product sounds a lot like the marketing attribution model I built for a non-profit client, which cut cloud costs by 32%.\n\nOn the marketing attribution model I used Excel, statistics, scikit-learn. On the pricing elasticity analysis I used statistics, SQL, time series forecasting. For your project I would start with scikit-learn, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p10",
+   "data_analyst:p03"
+  ],
+  "outcome": "ignored",
+  "date": "2022-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:071",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Power BI specialist needed for our product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "ab_testing",
+   "powerbi",
+   "sklearn",
+   "looker",
+   "pandas"
+  ],
+  "text": "Your our product sounds a lot like the ops sla tracker I built for a travel client, which brought report refresh down to 14 minutes.\n\nOn the ops sla tracker I used pandas, A/B testing, scikit-learn. On the survey insights report I used pandas, Power BI, time series forecasting. For your project I would start with A/B testing, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p17",
+   "data_analyst:p05"
+  ],
+  "outcome": "ignored",
+  "date": "2023-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:072",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Django developer needed for an existing product",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "python",
+   "sql",
+   "react_native",
+   "django"
+  ],
+  "text": "Your an existing product sounds a lot like the finance month-end automation I built for a non-profit client, which lifted conversion by 18%.\n\nOn the finance month-end automation I used Python, Looker, dbt. On the executive revenue dashboard I used A/B testing, Tableau, Airflow.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p18",
+   "data_analyst:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2026-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:073",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "LoRA specialist needed for a new dashboard",
+  "job_category": "Web Development",
+  "job_skills": [
+   "postgres",
+   "etl",
+   "shopify",
+   "fine_tuning",
+   "stripe"
+  ],
+  "text": "Your a new dashboard sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the data quality monitor I used Python, Tableau, time series forecasting.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2026-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:074",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "LoRA engineer needed for a new platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "pandas",
+   "fine_tuning"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:075",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Looker specialist needed for a new platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "looker",
+   "computer_vision",
+   "graphql"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the customer churn analysis I used Looker, SQL, Power BI. On the cohort retention model I used statistics, SQL, A/B testing.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p07",
+   "data_analyst:p09"
+  ],
+  "outcome": "ignored",
+  "date": "2022-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:076",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "ETL developer needed for a new platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "etl",
+   "forecasting"
+  ],
+  "text": "Your a new platform sounds a lot like the product usage analytics I built for a education client, which reached 38% accuracy on the held-out set.\n\nOn the product usage analytics I used statistics, Python, A/B testing. On the supply chain cost model I used time series forecasting, dbt, Tableau.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p06",
+   "data_analyst:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:077",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Looker expert needed for a new platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "postgres",
+   "etl",
+   "dbt",
+   "looker",
+   "python"
+  ],
+  "text": "Your a new platform sounds a lot like the warehouse modelling layer I built for a logistics client, which cut cloud costs by 62%.\n\nOn the warehouse modelling layer I used A/B testing, ETL, pandas. On the finance month-end automation I used Python, Looker, dbt. For your project I would start with PostgreSQL, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p08",
+   "data_analyst:p18"
+  ],
+  "outcome": "ignored",
+  "date": "2024-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:078",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Looker specialist needed for a new product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "forecasting",
+   "ab_testing",
+   "tableau",
+   "python",
+   "looker"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:079",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Excel specialist needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "excel",
+   "forecasting"
+  ],
+  "text": "Your an existing platform sounds a lot like the donor segmentation I built for a healthcare client, which brought report refresh down to 18 minutes.\n\nOn the donor segmentation I used statistics, Excel, A/B testing. On the supply chain cost model I used time series forecasting, dbt, Tableau. For your project I would start with Excel, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p16",
+   "data_analyst:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2022-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:080",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "scikit-learn developer needed for our product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "tableau",
+   "sklearn",
+   "postgres"
+  ],
+  "text": "Your our product sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the data quality monitor I used Python, Tableau, time series forecasting.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p04"
+  ],
+  "outcome": "replied",
+  "date": "2022-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:081",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "dbt specialist needed for an existing platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "dbt",
+   "airflow",
+   "powerbi",
+   "postgres",
+   "sklearn"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:082",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "React Native specialist needed for an existing dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "computer_vision",
+   "wordpress",
+   "react_native"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the supply chain cost model I built for a logistics client, which reduced response time from 17 hours to 18 minutes.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the executive revenue dashboard I used A/B testing, Tableau, Airflow. For your project I would start with OpenCV, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p01"
+  ],
+  "outcome": "won",
+  "date": "2025-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:083",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "ETL specialist needed for an existing product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "postgres",
+   "etl"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:084",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "scikit-learn developer needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "sklearn",
+   "dbt",
+   "computer_vision",
+   "stripe",
+   "mongodb"
+  ],
+  "text": "Your an existing platform sounds a lot like the supply chain cost model I built for a logistics client, which reduced response time from 17 hours to 18 minutes.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the web funnel analysis I used Snowflake, Tableau, Power BI. For your project I would start with scikit-learn, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p02"
+  ],
+  "outcome": "replied",
+  "date": "2023-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:085",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "time series forecasting developer needed for our platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "forecasting",
+   "postgres",
+   "google_analytics"
+  ],
+  "text": "Your our platform sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the data quality monitor I used Python, Tableau, time series forecasting. For your project I would start with time series forecasting, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p04"
+  ],
+  "outcome": "won",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:086",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Snowflake developer needed for a new dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "tableau",
+   "snowflake",
+   "sklearn",
+   "airflow",
+   "statistics"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:087",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "scikit-learn specialist needed for an existing dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "sklearn",
+   "excel",
+   "etl",
+   "python",
+   "snowflake",
+   "dbt"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the warehouse modelling layer I built for a logistics client, which cut cloud costs by 62%.\n\nOn the warehouse modelling layer I used A/B testing, ETL, pandas. On the loan portfolio report I used Excel, Power BI, Python. For your project I would start with scikit-learn, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p08",
+   "data_analyst:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2026-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:088",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "React Native specialist needed for our project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "sql",
+   "etl",
+   "ab_testing",
+   "fine_tuning",
+   "graphql",
+   "react_native"
+  ],
+  "text": "Your our project sounds a lot like the product usage analytics I built for a education client, which reached 38% accuracy on the held-out set.\n\nOn the product usage analytics I used statistics, Python, A/B testing. On the warehouse modelling layer I used A/B testing, ETL, pandas.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p06",
+   "data_analyst:p08"
+  ],
+  "outcome": "won",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:089",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "time series forecasting expert needed for our platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "postgres",
+   "google_analytics",
+   "python",
+   "forecasting",
+   "pandas"
+  ],
+  "text": "Your our platform sounds a lot like the data quality monitor I built for a education client, which brought report refresh down to 11 minutes.\n\nOn the data quality monitor I used Python, Tableau, time series forecasting. On the survey insights report I used pandas, Power BI, time series forecasting.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p04",
+   "data_analyst:p05"
+  ],
+  "outcome": "ignored",
+  "date": "2025-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:090",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "dbt developer needed for a new dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "excel",
+   "dbt",
+   "django",
+   "computer_vision"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the loan portfolio report I used Excel, Power BI, Python. On the supply chain cost model I used time series forecasting, dbt, Tableau.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p15",
+   "data_analyst:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:091",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "statistics developer needed for a new product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "looker",
+   "statistics",
+   "dbt",
+   "sklearn"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the cohort retention model I used statistics, SQL, A/B testing.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p09"
+  ],
+  "outcome": "replied",
+  "date": "2023-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:092",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Power BI expert needed for a new project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "looker",
+   "postgres",
+   "excel",
+   "powerbi",
+   "sql",
+   "python"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:093",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Tableau developer needed for our project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "tableau",
+   "google_analytics",
+   "airflow"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:094",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Power BI expert needed for an existing project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "looker",
+   "powerbi"
+  ],
+  "text": "Your an existing project sounds a lot like the customer churn analysis I built for a healthcare client, which cut manual work by 40%.\n\nOn the customer churn analysis I used Looker, SQL, Power BI. On the web funnel analysis I used Snowflake, Tableau, Power BI. For your project I would start with Looker, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p07",
+   "data_analyst:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2024-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:095",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Excel specialist needed for a new product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "forecasting",
+   "airflow",
+   "python",
+   "etl",
+   "excel",
+   "tableau"
+  ],
+  "text": "Your a new product sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the data quality monitor I used Python, Tableau, time series forecasting.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2023-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:096",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Excel developer needed for our platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "excel",
+   "snowflake",
+   "ab_testing",
+   "etl"
+  ],
+  "text": "Your our platform sounds a lot like the donor segmentation I built for a healthcare client, which brought report refresh down to 18 minutes.\n\nOn the donor segmentation I used statistics, Excel, A/B testing. On the executive revenue dashboard I used A/B testing, Tableau, Airflow. For your project I would start with Excel, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p16",
+   "data_analyst:p01"
+  ],
+  "outcome": "replied",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:097",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Looker developer needed for a new pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "airflow",
+   "tableau",
+   "looker",
+   "snowflake",
+   "python"
+  ],
+  "text": "Your a new pipeline sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the web funnel analysis I used Snowflake, Tableau, Power BI. For your project I would start with Airflow, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:098",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "WordPress developer needed for a new product",
+  "job_category": "Web Development",
+  "job_skills": [
+   "graphql",
+   "wordpress"
+  ],
+  "text": "Your a new product sounds a lot like the supply chain cost model I built for a logistics client, which reduced response time from 17 hours to 18 minutes.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the executive revenue dashboard I used A/B testing, Tableau, Airflow. For your project I would start with GraphQL, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2022-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:099",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Shopify expert needed for an existing platform",
+  "job_category": "E-commerce",
+  "job_skills": [
+   "shopify",
+   "wordpress"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the executive revenue dashboard I used A/B testing, Tableau, Airflow.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2026-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:100",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "dbt engineer needed for a new dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "dbt",
+   "looker",
+   "google_analytics",
+   "forecasting"
+  ],
+  "text": "Your a new dashboard sounds a lot like the finance month-end automation I built for a non-profit client, which lifted conversion by 18%.\n\nOn the finance month-end automation I used Python, Looker, dbt. On the supply chain cost model I used time series forecasting, dbt, Tableau. For your project I would start with dbt, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p18",
+   "data_analyst:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2025-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:101",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "statistics specialist needed for a new platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "dbt",
+   "statistics",
+   "django",
+   "wordpress",
+   "computer_vision"
+  ],
+  "text": "Your a new platform sounds a lot like the supply chain cost model I built for a logistics client, which reduced response time from 17 hours to 18 minutes.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the web funnel analysis I used Snowflake, Tableau, Power BI.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2025-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:102",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "ETL expert needed for an existing dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "snowflake",
+   "excel",
+   "etl",
+   "sklearn",
+   "airflow"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:103",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Tableau engineer needed for a new dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "snowflake",
+   "tableau"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the web funnel analysis I used Snowflake, Tableau, Power BI.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p02"
+  ],
+  "outcome": "ignored",
+  "date": "2023-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:104",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Snowflake specialist needed for an existing project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "powerbi",
+   "dbt",
+   "sklearn",
+   "python",
+   "snowflake",
+   "sql"
+  ],
+  "text": "Your an existing project sounds a lot like the web funnel analysis I built for a manufacturing client, which cut manual work by 65%.\n\nOn the web funnel analysis I used Snowflake, Tableau, Power BI. On the loan portfolio report I used Excel, Power BI, Python.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p02",
+   "data_analyst:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:105",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "time series forecasting expert needed for our pipeline",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "forecasting",
+   "pandas",
+   "dbt",
+   "react_native",
+   "fine_tuning",
+   "computer_vision"
+  ],
+  "text": "Your our pipeline sounds a lot like the supply chain cost model I built for a logistics client, which reduced response time from 17 hours to 18 minutes.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the survey insights report I used pandas, Power BI, time series forecasting. For your project I would start with time series forecasting, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p05"
+  ],
+  "outcome": "ignored",
+  "date": "2026-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:106",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "A/B testing developer needed for an existing pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "dbt",
+   "tableau",
+   "etl",
+   "forecasting",
+   "snowflake",
+   "ab_testing"
+  ],
+  "text": "Your an existing pipeline sounds a lot like the ad spend roi dashboard I built for a legal client, which lifted conversion by 52%.\n\nOn the ad spend roi dashboard I used Snowflake, SQL, Tableau. On the supply chain cost model I used time series forecasting, dbt, Tableau.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p19",
+   "data_analyst:p00"
+  ],
+  "outcome": "won",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:107",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "A/B testing engineer needed for our platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "google_analytics",
+   "dbt",
+   "ab_testing",
+   "statistics"
+  ],
+  "text": "Your our platform sounds a lot like the product usage analytics I built for a education client, which reached 38% accuracy on the held-out set.\n\nOn the product usage analytics I used statistics, Python, A/B testing. On the warehouse modelling layer I used A/B testing, ETL, pandas. For your project I would start with Google Analytics, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p06",
+   "data_analyst:p08"
+  ],
+  "outcome": "replied",
+  "date": "2025-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:108",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Looking for an expert for an ongoing project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "python",
+   "google_analytics",
+   "forecasting",
+   "statistics"
+  ],
+  "text": "Your an ongoing project sounds a lot like the product usage analytics I built for a education client, which reached 38% accuracy on the held-out set.\n\nOn the product usage analytics I used statistics, Python, A/B testing. On the pricing elasticity analysis I used statistics, SQL, time series forecasting. For your project I would start with Python, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p06",
+   "data_analyst:p03"
+  ],
+  "outcome": "won",
+  "date": "2022-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:109",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Need help improving our internal process",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "etl",
+   "snowflake",
+   "dbt",
+   "postgres",
+   "airflow",
+   "pandas"
+  ],
+  "text": "Your Need help improving our internal process sounds a lot like the warehouse modelling layer I built for a logistics client, which cut cloud costs by 62%.\n\nOn the warehouse modelling layer I used A/B testing, ETL, pandas. On the store demand forecast I used Snowflake, pandas, Airflow.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p08",
+   "data_analyst:p13"
+  ],
+  "outcome": "ignored",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:110",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "WordPress engineer needed for our project",
+  "job_category": "Mobile Development",
+  "job_skills": [
+   "fine_tuning",
+   "wordpress",
+   "stripe",
+   "react_native"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the executive revenue dashboard I used A/B testing, Tableau, Airflow.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2026-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:111",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Google Analytics specialist needed for an existing pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "python",
+   "sklearn",
+   "powerbi",
+   "airflow",
+   "google_analytics"
+  ],
+  "text": "Your an existing pipeline sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the survey insights report I used pandas, Power BI, time series forecasting. For your project I would start with Python, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p05"
+  ],
+  "outcome": "ignored",
+  "date": "2023-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:112",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Help us make sense of our data",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "pandas",
+   "python",
+   "statistics",
+   "sql",
+   "postgres"
+  ],
+  "text": "Your Help us make sense of our data sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the data quality monitor I used Python, Tableau, time series forecasting. For your project I would start with pandas, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p04"
+  ],
+  "outcome": "replied",
+  "date": "2026-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:113",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Google Analytics specialist needed for an existing dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "google_analytics",
+   "python",
+   "forecasting"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:114",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Looker expert needed for a new dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "sklearn",
+   "excel",
+   "ab_testing",
+   "looker",
+   "python"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:115",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Django developer needed for a new product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "sql",
+   "statistics",
+   "google_analytics",
+   "stripe",
+   "wordpress",
+   "django"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the cohort retention model I used statistics, SQL, A/B testing.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p09"
+  ],
+  "outcome": "ignored",
+  "date": "2022-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:116",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Shopify developer needed for our platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "ab_testing",
+   "shopify",
+   "fine_tuning"
+  ],
+  "text": "Your our platform sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the product usage analytics I used statistics, Python, A/B testing.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p06"
+  ],
+  "outcome": "ignored",
+  "date": "2023-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:117",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "LoRA specialist needed for our dashboard",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "tableau",
+   "excel",
+   "sklearn",
+   "computer_vision",
+   "fine_tuning",
+   "react_native"
+  ],
+  "text": "Your our dashboard sounds a lot like the marketing attribution model I built for a non-profit client, which cut cloud costs by 32%.\n\nOn the marketing attribution model I used Excel, statistics, scikit-learn. On the hr attrition study I used Tableau, Excel, statistics.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p10",
+   "data_analyst:p11"
+  ],
+  "outcome": "won",
+  "date": "2024-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:118",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Excel specialist needed for an existing platform",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "excel",
+   "forecasting",
+   "computer_vision",
+   "wordpress",
+   "stripe"
+  ],
+  "text": "Your an existing platform sounds a lot like the donor segmentation I built for a healthcare client, which brought report refresh down to 18 minutes.\n\nOn the donor segmentation I used statistics, Excel, A/B testing. On the supply chain cost model I used time series forecasting, dbt, Tableau. For your project I would start with Excel, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p16",
+   "data_analyst:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2024-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:119",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "A/B testing expert needed for a new dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "ab_testing",
+   "forecasting",
+   "pandas",
+   "excel",
+   "etl",
+   "powerbi"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:120",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "LoRA expert needed for an existing pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "statistics",
+   "etl",
+   "looker",
+   "stripe",
+   "fine_tuning",
+   "graphql"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:121",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "LoRA expert needed for our product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "python",
+   "statistics",
+   "sql",
+   "computer_vision",
+   "fine_tuning",
+   "django"
+  ],
+  "text": "Your our product sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the product usage analytics I used statistics, Python, A/B testing. For your project I would start with Python, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p06"
+  ],
+  "outcome": "ignored",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:122",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Airflow engineer needed for our platform",
+  "job_category": "Data Engineering",
+  "job_skills": [
+   "airflow",
+   "snowflake",
+   "dbt",
+   "etl"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\nOn the ad spend roi dashboard I used Snowflake, SQL, Tableau. On the executive revenue dashboard I used A/B testing, Tableau, Airflow.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p19",
+   "data_analyst:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2025-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:123",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Snowflake specialist needed for our dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "airflow",
+   "snowflake",
+   "google_analytics",
+   "excel",
+   "etl"
+  ],
+  "text": "Your our dashboard sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the store demand forecast I used Snowflake, pandas, Airflow. For your project I would start with Airflow, then a short review call after week one.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p13"
+  ],
+  "outcome": "ignored",
+  "date": "2022-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:124",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Excel specialist needed for a new project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "excel",
+   "postgres",
+   "python"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the data quality monitor I used Python, Tableau, time series forecasting. On the loan portfolio report I used Excel, Power BI, Python.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p04",
+   "data_analyst:p15"
+  ],
+  "outcome": "ignored",
+  "date": "2023-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:125",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Shopify engineer needed for a new product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "shopify",
+   "graphql",
+   "computer_vision",
+   "react_native"
+  ],
+  "text": "Your a new product sounds a lot like the supply chain cost model I built for a logistics client, which reduced response time from 17 hours to 18 minutes.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the executive revenue dashboard I used A/B testing, Tableau, Airflow.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:126",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "statistics specialist needed for our pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "statistics",
+   "postgres"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the data quality monitor I used Python, Tableau, time series forecasting.\n\nCan start Monday.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p04"
+  ],
+  "outcome": "ignored",
+  "date": "2026-07-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:127",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "WordPress specialist needed for our project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "looker",
+   "tableau",
+   "statistics",
+   "wordpress",
+   "computer_vision",
+   "react_native"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:128",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Google Analytics developer needed for a new platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "postgres",
+   "tableau",
+   "snowflake",
+   "statistics",
+   "powerbi",
+   "google_analytics"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\nOn the web funnel analysis I used Snowflake, Tableau, Power BI. On the executive revenue dashboard I used A/B testing, Tableau, Airflow.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p02",
+   "data_analyst:p01"
+  ],
+  "outcome": "replied",
+  "date": "2025-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:129",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "OpenCV specialist needed for a new project",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "react_native",
+   "computer_vision",
+   "fine_tuning"
+  ],
+  "text": "Your a new project sounds a lot like the supply chain cost model I built for a logistics client, which reduced response time from 17 hours to 18 minutes.\n\nOn the supply chain cost model I used time series forecasting, dbt, Tableau. On the executive revenue dashboard I used A/B testing, Tableau, Airflow. For your project I would start with React Native, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p00",
+   "data_analyst:p01"
+  ],
+  "outcome": "won",
+  "date": "2022-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:130",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Airflow developer needed for a new project",
+  "job_category": "E-commerce",
+  "job_skills": [
+   "snowflake",
+   "airflow",
+   "stripe",
+   "wordpress"
+  ],
+  "text": "Your a new project sounds a lot like the executive revenue dashboard I built for a education client, which reached 53% accuracy on the held-out set.\n\nOn the executive revenue dashboard I used A/B testing, Tableau, Airflow. On the store demand forecast I used Snowflake, pandas, Airflow. For your project I would start with Snowflake, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p01",
+   "data_analyst:p13"
+  ],
+  "outcome": "ignored",
+  "date": "2025-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:131",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Power BI specialist needed for an existing dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "powerbi",
+   "dbt",
+   "computer_vision",
+   "mongodb"
+  ],
+  "text": "Greetings! I have read your job description carefully.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2023-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:132",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Airflow expert needed for our pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "airflow",
+   "google_analytics"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:133",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Excel specialist needed for our platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "excel",
+   "sql",
+   "dbt",
+   "wordpress",
+   "fine_tuning",
+   "stripe"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2024-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:134",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "A/B testing engineer needed for a new product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "statistics",
+   "looker",
+   "ab_testing",
+   "tableau",
+   "sql",
+   "excel"
+  ],
+  "text": "Your a new product sounds a lot like the cohort retention model I built for a media client, which saved the team 26 hours a week.\n\nOn the cohort retention model I used statistics, SQL, A/B testing. On the hr attrition study I used Tableau, Excel, statistics.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p09",
+   "data_analyst:p11"
+  ],
+  "outcome": "won",
+  "date": "2024-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:135",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "ETL engineer needed for our project",
+  "job_category": "Web Development",
+  "job_skills": [
+   "etl",
+   "stripe"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nHappy to share the repo on a call.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-05-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:136",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Snowflake specialist needed for our pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "sklearn",
+   "pandas",
+   "snowflake",
+   "powerbi"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:137",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Tableau expert needed for an existing platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "tableau",
+   "postgres",
+   "statistics"
+  ],
+  "text": "Your an existing platform sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the data quality monitor I used Python, Tableau, time series forecasting.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p04"
+  ],
+  "outcome": "replied",
+  "date": "2024-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:138",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Tableau engineer needed for an existing dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "powerbi",
+   "sklearn",
+   "tableau",
+   "etl",
+   "snowflake",
+   "statistics"
+  ],
+  "text": "Your an existing dashboard sounds a lot like the web funnel analysis I built for a manufacturing client, which cut manual work by 65%.\n\nOn the web funnel analysis I used Snowflake, Tableau, Power BI. On the ad spend roi dashboard I used Snowflake, SQL, Tableau. For your project I would start with Power BI, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p02",
+   "data_analyst:p19"
+  ],
+  "outcome": "ignored",
+  "date": "2025-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:139",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Help us make sense of our data",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "powerbi",
+   "etl",
+   "looker",
+   "sql"
+  ],
+  "text": "Your Help us make sense of our data sounds a lot like the customer churn analysis I built for a healthcare client, which cut manual work by 40%.\n\nOn the customer churn analysis I used Looker, SQL, Power BI. On the cohort retention model I used statistics, SQL, A/B testing. For your project I would start with Power BI, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p07",
+   "data_analyst:p09"
+  ],
+  "outcome": "won",
+  "date": "2026-03-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:140",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "pandas developer needed for an existing product",
+  "job_category": "AI & Machine Learning",
+  "job_skills": [
+   "pandas",
+   "google_analytics",
+   "sklearn",
+   "fine_tuning",
+   "shopify",
+   "stripe"
+  ],
+  "text": "Your an existing product sounds a lot like the inventory kpi report I built for a manufacturing client, which reduced response time from 4 hours to 3 minutes.\n\nOn the inventory kpi report I used Google Analytics, pandas, Excel. On the ops sla tracker I used pandas, A/B testing, scikit-learn. For your project I would start with pandas, then a short review call after week one.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p14",
+   "data_analyst:p17"
+  ],
+  "outcome": "ignored",
+  "date": "2026-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:141",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Looker specialist needed for our pipeline",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "looker",
+   "etl",
+   "sklearn"
+  ],
+  "text": "Your our pipeline sounds a lot like the pricing elasticity analysis I built for a SaaS client, which brought report refresh down to 8 minutes.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the product usage analytics I used statistics, Python, A/B testing. For your project I would start with Looker, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p06"
+  ],
+  "outcome": "won",
+  "date": "2026-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:142",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "time series forecasting engineer needed for our product",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "ab_testing",
+   "pandas",
+   "python",
+   "excel",
+   "forecasting"
+  ],
+  "text": "Your our product sounds a lot like the survey insights report I built for a logistics client, which saved the team 24 hours a week.\n\nOn the survey insights report I used pandas, Power BI, time series forecasting. On the product usage analytics I used statistics, Python, A/B testing.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p05",
+   "data_analyst:p06"
+  ],
+  "outcome": "won",
+  "date": "2024-09-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:143",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "scikit-learn engineer needed for a new project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "snowflake",
+   "sklearn",
+   "excel",
+   "google_analytics"
+  ],
+  "text": "Your a new project sounds a lot like the marketing attribution model I built for a non-profit client, which cut cloud costs by 32%.\n\nOn the marketing attribution model I used Excel, statistics, scikit-learn. On the inventory kpi report I used Google Analytics, pandas, Excel.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p10",
+   "data_analyst:p14"
+  ],
+  "outcome": "ignored",
+  "date": "2025-01-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:144",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Power BI expert needed for a new pipeline",
+  "job_category": "Web Development",
+  "job_skills": [
+   "powerbi",
+   "mongodb"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:145",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Tableau specialist needed for our dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "powerbi",
+   "excel",
+   "etl",
+   "airflow",
+   "tableau"
+  ],
+  "text": "Hi, I am a highly skilled professional with many years of experience.\n\n\n\nThanks for reading.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2022-08-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:146",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "MongoDB developer needed for our dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "dbt",
+   "excel",
+   "computer_vision",
+   "mongodb"
+  ],
+  "text": "Your our dashboard sounds a lot like the loan portfolio report I built for a healthcare client, which handled 17k requests a day.\n\nOn the loan portfolio report I used Excel, Power BI, Python. On the supply chain cost model I used time series forecasting, dbt, Tableau. For your project I would start with dbt, then a short review call after week one.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p15",
+   "data_analyst:p00"
+  ],
+  "outcome": "ignored",
+  "date": "2023-02-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:147",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "scikit-learn engineer needed for our project",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "pandas",
+   "sklearn",
+   "snowflake"
+  ],
+  "text": "Dear Sir/Madam, I am writing to apply for your job.\n\n\n\nCan start Monday.",
+  "cited_projects": [],
+  "outcome": "ignored",
+  "date": "2025-06-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:148",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "Looker developer needed for a new dashboard",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "etl",
+   "sklearn",
+   "postgres",
+   "looker",
+   "tableau",
+   "airflow"
+  ],
+  "text": "Your a new dashboard sounds a lot like the ops sla tracker I built for a travel client, which brought report refresh down to 14 minutes.\n\nOn the ops sla tracker I used pandas, A/B testing, scikit-learn. On the executive revenue dashboard I used A/B testing, Tableau, Airflow.\n\nThanks for reading.",
+  "cited_projects": [
+   "data_analyst:p17",
+   "data_analyst:p01"
+  ],
+  "outcome": "ignored",
+  "date": "2025-04-10",
+  "source": "synthetic"
+ },
+ {
+  "id": "data_analyst:proposal:149",
+  "type": "proposal",
+  "persona": "data_analyst",
+  "job_title": "OpenCV specialist needed for our platform",
+  "job_category": "Data Analytics",
+  "job_skills": [
+   "google_analytics",
+   "sql",
+   "computer_vision",
+   "shopify",
+   "django"
+  ],
+  "text": "Hello sir, I am passionate about this project and I am the perfect fit.\n\nOn the pricing elasticity analysis I used statistics, SQL, time series forecasting. On the customer churn analysis I used Looker, SQL, Power BI.\n\nHappy to share the repo on a call.",
+  "cited_projects": [
+   "data_analyst:p03",
+   "data_analyst:p07"
+  ],
+  "outcome": "ignored",
+  "date": "2022-02-10",
+  "source": "synthetic"
+ }
+]
