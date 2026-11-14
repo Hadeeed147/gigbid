@@ -1,8 +1,15 @@
 """V2 (retrieval, required): hybrid BM25 + dense with reciprocal rank fusion,
 per requirement. BM25 catches exact tool names ("Celery", "dbt") that embeddings blur."""
 from common.config import cfg
-from rag.variants.base import (EVIDENCE_TYPES, RetrievalQuery, RetrievalResult, Variant, dedupe_by_item, round_robin,
-                               rrf)
+from rag.variants.base import (
+    EVIDENCE_TYPES,
+    RetrievalQuery,
+    RetrievalResult,
+    Variant,
+    dedupe_by_item,
+    round_robin,
+    rrf,
+)
 
 
 class V2Hybrid(Variant):

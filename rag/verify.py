@@ -68,8 +68,8 @@ def is_claim(sentence: str) -> bool:
 
 
 def _candidates(tenant: str, claim: str, given: list[dict], k: int = 6) -> list[dict]:
-    from rag.variants.v2_hybrid import V2Hybrid
     from rag.retriever import get_store
+    from rag.variants.v2_hybrid import V2Hybrid
     pool = {e["item_id"]: e for e in given}
     for h in V2Hybrid(get_store()).candidates(tenant, claim)[:k]:
         pool.setdefault(h.item_id, h.to_evidence())

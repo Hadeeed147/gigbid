@@ -11,8 +11,17 @@ from agent.memory.store import delete_memory, list_memory
 from apps.api import db
 from apps.api.auth.security import current_user
 from apps.api.deps import iso
-from apps.api.schemas.models import (AnalyticsOut, HealthOut, MemoryOut, PortfolioItemIn, PortfolioItemOut,
-                                     SavedSearchIn, SavedSearchOut, SettingsIn, UserOut)
+from apps.api.schemas.models import (
+    AnalyticsOut,
+    HealthOut,
+    MemoryOut,
+    PortfolioItemIn,
+    PortfolioItemOut,
+    SavedSearchIn,
+    SavedSearchOut,
+    SettingsIn,
+    UserOut,
+)
 from common.config import cfg
 from rag.ingest.loaders import RawItem
 from rag.retriever import get_store

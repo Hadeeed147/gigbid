@@ -9,6 +9,12 @@ from rag.verify import verify
 @node("verifier")
 async def verifier(state: dict) -> dict:
     draft = dict(state["draft"])
+    from common.config import cfg
+    if str(cfg("pipeline.claim_verification", "on")).lower() == "off":   # ablation only
+        from rag.verify import is_claim, split_sentences
+        n = sum(1 for s in split_sentences(draft["cover_letter"]) if is_claim(s))
+        return {"verification": {"claims": [], "claims_total": n, "unsupported_before": 0, "unsupported_after": None,
+                                 "skipped": True}, "status": "critiquing"}
     given = [e for items in (state.get("evidence") or {}).values() for e in items]
     tenant = state.get("tenant", "")
     rep = verify(draft["cover_letter"], tenant, given)

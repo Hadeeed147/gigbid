@@ -16,7 +16,8 @@ import asyncio
 import functools
 import re
 import time
-from typing import Any, Awaitable, Callable
+from collections.abc import Awaitable, Callable
+from typing import Any
 
 from agent.marketplace_port import MarketplaceUnavailable
 from agent.mcp_client import exec_trace, run_identity
@@ -64,7 +65,7 @@ def node(name: str, *, allow_terminal: bool = False):
                         last = e
                         if attempt == retries:
                             raise DegradedError(f"{name}: marketplace unavailable: {e}") from e
-                    except (LLMError, asyncio.TimeoutError, RuntimeError, ValueError) as e:
+                    except (TimeoutError, LLMError, RuntimeError, ValueError) as e:
                         last = e
                     await asyncio.sleep(cfg("node_runtime.backoff_base_s", 1.5) ** attempt)
             finally:
@@ -121,7 +122,13 @@ def strip_injection(text: str) -> str:
     return "\n".join(out)
 
 
+def defenses_on() -> bool:
+    return str(cfg("guardrails.injection_defense", "on")).lower() != "off"
+
+
 def untrusted(kind: str, text: str) -> str:
+    if not defenses_on():   # attack study baseline only: raw text, no delimiters
+        return text
     safe = (text or "").replace("</untrusted", "&lt;/untrusted").replace("<untrusted", "&lt;untrusted")
     return f"<untrusted_{kind}>\n{safe}\n</untrusted_{kind}>"
 
@@ -131,7 +138,7 @@ def job_text(job: dict, *, sanitize: bool = True) -> str:
     budget = (f"hourly ${b.get('min')}-{b.get('max')}" if b.get("type") == "hourly"
               else f"fixed ${b.get('amount')}" + (f" (client estimate {b.get('estimated_hours')}h)"
                                                    if b.get("estimated_hours") else ""))
-    desc = strip_injection(job.get("description", "")) if sanitize else job.get("description", "")
+    desc = strip_injection(job.get("description", "")) if sanitize and defenses_on() else job.get("description", "")
     qs = "\n".join(f"Q{i + 1}: {q}" for i, q in enumerate(job.get("screening_questions") or []))
     return f"Title: {job.get('title', '')}\nCategory: {job.get('category', '')}\nBudget: {budget}\n\n{desc}" + \
         (f"\n\nScreening questions:\n{qs}" if qs else "")

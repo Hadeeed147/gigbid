@@ -1,7 +1,13 @@
 """V1 (query, required): requirement decomposition. One dense retrieval per
 extracted requirement over structure-aware chunks, merged round-robin."""
-from rag.variants.base import (EVIDENCE_TYPES, RetrievalQuery, RetrievalResult, Variant, dedupe_by_item,
-                               round_robin)
+from rag.variants.base import (
+    EVIDENCE_TYPES,
+    RetrievalQuery,
+    RetrievalResult,
+    Variant,
+    dedupe_by_item,
+    round_robin,
+)
 
 
 class V1Decompose(Variant):

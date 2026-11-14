@@ -3,6 +3,7 @@ draft a reply or interview slots, then wait for approval before sending."""
 from __future__ import annotations
 
 import hashlib
+import re
 
 from langgraph.types import interrupt
 
@@ -14,8 +15,6 @@ from agent.nodes.compliance import check_text
 from agent.nodes.risk import RULES
 from common.llm import chat
 from common.prompts import load_prompt
-
-import re
 
 
 @node("load_thread")

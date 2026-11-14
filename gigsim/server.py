@@ -21,7 +21,7 @@ import threading
 import time
 import uuid
 from collections import defaultdict, deque
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -111,7 +111,7 @@ def now_sim() -> float:
 
 
 def sim_iso(minutes: float) -> str:
-    base = datetime(2026, 10, 27, 9, 0, tzinfo=timezone.utc)
+    base = datetime(2026, 10, 27, 9, 0, tzinfo=UTC)
     return (base + timedelta(minutes=minutes)).isoformat()
 
 

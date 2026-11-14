@@ -86,7 +86,7 @@ def expand_query(req: str) -> str:
     for sid in tag_skills(req):
         extra += SKILLS[sid]["names"] + SKILLS[sid]["implied"]
     low = req.lower()
-    for sid, v in SKILLS.items():   # implied -> named (requirements phrased like case studies)
+    for _sid, v in SKILLS.items():   # implied -> named (requirements phrased like case studies)
         if any(p.lower()[:30] in low for p in v["implied"]):
             extra += v["names"]
     return req + (" | " + " ; ".join(dict.fromkeys(extra)) if extra else "")

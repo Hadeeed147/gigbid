@@ -22,6 +22,6 @@ def iso(v) -> str | None:
 
 # Interactive work (approvals, "draft anyway") jumps ahead of background scouting:
 # Arq orders its queue by scheduled time, so a time in the past puts a job first.
-from datetime import datetime, timezone  # noqa: E402
+from datetime import UTC, datetime  # noqa: E402
 
-PRIORITY = {"_defer_until": datetime(2020, 1, 1, tzinfo=timezone.utc)}
+PRIORITY = {"_defer_until": datetime(2020, 1, 1, tzinfo=UTC)}

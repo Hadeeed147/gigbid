@@ -84,3 +84,8 @@ def fallback_spec(profile: str | None = None) -> dict[str, Any]:
 
 def resolve_path(rel: str) -> Path:
     return ROOT / rel
+
+
+def reload_config() -> None:
+    """Re-read config after changing env overrides (ablation/defence studies)."""
+    load_config.cache_clear()

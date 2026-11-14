@@ -68,6 +68,9 @@ def check_text(text: str, *, use_llm: bool = True) -> ComplianceVerdict:
 @node("compliance")
 async def compliance(state: dict) -> dict:
     draft = dict(state["draft"])
+    from agent.nodes._runtime import defenses_on
+    if not defenses_on():
+        return {"compliance": {"verdict": "skipped", "violations": []}, "status": "awaiting_approval"}
     v = check_text(draft["cover_letter"])
     answers = [check_text(a, use_llm=False).cleaned_text or a for a in draft.get("screening_answers", [])]
     if v.verdict == "block":

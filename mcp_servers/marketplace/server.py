@@ -25,7 +25,7 @@ from mcp.types import ToolAnnotations
 from pydantic import BaseModel, Field
 
 from agent.marketplace_port import MarketplaceRejected, MarketplaceUnavailable, get_adapter
-from common.config import ROOT, cfg
+from common.config import ROOT
 from mcp_servers.common import AuditLog, RateLimiter, auth_kwargs, caller
 
 PORT = 8202

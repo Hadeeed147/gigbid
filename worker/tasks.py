@@ -11,12 +11,12 @@ from __future__ import annotations
 import json
 import time
 import uuid
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from langgraph.types import Command
 
-from agent.memory.store import record_outcome
 from agent.mcp_client import get_hub, run_identity
+from agent.memory.store import record_outcome
 from agent.nodes._runtime import DegradedError
 from agent.nodes.scout import fingerprint, run_saved_search
 from agent.runtime import bid_thread_id, config_for, initial_bid_state, persona_profile, stream_run
@@ -154,7 +154,7 @@ async def scout_user(ctx, user_id: str, force: bool = False) -> int:
     try:
         for s in searches:
             interval = max(s["interval_minutes"], floor_interval)   # never poll faster than the policy allows
-            if not force and s["last_run"] and (datetime.now(timezone.utc) - s["last_run"]).total_seconds() < interval * 60:
+            if not force and s["last_run"] and (datetime.now(UTC) - s["last_run"]).total_seconds() < interval * 60:
                 continue
             seen = {r["job_id"] for r in db.q("SELECT job_id FROM seen_jobs WHERE user_id=%s", (user_id,))}
             fps = {r["fingerprint"] for r in db.q("SELECT fingerprint FROM seen_jobs WHERE user_id=%s", (user_id,))}

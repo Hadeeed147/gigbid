@@ -25,6 +25,10 @@ def _read(node: str) -> tuple[str, str]:
 
 
 def load_prompt(node: str, **vars: str) -> str:
+    if node == "_untrusted":
+        from common.config import cfg
+        if str(cfg("guardrails.injection_defense", "on")).lower() == "off":
+            return ""
     text, _ = _read(node)
     for k, v in vars.items():
         text = text.replace("{{" + k + "}}", str(v))

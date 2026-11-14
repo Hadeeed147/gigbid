@@ -28,6 +28,9 @@ def hard_checks(draft: dict) -> list[CritiqueIssue]:
 @node("critic")
 async def critic(state: dict) -> dict:
     draft = state["draft"]
+    if str(cfg("pipeline.critic", "on")).lower() == "off":   # ablation only
+        return {"critiques": [{"approved": True, "score": 0, "issues": [], "revision": 0, "skipped": True}],
+                "status": "critiqued"}
     sys = load_prompt("critic", min_words=str(cfg("proposal.min_words")), max_words=str(cfg("proposal.max_words")))
     ver = state.get("verification", {})
     c = chat("critic", [{"role": "system", "content": sys},

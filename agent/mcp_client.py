@@ -176,7 +176,7 @@ class MCPHub:
                 is_err = getattr(msg, "status", "success") == "error"
                 artifact = getattr(msg, "artifact", None) or {}
                 structured = artifact.get("structured_content") if isinstance(artifact, dict) else None
-        except (asyncio.TimeoutError, OSError, ConnectionError) as e:
+        except (TimeoutError, OSError, ConnectionError) as e:
             self._record(agent, tool, args, {"error": str(e)}, t0, ok=False)
             raise MarketplaceUnavailable(f"{tool}: {e}") from e
         finally:

@@ -11,9 +11,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from agent.runtime import runtime
-from apps.api import db
+from apps.api import db, streaming
 from apps.api.routers import auth, jobs, messages, proposals, settings
-from apps.api import streaming
 from common.config import env
 from common.pii import mask_text
 

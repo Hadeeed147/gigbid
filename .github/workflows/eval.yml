@@ -1,0 +1,30 @@
+name: eval
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  smoke-eval:
+    runs-on: ubuntu-latest
+    env:
+      LANGSMITH_TRACING: "false"
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}       # real open-profile models when the secret exists
+      GIGBID_LLM_CACHE: "1"
+      TOKEN_ENCRYPTION_KEY: Wl9eQ1Jq3rFz8pX2v6nB4cT7yK0hM5sD1aE3gU9iO2w=
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with: { python-version: "3.12" }
+      - run: uv sync
+      - uses: actions/cache@v4
+        with:
+          path: |
+            data/processed/llm_cache
+            data/processed/emb_cache
+            ~/.cache/fastembed
+          key: eval-cache-${{ hashFiles('agent/prompts/**', 'agent/config.yaml') }}
+          restore-keys: eval-cache-
+      - name: 30-job smoke eval (fails if bid-or-skip F1 drops or unsupported claims rise past thresholds)
+        run: uv run python -m evals.runners.smoke
+      - name: Retrieval metrics on a small slice
+        run: uv run python -m evals.runners.rag_eval --per-persona 10 --variants v0_naive,v8_corrective --name rag_smoke

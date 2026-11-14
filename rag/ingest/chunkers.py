@@ -24,14 +24,10 @@ def structured_chunks(item: RawItem, size: int = 700) -> list[Chunk]:
     if item.type in ("review", "proposal", "code") or len(item.text) <= size:
         return [_mk(item, 0, f"{item.title}\n{item.text}", item_skills)]
     sections = re.split(r"(?m)^(?=#{1,3} )", item.text)
-    chunks, buf, head = [], "", item.title
+    chunks, buf = [], ""
     for sec in sections:
         if not sec.strip():
             continue
-        if sec.startswith("#"):
-            head_line = sec.splitlines()[0].lstrip("# ").strip()
-            if sec.startswith("# "):
-                head = head_line
         if len(buf) + len(sec) > size and buf:
             chunks.append(buf)
             buf = ""

@@ -67,6 +67,7 @@ node_models:
   critic: strong
   compliance: small
   liaison: strong
+  judge: strong
   intent: small
 
 # Embeddings + reranker are open models in every profile (CPU via ONNX).
@@ -103,6 +104,13 @@ decision:
   max_risk_to_bid: 0.6
   scam_risk_threshold: 0.7
   auto_skip_below_fit: 0.25   # only used when the user's autonomy allows auto-skip
+
+guardrails:
+  injection_defense: ${GIGBID_INJECTION_DEFENSE:-on}   # off only for the before/after attack study
+
+pipeline:                       # ablation switches (all on in production)
+  claim_verification: ${GIGBID_VERIFY:-on}
+  critic: ${GIGBID_CRITIC:-on}
 
 loops:
   max_critic_revisions: 2

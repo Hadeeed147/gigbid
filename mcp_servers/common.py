@@ -7,7 +7,7 @@ import threading
 import time
 import uuid
 from collections import defaultdict, deque
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -97,7 +97,7 @@ class AuditLog:
         self._lock = threading.Lock()
 
     def write(self, *, user: str, tool: str, args: dict, result: Any, trace_id: str, ok: bool = True) -> None:
-        rec = {"ts": datetime.now(timezone.utc).isoformat(), "user": user, "tool": tool, "args": mask(args),
+        rec = {"ts": datetime.now(UTC).isoformat(), "user": user, "tool": tool, "args": mask(args),
                "result": mask(result if len(json.dumps(result, default=str)) < 4000 else {"truncated": True}),
                "trace_id": trace_id, "ok": ok}
         line = json.dumps(rec, default=str)
