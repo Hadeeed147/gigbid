@@ -40,3 +40,6 @@ tests/**/_*.sqlite
 
 # test sqlite files
 mcp_servers/**/_*.sqlite
+
+# web
+apps/web/node_modules/

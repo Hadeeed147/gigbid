@@ -34,7 +34,8 @@ async def studio(job_id: str, user: dict = Depends(current_user), g=Depends(grap
                    "fit": v.get("fit"), "risk": v.get("risk"), "price": v.get("price"),
                    "verification": v.get("verification"), "critiques": v.get("critiques", []),
                    "compliance": v.get("compliance"), "dry_run_preview": v.get("preview"),
-                   "job": {k: (v.get("job") or {}).get(k) for k in ("id", "title", "category", "budget", "connects_cost")}}
+                   "job": {k: (v.get("job") or {}).get(k) for k in ("id", "title", "category", "budget", "connects_cost",
+                                                                 "screening_questions")}}
     return StudioOut(job_id=job_id, thread_id=tid, status=v.get("status"), pending=bool(snap.next and payload),
                      payload=payload, submission=v.get("submission"), approvals=v.get("approvals", []),
                      attention_reason=v.get("attention_reason"))

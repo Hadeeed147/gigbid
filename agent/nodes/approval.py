@@ -37,7 +37,8 @@ async def approval(state: dict) -> dict:
     """Interrupts the graph. Code before interrupt() re-runs on resume, so it is side-effect free."""
     payload = {
         "type": "proposal_approval",
-        "job": {k: state["job"].get(k) for k in ("id", "title", "category", "budget", "connects_cost")},
+        "job": {k: state["job"].get(k) for k in ("id", "title", "category", "budget", "connects_cost",
+                                                   "screening_questions")},
         "draft": state["draft"],
         "evidence": state.get("evidence", {}),
         "fit": state.get("fit", {}),
