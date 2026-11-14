@@ -76,7 +76,8 @@ class V8Corrective(V4Outcome):
         g.add_edge("retrieve", "grade")
         g.add_conditional_edges("grade", route, {"requery": "requery", "done": END})
         g.add_edge("requery", "grade")
-        return g.compile()
+        # checkpointer=False: never inherit a parent graph's checkpointer (this loop is stateless)
+        return g.compile(checkpointer=False)
 
     def retrieve(self, q: RetrievalQuery, k: int = 10) -> RetrievalResult:
         out = self.graph.invoke({"q": q, "k": k})

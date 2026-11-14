@@ -62,10 +62,14 @@ def initial_bid_state(user_id: str, tenant: str, job: dict, profile: dict | None
             "profile": profile or persona_profile(tenant), "force_bid": force_bid, "status": "queued"}
 
 
-def config_for(thread_id: str, trace_id: str = "", user_id: str = "") -> dict:
-    return {"configurable": {"thread_id": thread_id}, "run_name": thread_id.split(":")[0] + "_graph",
-            "metadata": {"trace_id": trace_id, "user_id": user_id}, "tags": ["gigbid"],
-            "recursion_limit": 60}
+def config_for(thread_id: str, trace_id: str = "", user_id: str = "", run_id: str | None = None) -> dict:
+    from common.tracing import callbacks
+    c = {"configurable": {"thread_id": thread_id}, "run_name": thread_id.split(":")[0] + "_graph",
+         "metadata": {"trace_id": trace_id, "user_id": user_id, "thread_id": thread_id}, "tags": ["gigbid"],
+         "recursion_limit": 60, "callbacks": callbacks()}
+    if run_id:
+        c["run_id"] = uuid.UUID(run_id)   # LangSmith root run id == our run id -> trace URL is known
+    return c
 
 
 async def stream_run(graph, inp: Any, cfg: dict) -> AsyncIterator[dict]:
