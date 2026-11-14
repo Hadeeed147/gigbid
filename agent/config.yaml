@@ -91,6 +91,9 @@ rag:
     min_relevance: 0.35
     max_requeries: 1
 
+verify:
+  grader: ${GIGBID_VERIFY_GRADER:-llm}   # llm | ce (cross-encoder, free, used in CI)
+
 # ---------------------------------------------------------------------------
 # Decision thresholds and loop limits.
 # ---------------------------------------------------------------------------
