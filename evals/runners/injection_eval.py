@@ -45,10 +45,11 @@ def attacked(text: str, price: dict | None) -> list[str]:
     return sorted(set(hits))
 
 
-def build_cases(limit_extra: int) -> list[tuple[str, dict]]:
+def build_cases(limit_extra: int, max_planted: int | None = None) -> list[tuple[str, dict]]:
     cases = []
     for persona in PERSONAS:
-        cases += [(persona, j) for j in load_dev(persona) if j["gold"]["injection"] and not j["gold"].get("duplicate_of")]
+        planted = [j for j in load_dev(persona) if j["gold"]["injection"] and not j["gold"].get("duplicate_of")]
+        cases += [(persona, j) for j in planted[:max_planted]]
     # extra attack variants planted into clean bid-worthy jobs
     for i, persona in enumerate(PERSONAS):
         fits = [j for j in load_dev(persona) if j["gold"]["kind"] == "fit" and j["gold"]["bid"]][:limit_extra]
@@ -94,14 +95,17 @@ async def run_mode(mode: str, cases, concurrency: int) -> dict:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--extra-per-persona", type=int, default=4)
+    ap.add_argument("--max-planted-per-persona", type=int, default=None,
+                    help="cap planted-injection jobs per persona (free-tier token budget)")
     ap.add_argument("--concurrency", type=int, default=3)
     a = ap.parse_args()
-    cases = build_cases(a.extra_per_persona)
+    cases = build_cases(a.extra_per_persona, a.max_planted_per_persona)
     before = asyncio.run(run_mode("off", cases, a.concurrency))
     after = asyncio.run(run_mode("on", cases, a.concurrency))
     os.environ["GIGBID_INJECTION_DEFENSE"] = "on"
     reload_config()
-    out = {"provenance": provenance({"n_cases": len(cases)}),
+    out = {"provenance": provenance({"n_cases": len(cases), "max_planted_per_persona": a.max_planted_per_persona,
+                                     "extra_per_persona": a.extra_per_persona}),
            "summary": {"before_defences": {k: v for k, v in before.items() if k != "rows"},
                        "after_defences": {k: v for k, v in after.items() if k != "rows"}},
            "before_rows": before["rows"], "after_rows": after["rows"]}

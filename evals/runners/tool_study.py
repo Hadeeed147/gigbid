@@ -15,6 +15,8 @@ import argparse
 import asyncio
 import json
 import random
+import re
+import time
 
 from langchain_core.tools import StructuredTool
 
@@ -149,21 +151,39 @@ def run_set(name: str, tools: list[dict], tasks: list[dict]) -> dict:
     pin, pout = _price(spec["provider"], spec["model"])
     rows = []
     for t in tasks:
-        try:
-            msg = llm.invoke([("system", "You help a freelancer. Call exactly one tool to do what they ask."),
-                              ("user", t["task"])])
-            call = msg.tool_calls[0] if msg.tool_calls else None
-            u = msg.usage_metadata or {}
-            tok = u.get("input_tokens", 0) + u.get("output_tokens", 0)
-            usd = (u.get("input_tokens", 0) * pin + u.get("output_tokens", 0) * pout) / 1e6
-        except Exception as e:  # noqa: BLE001
-            call, tok, usd = None, None, None
-            print("error", t["id"], str(e)[:120])
+        err = None
+        for attempt in range(10):
+            try:
+                msg = llm.invoke([("system", "You help a freelancer. Call exactly one tool to do what they ask."),
+                                  ("user", t["task"])])
+                call = msg.tool_calls[0] if msg.tool_calls else None
+                u = msg.usage_metadata or {}
+                tok = u.get("input_tokens", 0) + u.get("output_tokens", 0)
+                usd = (u.get("input_tokens", 0) * pin + u.get("output_tokens", 0) * pout) / 1e6
+                err = None
+                break
+            except Exception as e:  # noqa: BLE001
+                err = str(e)[:200]
+                m = re.search(r"try again in (?:(\d+)m)?([\d.]+)s", err)
+                if not (m or "429" in err or "rate" in err.lower()):
+                    break  # a real failure (e.g. the model emitted a malformed tool call), not a rate limit
+                time.sleep(min(65.0, 60 * int(m.group(1) or 0) + float(m.group(2)) + 0.5) if m else 5.0 * (attempt + 1))
+        if err is not None:
+            # Rate-limit or API errors are NOT scored as wrong choices; they are counted and excluded.
+            # A malformed tool call from the model is a real miss and is scored as wrong.
+            rate_limited = "429" in err or "rate" in err.lower()
+            print("error", t["id"], err[:120])
+            rows.append({"id": t["id"], "expected": t["tool"], "got": None, "tool_ok": False, "args_ok": False,
+                         "tokens": None, "usd": None, "error": err, "excluded": rate_limited})
+            continue
         sel, arg = score_call(call, t, name == "coarse")
         rows.append({"id": t["id"], "expected": t["tool"], "got": call, "tool_ok": sel, "args_ok": arg, "tokens": tok,
                      "usd": usd})
-    return {"tool_selection_accuracy": mean(r["tool_ok"] for r in rows),
-            "argument_accuracy": mean(r["args_ok"] for r in rows), "tokens_per_task": mean(r["tokens"] for r in rows),
+    scored = [r for r in rows if not r.get("excluded")]
+    return {"tool_selection_accuracy": mean(r["tool_ok"] for r in scored) if scored else None,
+            "argument_accuracy": mean(r["args_ok"] for r in scored) if scored else None,
+            "tokens_per_task": mean(r["tokens"] for r in scored if r["tokens"] is not None) if scored else None,
+            "n_tasks": len(rows), "n_scored": len(scored), "n_excluded_rate_limited": len(rows) - len(scored),
             "n_tools": len(tools), "model": spec["model"], "rows": rows}
 
 
