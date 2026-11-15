@@ -68,9 +68,13 @@ def is_claim(sentence: str) -> bool:
 
 
 def _candidates(tenant: str, claim: str, given: list[dict], k: int = 6) -> list[dict]:
-    from rag.retriever import get_store
+    from rag.retriever import get_store, lite_mode
     from rag.variants.v2_hybrid import V2Hybrid
     pool = {e["item_id"]: e for e in given}
+    if lite_mode():  # no models on the 512 MB host: keyword candidates, the LLM grader decides
+        for h in get_store().structured(tenant).sparse(claim, k):
+            pool.setdefault(h.item_id, h.to_evidence())
+        return list(pool.values())[:4]
     for h in V2Hybrid(get_store()).candidates(tenant, claim)[:k]:
         pool.setdefault(h.item_id, h.to_evidence())
     docs = list(pool.values())
@@ -80,8 +84,9 @@ def _candidates(tenant: str, claim: str, given: list[dict], k: int = 6) -> list[
 
 
 def _grade_ce(cands: list[dict]) -> ClaimVerdict:
-    top = cands[0]["ce"] if cands else 0.0
-    ids = [c["item_id"] for c in cands if c["ce"] >= 0.15][:2]
+    # lite mode has no cross-encoder score: then every claim is graded unsupported (removed), never kept unchecked
+    top = cands[0].get("ce", 0.0) if cands else 0.0
+    ids = [c["item_id"] for c in cands if c.get("ce", 0.0) >= 0.15][:2]
     if top >= 0.5:
         return ClaimVerdict(status="supported", evidence_ids=ids, reason=f"cross-encoder {top}")
     if top >= 0.15:

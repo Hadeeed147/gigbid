@@ -1,0 +1,2 @@
+variant,recall@5,mrr,ndcg@10,latency_p50_s,latency_p95_s,n
+lite_bm25,0.381,0.5643,0.5805,0.0,0.002,360

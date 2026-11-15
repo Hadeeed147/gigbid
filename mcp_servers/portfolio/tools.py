@@ -13,7 +13,7 @@ from pydantic import BaseModel, Field
 
 from data.generators.skills import SKILLS
 from mcp_servers.common import AuditLog, caller
-from rag.retriever import get_store, get_variant
+from rag.retriever import get_store, get_variant, lite_mode
 from rag.variants.base import RetrievalQuery
 
 RO = ToolAnnotations(readOnlyHint=True, destructiveHint=False, idempotentHint=True, openWorldHint=False)
@@ -96,7 +96,8 @@ def register(mcp: FastMCP) -> None:
         f = filters or SearchFilters()
         if f.types and set(f.types) == {"proposal"}:
             # past proposals are phrasing exemplars, never evidence: plain similarity + outcome filter
-            hits = store.structured(tenant).dense(requirement, k * 6, types={"proposal"})
+            idx = store.structured(tenant)
+            hits = (idx.sparse if lite_mode() else idx.dense)(requirement, k * 6, types={"proposal"})
             if f.outcome:
                 hits = [h for h in hits if h.chunk.outcome == f.outcome]
             items = [EvidenceItem(**{k2: v for k2, v in h.to_evidence().items() if k2 in EvidenceItem.model_fields})

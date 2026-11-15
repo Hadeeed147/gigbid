@@ -6,12 +6,13 @@ import json
 import threading
 from functools import lru_cache
 
-from common.config import ROOT, cfg
+from common.config import ROOT, cfg, env
 from rag.index.stores import TenantIndex
 from rag.ingest.chunkers import fixed_chunks, structured_chunks
 from rag.ingest.loaders import RawItem, load_persona_dir
 from rag.types import Chunk
 from rag.variants.base import RetrievalQuery, RetrievalResult
+from rag.variants.lite_bm25 import LiteBM25
 from rag.variants.v0_naive import V0Naive
 from rag.variants.v1_decompose import V1Decompose
 from rag.variants.v2_hybrid import V2Hybrid
@@ -19,7 +20,8 @@ from rag.variants.v3_rerank import V3Rerank
 from rag.variants.v4_outcome import V4Outcome
 from rag.variants.v8_corrective import V8Corrective
 
-VARIANTS = {cls.name: cls for cls in (V0Naive, V1Decompose, V2Hybrid, V3Rerank, V4Outcome, V8Corrective)}
+VARIANTS = {cls.name: cls for cls in (V0Naive, V1Decompose, V2Hybrid, V3Rerank, V4Outcome, V8Corrective,
+                                       LiteBM25)}
 PERSONAS_DIR = ROOT / "data" / "personas"
 USERS_DIR = ROOT / "data" / "processed" / "users"
 
@@ -97,13 +99,18 @@ class PortfolioStore:
                                                             encoding="utf-8")
 
 
+def lite_mode() -> bool:
+    """GIGBID_LITE=1 on the 512 MB public host: no embedding/reranker model is ever loaded."""
+    return env("GIGBID_LITE", "") == "1"
+
+
 @lru_cache(maxsize=1)
 def get_store() -> PortfolioStore:
     return PortfolioStore()
 
 
 def get_variant(name: str | None = None):
-    name = name or cfg("rag.variant", "v8_corrective")
+    name = name or ("lite_bm25" if lite_mode() else cfg("rag.variant", "v8_corrective"))
     return VARIANTS[name](get_store())
 
 

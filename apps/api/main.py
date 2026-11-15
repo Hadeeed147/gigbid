@@ -23,7 +23,21 @@ async def lifespan(app: FastAPI):
     async with AsyncExitStack() as stack:
         app.state.graphs = await stack.enter_async_context(runtime("auto"))
         app.state.arq = await create_pool(RedisSettings.from_dsn(env("REDIS_URL", "redis://localhost:6379/0")))
+        worker_task = None
+        if env("GIGBID_INPROCESS_WORKER", "") == "1":
+            # 512 MB host: the same Arq worker (same queue, crons, idempotency) runs inside the
+            # API process instead of a second Python process. Scheduling only ticks while awake.
+            import asyncio
+
+            from arq.worker import create_worker
+
+            from worker.main import WorkerSettings
+            worker = create_worker(WorkerSettings, handle_signals=False)
+            worker_task = asyncio.create_task(worker.async_run())
         yield
+        if worker_task:
+            await worker.close()
+            worker_task.cancel()
         await app.state.arq.aclose()
 
 
