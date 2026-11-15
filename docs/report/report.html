@@ -22,10 +22,11 @@
 </head>
 <body>
 
-<h1>GigBid: R&amp;D Report</h1>
-<div class="sub">AI-4016 Agentic AI, Assignment 2 · Engineering design review ·
-Repository: github.com/Hadeeed147/gigbid · Live link: gigbid-0gsi.onrender.com ·
-Every number cites a file in <code>evals/results/</code>; anything not measured is said to be not measured.</div>
+<h1>GigBid: engineering design review</h1>
+<div class="sub">AI-4016 Agentic AI · R&amp;D Assignment II · individual submission ·
+repo github.com/Hadeeed147/gigbid · live gigbid-0gsi.onrender.com<br>
+Every claim points to a results file in <code>evals/results/</code> or a commit. Studies that were not run, or whose
+run was invalid, are reported as such and carry no number.</div>
 
 <h2>1. Problem and constraints</h2>
 <p>A freelancer spends hours reading job posts, deciding which ones are worth paid bids ("Connects") and writing
@@ -35,6 +36,20 @@ It <b>never automates sending</b>. A proposal, a client message or any spending 
 write carries an idempotency key, so a retry cannot submit twice.</p>
 <p><b>Must never be automated:</b> submitting a proposal, sending a message, spending Connects, accepting an offer,
 moving contact or payment off the platform, or claiming experience the portfolio does not support.</p>
+<p><b>Constraints I actually worked under.</b> They shape every result below.
+(i) Hosted open-weight models on Groq's free tier: 8,000 tokens per minute and 1,000 requests per day per model,
+read from Groq's own rate-limit headers. One drafted proposal costs about 29k tokens, so a single proposal needs
+several minutes of one model's quota, and every LLM study had to run on a small sample.
+(ii) Two models named in my config (<code>llama-3.1-8b-instant</code>, <code>qwen3-32b</code>) had been retired by Groq;
+I replaced them with <code>qwen/qwen3.8-27b</code> after checking the live model list (commit 0b65b2b).
+(iii) No starter kit: GigSim, the personas and the dev set are mine and synthetic (<code>docs/DATA_CARD.md</code>).
+(iv) No paid hosting: the public link runs on a free 512 MB host, which forced the lite deployment in §4.</p>
+<table>
+<tr><th>Profile</th><th>Job analysed: p95 latency</th><th>Tokens / job</th><th>Proposal: p95 latency</th><th>Tokens / proposal</th><th>USD / proposal (list price)</th></tr>
+<tr><td>open (Groq, deployed)</td><td class="n">≤ 60 s</td><td class="n">≤ 15,000</td><td class="n">≤ 150 s</td><td class="n">≤ 30,000</td><td class="n">≤ $0.01</td></tr>
+</table>
+<div class="src">Declared budgets. Honest provenance: set after a 3-job pilot (job p50 37 s, proposal 102 s, 12.8k tokens
+per job, 28.6k per proposal, $0.0065 per proposal), not before any measurement.</div>
 <p><b>Budgets (open profile, Groq free tier):</b> one analysed job costs about 13k tokens and a drafted proposal about
 29k tokens, measured in a 3-job pilot. At Groq list prices that is under $0.01 per proposal; the free tier bills
 nothing. The binding constraint is throughput, not cost: 8,000 tokens per minute per model and 1,000 requests per day,
@@ -48,6 +63,16 @@ outputs) → decide → pricing → writer → claim verifier → critic (a weak
 → compliance → dry-run preview → <code>interrupt()</code> approval → submit.
 <b>Conversation graph</b> (<code>docs/images/conversation_graph.mmd</code>): intent → liaison drafts a reply → compliance →
 approval → send.</p>
+<table>
+<tr><th>Node</th><th>Tier</th><th>Model (open profile)</th><th>Node</th><th>Tier</th><th>Model (open profile)</th></tr>
+<tr><td>analyst</td><td>small</td><td>openai/gpt-oss-20b</td><td>writer</td><td>strong</td><td>openai/gpt-oss-120b</td></tr>
+<tr><td>risk</td><td>small</td><td>openai/gpt-oss-20b</td><td>critic</td><td>strong</td><td>openai/gpt-oss-120b</td></tr>
+<tr><td>matcher</td><td>small</td><td>openai/gpt-oss-20b</td><td>liaison</td><td>strong</td><td>openai/gpt-oss-120b</td></tr>
+<tr><td>pricing</td><td>small</td><td>openai/gpt-oss-20b</td><td>verifier</td><td>small</td><td>openai/gpt-oss-20b</td></tr>
+<tr><td>compliance</td><td>small</td><td>openai/gpt-oss-20b</td><td>fallback (small tier)</td><td>—</td><td>qwen/qwen3.8-27b</td></tr>
+</table>
+<div class="src">Source: <code>agent/config.yaml</code> (<code>profiles.open</code>, <code>node_models</code>). Embeddings
+BAAI/bge-small-en-v1.5 and reranker ms-marco-MiniLM-L-6-v2, both open models on CPU.</div>
 <p><b>Why each agent exists.</b> Analyst: turns free text into a <code>JobSpec</code> (deliverables, skills, budget,
 screening questions, hidden needs). Risk Assessor: scams, planted injections and red flags, kept separate so a
 persuasive job cannot talk the writer out of a risk flag. Fit Matcher: the requirement-to-evidence matrix. Pricing:
@@ -107,10 +132,20 @@ requirement splitter), <code>evals/results/rag_eval_lite.csv</code>. Regenerate 
 </table>
 <div class="src">Source: <code>evals/results/rag_eval.json</code> → <code>summary.&lt;variant&gt;.by_persona / by_job_type</code>.</div>
 
-<p><b>Hypothesis not confirmed.</b> On jobs with 4+ requirements, the shipped pipeline gains +7.1 points, about half
+<p><b>Scorecard.</b> These hypotheses are stated here for the first time. They were not written down in an ADR
+before the run, so read them as post-hoc.</p>
+<table>
+<tr><th>Hypothesis</th><th>Result</th><th>Verdict</th></tr>
+<tr><td>H1 Hybrid (V2) beats dense (V0) on Recall@5</td><td>0.377 vs 0.346 (+3.1)</td><td>Confirmed, small</td></tr>
+<tr><td>H2 Cross-encoder rerank (V3) raises recall over V2</td><td>0.373 vs 0.377, at +6 s p50</td><td>Refuted</td></tr>
+<tr><td>H3 Decomposition (V1) beats V0</td><td>0.320 vs 0.346</td><td>Refuted</td></tr>
+<tr><td>H4 Outcome-aware ranking (V4) raises recall over V3</td><td>0.418 vs 0.373 (+4.5)</td><td>Confirmed</td></tr>
+<tr><td>H5 Shipped pipeline gains ≥15 points over V0 on 4+ requirement jobs</td><td>0.388 vs 0.317 (+7.1)</td><td>Refuted</td></tr>
+</table>
+<p><b>Hypothesis H5 not confirmed.</b> On jobs with 4+ requirements, the shipped pipeline gains +7.1 points, about half
 of the 15 points hypothesised. Decomposition alone (V1) was <i>worse</i> than V0 overall (0.320 vs 0.346), so
 splitting a job into requirements did not by itself find better evidence. The gains come from hybrid retrieval
-(V2: +3.1 points) and above all from outcome-aware ranking (V4: +4.1 points over V3). Reranking alone (V3) bought
+(V2: +3.1 points) and above all from outcome-aware ranking (V4: +4.5 points over V3). Reranking alone (V3) bought
 nothing on recall (0.373 vs V2's 0.377) and added about 6 s at p50. The full-stack persona gains least (+2.0): its
 V0 baseline is already the highest. A plausible reason, not tested here, is that its case studies use the same
 technology words as job posts, which dense retrieval already matches.</p>
@@ -178,5 +213,16 @@ grader outage removes claims rather than letting unchecked ones through.</p>
 budgets for it: under 30k tokens and under $0.01 (Groq list price) per proposal, and under 15k tokens per analysed
 job. The free host adds a 30–60 s cold start after 15 idle minutes and runs retrieval in lite mode (§4).</div>
 
+<h2>Appendix: reproduce, and where things are</h2>
+<pre>uv run python -m evals.runners.rag_eval --per-persona 120                    # §4 table  -> rag_eval.csv/json
+uv run python -m evals.runners.rag_eval --variants lite_bm25 --per-persona 120 --name rag_eval_lite
+GIGBID_LLM_CACHE=1 uv run python -m evals.runners.decision_eval --per-persona 3 --outcomes   # decision_eval.json
+GIGBID_PROFILE=open_alt uv run python -m evals.runners.tool_study --limit 15            # tool_study.json
+GIGBID_LLM_CACHE=1 uv run python -m evals.runners.injection_eval --max-planted-per-persona 3 --extra-per-persona 1
+make test        # unit, integration and MCP contract tests (no API key)
+docker compose -f infra/docker-compose.yml --env-file .env up --build   # full stack</pre>
+<p>Graphs: <code>agent/graphs/</code> · hand-offs: <code>agent/handoffs.py</code> · prompts: <code>agent/prompts/</code> ·
+MCP servers: <code>mcp_servers/</code> · retrieval variants: <code>rag/variants/</code> · verifier: <code>rag/verify.py</code> ·
+tools table: <code>docs/TOOLS.md</code> · data: <code>docs/DATA_CARD.md</code> · operations: <code>docs/RUNBOOK.md</code>.</p>
 </body>
 </html>
