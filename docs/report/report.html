@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GigBid R&amp;D Report</title>
+<style>
+  @page { size: A4; margin: 16mm 15mm; }
+  body { font: 10.5pt/1.45 "Segoe UI", Arial, sans-serif; color: #1a1a1a; }
+  h1 { font-size: 20pt; margin: 0 0 2px; }
+  h2 { font-size: 13pt; margin: 18px 0 6px; border-bottom: 1px solid #ccc; padding-bottom: 2px; }
+  h3 { font-size: 11pt; margin: 12px 0 4px; }
+  .sub { color: #555; margin-bottom: 10px; }
+  table { border-collapse: collapse; width: 100%; margin: 6px 0 8px; font-size: 9.5pt; }
+  th, td { border: 1px solid #bbb; padding: 3px 6px; text-align: left; }
+  th { background: #f0f0f0; }
+  td.n { text-align: right; font-variant-numeric: tabular-nums; }
+  code { font: 9pt Consolas, monospace; background: #f4f4f4; padding: 0 2px; }
+  .src { color: #555; font-size: 9pt; }
+  .gap { border-left: 3px solid #b55; padding: 4px 8px; background: #fbf3f3; margin: 6px 0; }
+  pre { font: 8.5pt Consolas, monospace; background: #f6f6f6; padding: 6px; white-space: pre-wrap; }
+</style>
+</head>
+<body>
+
+<h1>GigBid: R&amp;D Report</h1>
+<div class="sub">AI-4016 Agentic AI, Assignment 2 · Engineering design review ·
+Repository: github.com/Hadeeed147/gigbid · Live link: gigbid-0gsi.onrender.com ·
+Every number cites a file in <code>evals/results/</code>; anything not measured is said to be not measured.</div>
+
+<h2>1. Problem and constraints</h2>
+<p>A freelancer spends hours reading job posts, deciding which ones are worth paid bids ("Connects") and writing
+proposals that prove they can do the work. GigBid automates the reading, filtering, evidence-finding and drafting.
+It <b>never automates sending</b>. A proposal, a client message or any spending of Connects stops at a LangGraph
+<code>interrupt()</code> and waits for the human. The marketplace receives only drafts the user approved, and every
+write carries an idempotency key, so a retry cannot submit twice.</p>
+<p><b>Must never be automated:</b> submitting a proposal, sending a message, spending Connects, accepting an offer,
+moving contact or payment off the platform, or claiming experience the portfolio does not support.</p>
+<p><b>Budgets (open profile, Groq free tier):</b> one analysed job costs about 13k tokens and a drafted proposal about
+29k tokens, measured in a 3-job pilot. At Groq list prices that is under $0.01 per proposal; the free tier bills
+nothing. The binding constraint is throughput, not cost: 8,000 tokens per minute per model and 1,000 requests per day,
+read from Groq's rate-limit headers on 15 Nov 2026 (<code>docs/RUNBOOK.md</code>). The final per-job latency and cost
+figures come from <code>evals/results/decision_eval.json</code>.</p>
+
+<h2>2. Architecture</h2>
+<p><b>Bid graph</b> (<code>agent/graphs/bid_graph.py</code>, rendered in <code>docs/images/bid_graph.mmd</code>):
+intake → <i>Job Analyst ∥ Risk Assessor ∥ Fit Matcher</i> (fan-out with <code>Send</code>, reducers merge their
+outputs) → decide → pricing → writer → claim verifier → critic (a weak draft returns to the writer at most twice)
+→ compliance → dry-run preview → <code>interrupt()</code> approval → submit.
+<b>Conversation graph</b> (<code>docs/images/conversation_graph.mmd</code>): intent → liaison drafts a reply → compliance →
+approval → send.</p>
+<p><b>Why each agent exists.</b> Analyst: turns free text into a <code>JobSpec</code> (deliverables, skills, budget,
+screening questions, hidden needs). Risk Assessor: scams, planted injections and red flags, kept separate so a
+persuasive job cannot talk the writer out of a risk flag. Fit Matcher: the requirement-to-evidence matrix. Pricing:
+a quote from market statistics, client spend and the user's floor. Writer: the only free-text author. Verifier and
+Critic: grounding and quality. Compliance Guard: the marketplace rules in <code>data/policy_pack/</code>.
+Agents hand off Pydantic objects (<code>agent/handoffs.py</code>), not free text.</p>
+<p><b>Marketplace port.</b> All marketplace access goes through one interface (<code>agent/marketplace_port.py</code>)
+with two adapters, GigSim and live Upwork MCP (OAuth 2.1), switched by config. <b>MCP surface:</b> our own Portfolio
+(read), Marketplace (read + idempotent writes) and Workspace servers, plus the official GitHub MCP server for repo
+ingestion (<code>docs/TOOLS.md</code>). Each agent sees only an allowlist of tools.
+<b>Stores:</b> the Postgres checkpointer holds short-term thread state and survives restarts. A LangGraph store holds
+long-term memory written only by explicit rules: style memory learned from the user's edits, and outcome memory of
+what won or got replies per category. Raw tool output never goes into memory. The portfolio index lives in
+pgvector.</p>
+<p><b>Two deployments.</b> <code>docker compose up</code> runs the full system: separate MCP processes, the Arq worker
+and V8 retrieval. The public link runs on a free 512 MB host in "lite" mode: BM25 retrieval, with the worker and MCP
+servers in-process. Its cost in quality is measured in §4 rather than hidden.</p>
+
+<h2>3. R&amp;D question A: tool granularity</h2>
+<p><b>Hypothesis.</b> Many fine-grained tools with rewritten descriptions ("what to use it for, what not to use it for,
+an example") select the right tool more often than the published fine-grained descriptions, and far more often than
+3 coarse "action + params" tools, at a higher token cost per task.</p>
+<p><b>Setup.</b> 40 tasks with a known correct call (<code>evals/datasets/tool_tasks.jsonl</code>), three tool sets
+(fine: 14 tools; coarse: 3; best: fine with rewritten descriptions), one forced tool call per task, scored on tool
+selection, argument accuracy and tokens (<code>evals/runners/tool_study.py</code>).</p>
+<div class="gap"><b>Result status.</b> The first run was invalid. Groq rate-limited 230 of its calls, and the runner
+scored each failed call as a wrong choice. I discarded that file rather than report it, fixed the runner (wait out
+429s, exclude rate-limited calls and count them), and reran it. The numbers are reported only if
+<code>evals/results/tool_study.json</code> exists in the final commit.</div>
+
+<h2>4. R&amp;D question B: retrieval, claim verification and the shipped choice</h2>
+<p><b>Hypothesis (the brief's example form):</b> decomposition plus hybrid retrieval raises evidence Recall@5 by
+15 points over V0 on jobs with four or more requirements.</p>
+<table>
+<tr><th>Variant (360 dev queries)</th><th>Recall@5</th><th>MRR</th><th>nDCG@10</th><th>p50 s</th><th>p95 s</th></tr>
+<tr><td>V0 naive dense (baseline)</td><td class="n">0.346</td><td class="n">0.514</td><td class="n">0.514</td><td class="n">0.018</td><td class="n">0.178</td></tr>
+<tr><td>V1 requirement decomposition</td><td class="n">0.320</td><td class="n">0.506</td><td class="n">0.527</td><td class="n">0.046</td><td class="n">0.412</td></tr>
+<tr><td>V2 hybrid (dense + BM25, RRF)</td><td class="n">0.377</td><td class="n">0.567</td><td class="n">0.574</td><td class="n">0.044</td><td class="n">0.426</td></tr>
+<tr><td>V3 + cross-encoder rerank</td><td class="n">0.373</td><td class="n">0.564</td><td class="n">0.582</td><td class="n">6.023</td><td class="n">18.690</td></tr>
+<tr><td>V4 + outcome-aware ranking</td><td class="n">0.418</td><td class="n">0.575</td><td class="n">0.636</td><td class="n">5.900</td><td class="n">21.325</td></tr>
+<tr><td><b>V8 corrective (shipped)</b></td><td class="n"><b>0.426</b></td><td class="n"><b>0.590</b></td><td class="n"><b>0.640</b></td><td class="n">6.350</td><td class="n">12.837</td></tr>
+<tr><td>lite_bm25 (free-host link only)</td><td class="n">0.381</td><td class="n">0.564</td><td class="n">0.581</td><td class="n">0.000</td><td class="n">0.002</td></tr>
+</table>
+<div class="src">Sources: <code>evals/results/rag_eval.csv</code> (commit 5813a3c, 120 queries per persona, deterministic
+requirement splitter), <code>evals/results/rag_eval_lite.csv</code>. Regenerate with
+<code>uv run python -m evals.runners.rag_eval --per-persona 120</code>.</div>
+
+<h3>Breakdown (Recall@5, V0 → V8)</h3>
+<table>
+<tr><th>Slice</th><th>n</th><th>V0</th><th>V8</th><th>Δ (points)</th></tr>
+<tr><td>Persona: AI/ML</td><td class="n">120</td><td class="n">0.326</td><td class="n">0.450</td><td class="n">+12.4</td></tr>
+<tr><td>Persona: Full-stack</td><td class="n">120</td><td class="n">0.437</td><td class="n">0.457</td><td class="n">+2.0</td></tr>
+<tr><td>Persona: Data analyst</td><td class="n">120</td><td class="n">0.276</td><td class="n">0.370</td><td class="n">+9.4</td></tr>
+<tr><td>Jobs with 1–3 requirements</td><td class="n">135</td><td class="n">0.409</td><td class="n">0.508</td><td class="n">+9.9</td></tr>
+<tr><td>Jobs with 4+ requirements</td><td class="n">204</td><td class="n">0.317</td><td class="n">0.388</td><td class="n">+7.1</td></tr>
+<tr><td>Vague jobs</td><td class="n">21</td><td class="n">0.225</td><td class="n">0.264</td><td class="n">+3.9</td></tr>
+</table>
+<div class="src">Source: <code>evals/results/rag_eval.json</code> → <code>summary.&lt;variant&gt;.by_persona / by_job_type</code>.</div>
+
+<p><b>Hypothesis not confirmed.</b> On jobs with 4+ requirements, the shipped pipeline gains +7.1 points, about half
+of the 15 points hypothesised. Decomposition alone (V1) was <i>worse</i> than V0 overall (0.320 vs 0.346), so
+splitting a job into requirements did not by itself find better evidence. The gains come from hybrid retrieval
+(V2: +3.1 points) and above all from outcome-aware ranking (V4: +4.1 points over V3). Reranking alone (V3) bought
+nothing on recall (0.373 vs V2's 0.377) and added about 6 s at p50. The full-stack persona gains least (+2.0): its
+V0 baseline is already the highest. A plausible reason, not tested here, is that its case studies use the same
+technology words as job posts, which dense retrieval already matches.</p>
+<p><b>What ships, and why.</b> V8 corrective has the best recall, MRR and nDCG and a lower p95 than V4 (12.8 s vs
+21.3 s). The reranker is the latency cost; it stays because V4/V8's outcome-aware gains are built on the reranked
+list. The public free-host link instead runs <code>lite_bm25</code>, because the models do not fit in 512 MB. On the
+same queries that costs 4.5 Recall@5 points and 5.9 nDCG points against V8, while still beating V0.</p>
+<p><b>Claim verification.</b> Every draft is split into claims, and each is graded supported, partly supported or
+unsupported against retrieved evidence (<code>rag/verify.py</code>). Unsupported claims are removed and partly
+supported ones rewritten before the Critic sees the draft. The before and after unsupported-claim rates are fields of
+<code>evals/results/decision_eval.json</code>.</p>
+<div class="gap"><b>Not completed:</b> the one-component-at-a-time ablation (<code>evals/runners/ablation.py</code> is
+written but was not run within the free-tier budget) and the LLM-judge calibration. That calibration needs 30 items
+labelled by me, so no kappa is reported. I would rather report no number than an unlabelled one.</div>
+
+<h2>5. R&amp;D question C: single agent vs supervisor vs graph</h2>
+<p>The comparison runner (<code>evals/runners/compare_arch.py</code>) runs the same jobs through (a) one ReAct agent
+with every read tool, (b) a prebuilt <code>langgraph-supervisor</code> with a research agent and a writer agent, and
+(c) the hand-built graph. It measures bid-or-skip accuracy, unsupported claims, compliance violations left in the
+final text, GigSim reply rate, tokens and latency.</p>
+<div class="gap"><b>Not measured by the deadline.</b> At about 13–29k tokens per job and 8k tokens per minute per
+model, 50 jobs × 3 systems did not fit the free-tier budget alongside the decision eval, so there is no comparison
+table. The expected trade-off is that the graph spends fewer tokens because the parallel analysts use the small
+model, while a ReAct agent may do as well on simple single-skill jobs. That is a hypothesis, not a result.</div>
+
+<h2>6. The change request</h2>
+<div class="gap">No change request was received or carried out before submission, so there is nothing to report.</div>
+
+<h2>7. Signature extension: proposal-strategy A/B test (X2)</h2>
+<p>Built: a second writer strategy, B (question-first and short, <code>agent/prompts/writer_b.md</code>), selected by
+<code>proposal.strategy</code>, and a paired A/B runner (<code>evals/runners/ab_test.py</code>). Each bid-worthy job is
+drafted with both strategies and submitted from two GigSim accounts, so the same simulated client judges both. The
+runner applies McNemar's exact test on discordant pairs and reports the minimum detectable effect.
+<b>Not run</b> within the budget, so no effect is claimed.</p>
+
+<h2>8. Failure analysis</h2>
+<p>The failure taxonomy (missed evidence, wrong skip, mispriced, unsupported claim, generic opening, compliance miss,
+injection, tool error) is built from the per-job records in <code>evals/results/decision_eval.json</code>
+(<code>records[].gold</code> vs <code>records[].pred</code>). Engineering failures found and fixed while building and
+evaluating, each traceable to a commit:</p>
+<table>
+<tr><th>Failure</th><th>Category</th><th>Fix</th><th>Worked?</th></tr>
+<tr><td>Fallback model and the whole <code>open_alt</code> profile pointed at models Groq retired</td><td>tool error</td><td>Replaced with <code>qwen/qwen3.8-27b</code>, checked against Groq's live model list (0b65b2b)</td><td>Yes</td></tr>
+<tr><td>429 waits of "1m2s" were parsed as 2 s, so retries gave up early</td><td>tool error</td><td>Parse minutes too; LLM retries configurable separately from node retries (0b65b2b)</td><td>Yes: runs proceed through hundreds of 429s</td></tr>
+<tr><td>Tool study scored rate-limited calls as wrong tool choices (accuracy read 0.0–0.1)</td><td>tool error (eval bug)</td><td>Wait out 429s; exclude rate-limited calls and count them (0391baf)</td><td>Invalid file discarded; rerun</td></tr>
+<tr><td>Full container (~2 GB) cannot run on a 512 MB free host</td><td>deployment</td><td>Lite mode: BM25, in-process worker and MCP; quality cost measured (07894f4)</td><td>Yes: peaks ~200 MB at a 512 MB limit</td></tr>
+<tr><td>E2E sign-in raced navigation; degraded-mode tests used un-onboarded users</td><td>test flake</td><td>Wait for URL change; onboard via API (5bd55cf)</td><td>Partly: 3 Playwright tests still failing at last run</td></tr>
+</table>
+
+<h2>9. Safety and platform respect</h2>
+<p><b>Never:</b> send without approval, contact or pay off-platform, fabricate experience, guarantee outcomes, follow
+instructions found inside job posts or client messages, or scrape. <b>Enforcement, in layers:</b>
+(1) untrusted text is wrapped in delimiters, and every prompt carries a preamble saying it is data, not instructions
+(<code>agent/prompts/_untrusted.md</code>); (2) the Risk Assessor flags injection patterns; (3) claim verification
+removes unsupported claims; (4) Compliance Guard checks the policy pack and banned phrases on the draft <i>and</i> on
+user edits; (5) <code>interrupt()</code> before every write, with idempotency keys on the marketplace port.
+<b>What still gets through:</b> the injection attack-success rate before and after defences is measured by
+<code>evals/runners/injection_eval.py</code> on the planted-injection dev jobs. The run was paused to give the
+decision eval the token budget, so it is reported only if <code>evals/results/injection_eval.json</code> is in the
+final commit. On the lite link, the verifier treats a claim as unsupported if the LLM grader is unavailable, so a
+grader outage removes claims rather than letting unchecked ones through.</p>
+
+<h2>10. Hidden test results</h2>
+<div class="gap">The hidden run happens after the deadline against the live link, so there are no results yet. Declared
+budgets for it: under 30k tokens and under $0.01 (Groq list price) per proposal, and under 15k tokens per analysed
+job. The free host adds a 30–60 s cold start after 15 idle minutes and runs retrieval in lite mode (§4).</div>
+
+</body>
+</html>
