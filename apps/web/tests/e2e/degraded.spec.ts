@@ -1,11 +1,11 @@
 import { expect, test } from "@playwright/test";
-import { register, signIn } from "./helpers";
+import { onboardedUser, signIn } from "./helpers";
 
 // The real outage path (marketplace MCP server down -> work queued -> resumed from the
 // checkpoint) is covered by the Python tests; here we check what the user sees when the
 // health endpoint reports the marketplace as unreachable, and when the API itself is down.
 test("degraded mode: banner appears when the marketplace is unavailable", async ({ page, request }) => {
-  const u = await register(request, "degraded");
+  const u = await onboardedUser(request, "degraded");
   await page.route("**/api/health", (route) =>
     route.fulfill({
       json: { api: true, marketplace: { up: false, reason: "marketplace_unavailable: GigSim unreachable" }, mode: "gigsim", profile: "open" },
@@ -20,7 +20,7 @@ test("degraded mode: banner appears when the marketplace is unavailable", async 
 });
 
 test("degraded mode: banner appears when the API is unreachable", async ({ page, request }) => {
-  const u = await register(request, "apidown");
+  const u = await onboardedUser(request, "apidown");
   await signIn(page, u.email);
   await page.route("**/api/health", (route) => route.abort("connectionrefused"));
   await page.reload();

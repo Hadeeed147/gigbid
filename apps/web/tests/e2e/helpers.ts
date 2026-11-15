@@ -15,6 +15,18 @@ export async function register(request: APIRequestContext, tag: string) {
   return { email, token: body.token as string };
 }
 
+/** Register and onboard through the API (AI/ML persona, one saved search). */
+export async function onboardedUser(request: APIRequestContext, tag: string) {
+  const u = await register(request, tag);
+  const ob = await request.post(`${API}/api/auth/onboarding`, {
+    headers: { Authorization: `Bearer ${u.token}` },
+    data: { profile: "ai_ml", marketplace: "gigsim", rate_floor: 35, hourly_rate: 45, weekly_connects_budget: 60,
+            searches: [{ query: "", category: "AI & Machine Learning", interval_minutes: 10 }] },
+  });
+  expect(ob.ok()).toBeTruthy();
+  return u;
+}
+
 /** Onboard through the API with the AI/ML persona and wait until a proposal awaits approval. */
 export async function userWithPendingProposal(request: APIRequestContext, tag: string) {
   const u = await register(request, tag);
@@ -44,4 +56,6 @@ export async function signIn(page: Page, email: string) {
   await page.getByLabel("Email").fill(email);
   await page.getByLabel("Password").fill(PASSWORD);
   await page.getByRole("button", { name: "Sign in" }).click();
+  // wait until the session is stored and the app has navigated away from /login
+  await page.waitForURL((url) => !url.pathname.startsWith("/login"));
 }
