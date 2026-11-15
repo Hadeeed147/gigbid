@@ -48,6 +48,14 @@ I replaced them with <code>qwen/qwen3.8-27b</code> after checking the live model
 <tr><th>Profile</th><th>Job analysed: p95 latency</th><th>Tokens / job</th><th>Proposal: p95 latency</th><th>Tokens / proposal</th><th>USD / proposal (list price)</th></tr>
 <tr><td>open (Groq, deployed)</td><td class="n">≤ 60 s</td><td class="n">≤ 15,000</td><td class="n">≤ 150 s</td><td class="n">≤ 30,000</td><td class="n">≤ $0.01</td></tr>
 </table>
+<table>
+<tr><th>Measured (decision eval, 9 jobs)</th><th>Job p95</th><th>Tokens / job</th><th>Proposal p95</th><th>Tokens / proposal</th><th>USD / proposal</th></tr>
+<tr><td>open profile, laptop, free tier</td><td class="n">278 s ✗</td><td class="n">17,456 ✗</td><td class="n">278 s ✗</td><td class="n">33,528 ✗</td><td class="n">$0.0077 ✓</td></tr>
+</table>
+<div class="src">Source: <code>evals/results/decision_eval.json</code> → <code>summary.overall</code>. Four of five budgets were
+missed. Latency is inflated by waiting out Groq 429 responses (37 in this run), but I did not separate wait time from
+model time, so I do not claim the budgets would hold without it. Token use is over budget because the Critic ran
+2.5 rounds per proposal on average.</div>
 <div class="src">Declared budgets. Honest provenance: set after a 3-job pilot (job p50 37 s, proposal 102 s, 12.8k tokens
 per job, 28.6k per proposal, $0.0065 per proposal), not before any measurement.</div>
 <p><b>Budgets (open profile, Groq free tier):</b> one analysed job costs about 13k tokens and a drafted proposal about
@@ -98,10 +106,25 @@ an example") select the right tool more often than the published fine-grained de
 <p><b>Setup.</b> 40 tasks with a known correct call (<code>evals/datasets/tool_tasks.jsonl</code>), three tool sets
 (fine: 14 tools; coarse: 3; best: fine with rewritten descriptions), one forced tool call per task, scored on tool
 selection, argument accuracy and tokens (<code>evals/runners/tool_study.py</code>).</p>
-<div class="gap"><b>Result status.</b> The first run was invalid. Groq rate-limited 230 of its calls, and the runner
+<table>
+<tr><th>Tool set</th><th>Tools</th><th>Tool-selection acc.</th><th>Argument acc.</th><th>Tokens / task</th><th>Scored / tasks</th></tr>
+<tr><td>fine (published descriptions)</td><td class="n">14</td><td class="n">0.933</td><td class="n">0.933</td><td class="n">1,869</td><td class="n">15 / 15</td></tr>
+<tr><td>coarse (action + params)</td><td class="n">3</td><td class="n">0.600</td><td class="n">0.467</td><td class="n">608</td><td class="n">15 / 15</td></tr>
+<tr><td>best (rewritten descriptions)</td><td class="n">14</td><td class="n">0.800</td><td class="n">0.800</td><td class="n">2,000</td><td class="n">15 / 15</td></tr>
+</table>
+<div class="src">Source: <code>evals/results/tool_study.json</code>. Model qwen/qwen3.8-27b (<code>GIGBID_PROFILE=open_alt</code>, its own
+rate-limit bucket), first 15 of the 40 tasks (<code>--limit 15</code>). No call was rate-limited in this run. Malformed tool
+calls from the model count as wrong.</div>
+<p><b>Reading.</b> Coarse tools cost about a third of the prompt tokens but lose badly. Selection drops by a third
+(0.93 → 0.60) and argument accuracy halves, because the model must also pick the right <code>action</code> string and
+nest its arguments in <code>params</code>. That part of the hypothesis holds. The rewritten descriptions did
+<i>not</i> help on this model: they were worse than the published ones (0.80 vs 0.93) at slightly more tokens, so that part
+is refuted. With 15 tasks, one task is 6.7 points, so the fine-vs-best gap is two tasks. I cannot separate it from noise
+on a single run. Conclusion: keep fine-grained tools with their published descriptions. The description rewrite was
+not adopted.</p>
+<div class="gap"><b>An invalid run, discarded.</b> The first run was invalid. Groq rate-limited 230 of its calls, and the runner
 scored each failed call as a wrong choice. I discarded that file rather than report it, fixed the runner (wait out
-429s, exclude rate-limited calls and count them), and reran it. The numbers are reported only if
-<code>evals/results/tool_study.json</code> exists in the final commit.</div>
+429s, exclude rate-limited calls and count them), and reran it. The table above is the valid rerun.</div>
 
 <h2>4. R&amp;D question B: retrieval, claim verification and the shipped choice</h2>
 <p><b>Hypothesis (the brief's example form):</b> decomposition plus hybrid retrieval raises evidence Recall@5 by
@@ -155,12 +178,22 @@ list. The public free-host link instead runs <code>lite_bm25</code>, because the
 same queries that costs 4.5 Recall@5 points and 5.9 nDCG points against V8, while still beating V0.</p>
 <p><b>Claim verification.</b> Every draft is split into claims, and each is graded supported, partly supported or
 unsupported against retrieved evidence (<code>rag/verify.py</code>). Unsupported claims are removed and partly
-supported ones rewritten before the Critic sees the draft. The before and after unsupported-claim rates are fields of
-<code>evals/results/decision_eval.json</code>.</p>
+supported ones rewritten before the Critic sees the draft. In the decision eval, the 4 drafted proposals averaged 3.5 claims each. There were <b>0.25 unsupported claims per
+proposal before verification and 0.00 after</b> (<code>decision_eval.json</code> →
+<code>unsupported_claims_per_proposal_before/after</code>). n=4 proposals, so this shows the mechanism works; it does
+not estimate a rate.</p>
 <div class="gap"><b>Not completed:</b> the one-component-at-a-time ablation (<code>evals/runners/ablation.py</code> is
 written but was not run within the free-tier budget) and the LLM-judge calibration. That calibration needs 30 items
 labelled by me, so no kappa is reported. I would rather report no number than an unlabelled one.</div>
 
+<h3>End-to-end decisions (hand-built graph)</h3>
+<table>
+<tr><th>n jobs</th><th>Bid F1</th><th>Precision</th><th>Recall</th><th>Price in fair band</th><th>Proposals</th><th>GigSim reply rate</th><th>Hire rate</th></tr>
+<tr><td class="n">9</td><td class="n">0.889</td><td class="n">1.000</td><td class="n">0.800</td><td class="n">4 / 4</td><td class="n">4</td><td class="n">3 / 4</td><td class="n">1 / 4</td></tr>
+</table>
+<div class="src">Source: <code>evals/results/decision_eval.json</code> (3 dev jobs per persona, open profile; the harness approves drafts
+unchanged to read GigSim outcomes). The sample had no scam jobs, so scam precision and recall are not measured here.
+The 0.0 in the file means "no positives", not a failure.</div>
 <h2>5. R&amp;D question C: single agent vs supervisor vs graph</h2>
 <p>The comparison runner (<code>evals/runners/compare_arch.py</code>) runs the same jobs through (a) one ReAct agent
 with every read tool, (b) a prebuilt <code>langgraph-supervisor</code> with a research agent and a writer agent, and
@@ -182,12 +215,12 @@ runner applies McNemar's exact test on discordant pairs and reports the minimum 
 <b>Not run</b> within the budget, so no effect is claimed.</p>
 
 <h2>8. Failure analysis</h2>
-<p>The failure taxonomy (missed evidence, wrong skip, mispriced, unsupported claim, generic opening, compliance miss,
-injection, tool error) is built from the per-job records in <code>evals/results/decision_eval.json</code>
-(<code>records[].gold</code> vs <code>records[].pred</code>). Engineering failures found and fixed while building and
-evaluating, each traceable to a commit:</p>
+<p><b>Honest scope.</b> The brief asks for at least 10 failed dev jobs. The decision eval had 9 jobs and only 1
+decision failure, so I cannot fill the taxonomy with job failures. The table below also lists the engineering
+failures I found and fixed, each traceable to a commit.</p>
 <table>
 <tr><th>Failure</th><th>Category</th><th>Fix</th><th>Worked?</th></tr>
+<tr><td>Bid-worthy fit job <code>d-ai_ml-000</code> skipped with reason "fit 0.00 too low"</td><td>missed evidence → wrong skip</td><td>Not fixed. The Fit Matcher scored zero evidence for a job the persona can do, so the cause is retrieval or matching, not the decision rule.</td><td>—</td></tr>
 <tr><td>Fallback model and the whole <code>open_alt</code> profile pointed at models Groq retired</td><td>tool error</td><td>Replaced with <code>qwen/qwen3.8-27b</code>, checked against Groq's live model list (0b65b2b)</td><td>Yes</td></tr>
 <tr><td>429 waits of "1m2s" were parsed as 2 s, so retries gave up early</td><td>tool error</td><td>Parse minutes too; LLM retries configurable separately from node retries (0b65b2b)</td><td>Yes: runs proceed through hundreds of 429s</td></tr>
 <tr><td>Tool study scored rate-limited calls as wrong tool choices (accuracy read 0.0–0.1)</td><td>tool error (eval bug)</td><td>Wait out 429s; exclude rate-limited calls and count them (0391baf)</td><td>Invalid file discarded; rerun</td></tr>

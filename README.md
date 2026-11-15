@@ -76,19 +76,33 @@ On the same 360 queries it gives up 4.5 Recall@5 points and 5.9 nDCG@10 points a
 dense V0 baseline. `docker compose up`, the evals and the viva demo run the full V8 system.
 (`evals/results/rag_eval_lite.csv`)
 
-### Agent decisions, injections and tools
+### Agent decisions (hand-built graph, open profile)
 
-Results for the bid-or-skip decision, the injection attack-success rate before and after defences, and the tool
-granularity study are written to `evals/results/decision_eval.json`, `injection_eval.json` and `tool_study.json` by:
+`GIGBID_LLM_CACHE=1 uv run python -m evals.runners.decision_eval --per-persona 3 --outcomes` → `evals/results/decision_eval.json`
 
-```bash
-GIGBID_LLM_CACHE=1 uv run python -m evals.runners.decision_eval --per-persona 10 --outcomes
-GIGBID_LLM_CACHE=1 uv run python -m evals.runners.injection_eval --max-planted-per-persona 3 --extra-per-persona 1
-GIGBID_PROFILE=open_alt uv run python -m evals.runners.tool_study
-```
+| n jobs | Bid F1 | Precision | Recall | Price in fair band | Unsupported claims / proposal (before → after verification) | GigSim reply rate | Tokens / proposal | USD / proposal |
+|---|---|---|---|---|---|---|---|---|
+| 9 | 0.889 | 1.000 | 0.800 | 4 / 4 | 0.25 → 0.00 | 3 / 4 | 33,528 | $0.0077 |
 
-They run on Groq's free tier (8,000 tokens/minute per model; one analysed job costs about 13k tokens), so they use
-subsets of the dev set. Each file records its sample size, and the report quotes only what these files contain.
+Small sample: Groq's free tier allows 8,000 tokens/minute per model, and one proposal costs about 33k tokens. The sample
+had no scam jobs, so scam detection is not measured here. p95 latency was 278 s per job, over the declared 60 s budget;
+it is inflated by waiting out rate limits, but that was not separated from model time, so the budget counts as missed.
+
+### Tool granularity (R&D question A)
+
+`GIGBID_PROFILE=open_alt uv run python -m evals.runners.tool_study --limit 15` → `evals/results/tool_study.json`
+
+| Tool set | Tools | Selection acc. | Argument acc. | Tokens / task |
+|---|---|---|---|---|
+| fine (published descriptions) | 14 | 0.933 | 0.933 | 1,869 |
+| coarse (action + params) | 3 | 0.600 | 0.467 | 608 |
+| rewritten descriptions | 14 | 0.800 | 0.800 | 2,000 |
+
+Coarse tools are about 3x cheaper but much less accurate. The rewritten descriptions did not beat the published ones
+(n=15, qwen3.8-27b), so they were not adopted.
+
+Not run within the free-tier budget, so no numbers: the single-agent vs supervisor vs graph comparison, the ablation,
+the injection before/after study, the A/B test and the judge calibration (that one needs 30 labels by me).
 
 ## Run it
 
