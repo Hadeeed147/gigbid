@@ -28,14 +28,31 @@ def evidence_block(state: dict, max_items: int = 10) -> tuple[str, set[str]]:
     return "\n\n".join(lines), ids
 
 
+async def fetch_exemplars(state: dict, k: int = 2) -> list[dict]:
+    """Past proposals for similar jobs that WON or got REPLIES (outcome-aware phrasing, V4).
+    They are style references only, never evidence: the writer prompt says so."""
+    from agent.mcp_client import get_hub
+    hub = await get_hub()
+    q = state["job"].get("title", "") + " " + " ".join((state.get("job_spec") or {}).get("requirements", [])[:4])
+    out: list[dict] = []
+    for outcome in ("won", "replied"):
+        if len(out) >= k:
+            break
+        res = await hub.call("writer", "search_evidence", {"requirement": q[:480], "k": k,
+                                                            "filters": {"types": ["proposal"], "outcome": outcome}})
+        out += res.get("items", [])
+    return out[:k]
+
+
 @node("writer")
 async def writer(state: dict) -> dict:
     profile = state.get("profile", {})
     ev, ids = evidence_block(state)
     rules = style_rules(state.get("user_id", ""))
     lessons = outcome_lessons(state.get("user_id", ""), state["job"].get("category", ""))
-    exemplars = "\n---\n".join(e["text"][:500] for e in (state.get("exemplars") or [])[:2]) or "(none yet)"
-    sys = load_prompt("writer", untrusted=load_prompt("_untrusted"), freelancer_name=profile.get("name", "the freelancer"),
+    exemplars = "\n---\n".join(e["text"][:500] for e in await fetch_exemplars(state)) or "(none yet)"
+    prompt_name = "writer_b" if str(cfg("proposal.strategy", "A")).upper() == "B" else "writer"
+    sys = load_prompt(prompt_name, untrusted=load_prompt("_untrusted"), freelancer_name=profile.get("name", "the freelancer"),
                       freelancer_title=profile.get("title", ""), min_words=str(cfg("proposal.min_words")),
                       max_words=str(cfg("proposal.max_words")),
                       style_rules=("Learned style rules from this user's edits (follow them):\n- " + "\n- ".join(rules))

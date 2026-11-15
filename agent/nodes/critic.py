@@ -14,7 +14,8 @@ def hard_checks(draft: dict) -> list[CritiqueIssue]:
     text = draft.get("cover_letter", "")
     n = len(CITE.sub("", text).split())
     issues = []
-    if n < cfg("proposal.min_words"):
+    b = str(cfg("proposal.strategy", "A")).upper() == "B"
+    if n < cfg("proposal.min_words_b" if b else "proposal.min_words"):
         issues.append(CritiqueIssue(problem=f"too short ({n} words)", fix="add one more specific piece of evidence"))
     if n > cfg("proposal.max_words") + 30:
         issues.append(CritiqueIssue(problem=f"too long ({n} words)", fix=f"cut to under {cfg('proposal.max_words')} words"))

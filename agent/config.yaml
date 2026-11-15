@@ -163,8 +163,10 @@ memory:
   max_style_rules: 12
 
 proposal:
+  strategy: ${GIGBID_PROPOSAL_STRATEGY:-A}   # A: evidence-first (shipped) | B: question-first, short (X2 A/B test)
   max_words: 220
   min_words: 80
+  min_words_b: 60            # strategy B is deliberately shorter
   banned_phrases_file: data/policy_pack/banned_phrases.txt
 
 workspace:

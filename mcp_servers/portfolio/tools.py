@@ -94,6 +94,14 @@ def register(mcp: FastMCP) -> None:
         if not store.items(tenant):
             raise ToolError(f"no portfolio found for tenant '{tenant}'")
         f = filters or SearchFilters()
+        if f.types and set(f.types) == {"proposal"}:
+            # past proposals are phrasing exemplars, never evidence: plain similarity + outcome filter
+            hits = store.structured(tenant).dense(requirement, k * 6, types={"proposal"})
+            if f.outcome:
+                hits = [h for h in hits if h.chunk.outcome == f.outcome]
+            items = [EvidenceItem(**{k2: v for k2, v in h.to_evidence().items() if k2 in EvidenceItem.model_fields})
+                     for h in hits[:k]]
+            return EvidenceList(requirement=requirement, variant="proposal_similarity", items=items)
         variant = get_variant()
         res = variant.retrieve(RetrievalQuery(tenant=tenant, job_text=requirement, requirements=[requirement]),
                                k * 3 if (f.types or f.project_id or f.since or f.outcome) else k)
