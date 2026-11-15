@@ -8,7 +8,7 @@ export DATABASE_URL="${NEON_DATABASE_URL:-${DATABASE_URL:-}}"
 PUBLIC="${RENDER_EXTERNAL_URL:-}"
 export API_PUBLIC_URL="${PUBLIC:-${API_PUBLIC_URL:-}}" WEB_PUBLIC_URL="${PUBLIC:-${WEB_PUBLIC_URL:-}}"
 
-redis-server --port 6379 --bind 127.0.0.1 --save "" --appendonly no --maxmemory 32mb --daemonize yes
+redis-server --port 6379 --bind 127.0.0.1 --save "" --appendonly no --maxmemory 128mb --maxmemory-policy volatile-lru --daemonize yes
 uvicorn gigsim.server:app --host 127.0.0.1 --port 8100 --log-level warning &
 for i in $(seq 1 30); do curl -fs http://127.0.0.1:8100/health >/dev/null && break; sleep 1; done
 python -m scripts.seed || echo "seed failed (continuing)"
