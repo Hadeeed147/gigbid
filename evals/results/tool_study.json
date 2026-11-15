@@ -1,0 +1,762 @@
+{
+ "provenance": {
+  "generated_at": "2026-11-15T23:30:22",
+  "git_commit": "5f55928",
+  "profile": "open_alt",
+  "models": {
+   "small": {
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "temperature": 0.0
+   },
+   "strong": {
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "temperature": 0.3
+   },
+   "fallback": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-20b",
+    "temperature": 0.0
+   }
+  },
+  "embeddings": "BAAI/bge-small-en-v1.5",
+  "reranker": "Xenova/ms-marco-MiniLM-L-6-v2",
+  "machine": "Windows AMD64",
+  "fake_llm": false,
+  "n_tasks": 15
+ },
+ "summary": {
+  "fine": {
+   "tool_selection_accuracy": 0.9333,
+   "argument_accuracy": 0.9333,
+   "tokens_per_task": 1869.2143,
+   "n_tasks": 15,
+   "n_scored": 15,
+   "n_excluded_rate_limited": 0,
+   "n_tools": 14,
+   "model": "qwen/qwen3.8-27b"
+  },
+  "coarse": {
+   "tool_selection_accuracy": 0.6,
+   "argument_accuracy": 0.4667,
+   "tokens_per_task": 608.2222,
+   "n_tasks": 15,
+   "n_scored": 15,
+   "n_excluded_rate_limited": 0,
+   "n_tools": 3,
+   "model": "qwen/qwen3.8-27b"
+  },
+  "best": {
+   "tool_selection_accuracy": 0.8,
+   "argument_accuracy": 0.8,
+   "tokens_per_task": 2000.3333,
+   "n_tasks": 15,
+   "n_scored": 15,
+   "n_excluded_rate_limited": 0,
+   "n_tools": 14,
+   "model": "qwen/qwen3.8-27b"
+  }
+ },
+ "rows": {
+  "fine": [
+   {
+    "id": 1,
+    "expected": "search_jobs",
+    "got": {
+     "name": "search_jobs",
+     "args": {
+      "category": "Web Development",
+      "query": "LangGraph"
+     },
+     "id": "pk4jvw5gv",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1877,
+    "usd": 0.0
+   },
+   {
+    "id": 2,
+    "expected": "search_jobs",
+    "got": {
+     "name": "search_jobs",
+     "args": {
+      "limit": 10,
+      "query": "Celery"
+     },
+     "id": "haq64fp03",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1878,
+    "usd": 0.0
+   },
+   {
+    "id": 3,
+    "expected": "get_job",
+    "got": {
+     "name": "get_job",
+     "args": {
+      "job_id": "d-data_analyst-101"
+     },
+     "id": "fcaftfndf",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1877,
+    "usd": 0.0
+   },
+   {
+    "id": 4,
+    "expected": "get_client_history",
+    "got": {
+     "name": "get_client_history",
+     "args": {
+      "client_id": "c0350"
+     },
+     "id": "a3rmcm2gs",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1871,
+    "usd": 0.0
+   },
+   {
+    "id": 5,
+    "expected": "get_connects_balance",
+    "got": {
+     "name": "get_connects_balance",
+     "args": {},
+     "id": "w4s0ebtds",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1849,
+    "usd": 0.0
+   },
+   {
+    "id": 6,
+    "expected": "get_market_stats",
+    "got": {
+     "name": "get_market_stats",
+     "args": {
+      "category": "Web Development"
+     },
+     "id": "h3t3d2vax",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1865,
+    "usd": 0.0
+   },
+   {
+    "id": 7,
+    "expected": "get_policy",
+    "got": {
+     "name": "get_policy",
+     "args": {},
+     "id": "6t2bjsygs",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1848,
+    "usd": 0.0
+   },
+   {
+    "id": 8,
+    "expected": "search_evidence",
+    "got": {
+     "name": "search_evidence",
+     "args": {
+      "k": 10,
+      "requirement": "Asynchronous task queue using Celery for background job processing"
+     },
+     "id": "zyj25xqqz",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1890,
+    "usd": 0.0
+   },
+   {
+    "id": 9,
+    "expected": "get_case_study",
+    "got": {
+     "name": "get_case_study",
+     "args": {
+      "item_id": "data_analyst:cs:07"
+     },
+     "id": "wx0pyyxev",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1879,
+    "usd": 0.0
+   },
+   {
+    "id": 10,
+    "expected": "list_skills",
+    "got": {
+     "name": "list_skills",
+     "args": {},
+     "id": "8akd66jmc",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1847,
+    "usd": 0.0
+   },
+   {
+    "id": 11,
+    "expected": "list_messages",
+    "got": {
+     "name": "list_messages",
+     "args": {
+      "thread_id": "th_4be21a9c0d"
+     },
+     "id": "dpea240qv",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1880,
+    "usd": 0.0
+   },
+   {
+    "id": 12,
+    "expected": "list_threads",
+    "got": {
+     "name": "list_threads",
+     "args": {},
+     "id": "p5f2zakhq",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1846,
+    "usd": 0.0
+   },
+   {
+    "id": 13,
+    "expected": "free_slots",
+    "got": {
+     "name": "free_slots",
+     "args": {
+      "days_ahead": 5,
+      "duration_minutes": 30,
+      "max_slots": 10
+     },
+     "id": "710f79b8t",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1897,
+    "usd": 0.0
+   },
+   {
+    "id": 14,
+    "expected": "create_interview_hold",
+    "got": null,
+    "tool_ok": false,
+    "args_ok": false,
+    "tokens": null,
+    "usd": null,
+    "error": "Error code: 400 - tool call validation failed: parameters for tool create_interview_hold did not match schema: errors: [missing properties: 'start']",
+    "excluded": false
+   },
+   {
+    "id": 15,
+    "expected": "list_events",
+    "got": {
+     "name": "list_events",
+     "args": {
+      "after_seq": 12
+     },
+     "id": "d52fj90kd",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1865,
+    "usd": 0.0
+   }
+  ],
+  "coarse": [
+   {
+    "id": 1,
+    "expected": "search_jobs",
+    "got": {
+     "name": "marketplace",
+     "args": {
+      "action": "search_jobs",
+      "params": {
+       "category": "Web Development",
+       "query": "LangGraph",
+       "status": "open"
+      }
+     },
+     "id": "3czad3kvc",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 606,
+    "usd": 0.0
+   },
+   {
+    "id": 2,
+    "expected": "search_jobs",
+    "got": null,
+    "tool_ok": false,
+    "args_ok": false,
+    "tokens": null,
+    "usd": null,
+    "error": "Error code: 400 - tool call validation failed: attempted to call tool 'workshop' which was not in request.tools",
+    "excluded": false
+   },
+   {
+    "id": 3,
+    "expected": "get_job",
+    "got": {
+     "name": "marketplace",
+     "args": {
+      "action": "get_job",
+      "params": {
+       "job_id": "d-data_analyst-101"
+      }
+     },
+     "id": "ee8rqnnsz",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 619,
+    "usd": 0.0
+   },
+   {
+    "id": 4,
+    "expected": "get_client_history",
+    "got": null,
+    "tool_ok": false,
+    "args_ok": false,
+    "tokens": null,
+    "usd": null,
+    "error": "Error code: 400 - tool call validation failed: parameters for tool marketplace did not match schema: errors: [missing properties: 'action']",
+    "excluded": false
+   },
+   {
+    "id": 5,
+    "expected": "get_connects_balance",
+    "got": {
+     "name": "marketplace",
+     "args": {
+      "action": "get_connects_balance",
+      "params": {}
+     },
+     "id": "bgs54yjnd",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 588,
+    "usd": 0.0
+   },
+   {
+    "id": 6,
+    "expected": "get_market_stats",
+    "got": null,
+    "tool_ok": false,
+    "args_ok": false,
+    "tokens": null,
+    "usd": null,
+    "error": "Error code: 400 - tool call validation failed: parameters for tool portfolio did not match schema: errors: [`/action`: value must be one of 'search_evidence', 'get_case_study', 'list_skills']",
+    "excluded": false
+   },
+   {
+    "id": 7,
+    "expected": "get_policy",
+    "got": {
+     "name": "marketplace",
+     "args": {
+      "action": "get_policy",
+      "params": {
+       "topic": "proposals"
+      }
+     },
+     "id": "3qyc99cdd",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 594,
+    "usd": 0.0
+   },
+   {
+    "id": 8,
+    "expected": "search_evidence",
+    "got": null,
+    "tool_ok": false,
+    "args_ok": false,
+    "tokens": null,
+    "usd": null,
+    "error": "Error code: 400 - tool call validation failed: parameters for tool marketplace did not match schema: errors: [missing properties: 'action']",
+    "excluded": false
+   },
+   {
+    "id": 9,
+    "expected": "get_case_study",
+    "got": {
+     "name": "portfolio",
+     "args": {
+      "action": "get_case_study",
+      "params": {
+       "id": "data_analyst:cs:07"
+      }
+     },
+     "id": "6mc9m7d3p",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": false,
+    "tokens": 609,
+    "usd": 0.0
+   },
+   {
+    "id": 10,
+    "expected": "list_skills",
+    "got": null,
+    "tool_ok": false,
+    "args_ok": false,
+    "tokens": null,
+    "usd": null,
+    "error": "Error code: 400 - tool call validation failed: parameters for tool portfolio did not match schema: errors: [`/action`: value must be one of 'search_evidence', 'get_case_study', 'list_skills']",
+    "excluded": false
+   },
+   {
+    "id": 11,
+    "expected": "list_messages",
+    "got": {
+     "name": "marketplace",
+     "args": {
+      "action": "list_messages",
+      "params": {
+       "thread_id": "th_4be21a9c0d"
+      }
+     },
+     "id": "pdqza0xm4",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 610,
+    "usd": 0.0
+   },
+   {
+    "id": 12,
+    "expected": "list_threads",
+    "got": null,
+    "tool_ok": false,
+    "args_ok": false,
+    "tokens": null,
+    "usd": null,
+    "error": "Error code: 400 - tool call validation failed: attempted to call tool 'workshop' which was not in request.tools",
+    "excluded": false
+   },
+   {
+    "id": 13,
+    "expected": "free_slots",
+    "got": {
+     "name": "workspace",
+     "args": {
+      "action": "free_slots",
+      "params": {
+       "days": 5,
+       "duration_minutes": 30
+      }
+     },
+     "id": "r2y4h6348",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 606,
+    "usd": 0.0
+   },
+   {
+    "id": 14,
+    "expected": "create_interview_hold",
+    "got": {
+     "name": "workspace",
+     "args": {
+      "action": "create_interview_hold",
+      "params": {
+       "start": "2026-11-18T15:00:00+05:00"
+      }
+     },
+     "id": "k2tndha05",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 646,
+    "usd": 0.0
+   },
+   {
+    "id": 15,
+    "expected": "list_events",
+    "got": {
+     "name": "marketplace",
+     "args": {
+      "action": "list_events",
+      "params": {
+       "since": 12
+      }
+     },
+     "id": "rnsggtfer",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": false,
+    "tokens": 596,
+    "usd": 0.0
+   }
+  ],
+  "best": [
+   {
+    "id": 1,
+    "expected": "search_jobs",
+    "got": {
+     "name": "search_jobs",
+     "args": {
+      "category": "Web Development",
+      "query": "LangGraph"
+     },
+     "id": "2gts5fjf5",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 2002,
+    "usd": 0.0
+   },
+   {
+    "id": 2,
+    "expected": "search_jobs",
+    "got": {
+     "name": "search_jobs",
+     "args": {
+      "limit": 20,
+      "query": "Celery"
+     },
+     "id": "p2e6c9e4m",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 2003,
+    "usd": 0.0
+   },
+   {
+    "id": 3,
+    "expected": "get_job",
+    "got": null,
+    "tool_ok": false,
+    "args_ok": false,
+    "tokens": null,
+    "usd": null,
+    "error": "Error code: 400 - tool call validation failed: attempted to call tool 'search_eigen' which was not in request.tools",
+    "excluded": false
+   },
+   {
+    "id": 4,
+    "expected": "get_client_history",
+    "got": null,
+    "tool_ok": false,
+    "args_ok": false,
+    "tokens": null,
+    "usd": null,
+    "error": "Error code: 400 - tool call validation failed: attempted to call tool 'get_clientHistory' which was not in request.tools",
+    "excluded": false
+   },
+   {
+    "id": 5,
+    "expected": "get_connects_balance",
+    "got": {
+     "name": "get_connects_balance",
+     "args": {},
+     "id": "7wz3fmcf2",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1974,
+    "usd": 0.0
+   },
+   {
+    "id": 6,
+    "expected": "get_market_stats",
+    "got": {
+     "name": "get_market_stats",
+     "args": {
+      "category": "Web Development"
+     },
+     "id": "yts58jbt2",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1990,
+    "usd": 0.0
+   },
+   {
+    "id": 7,
+    "expected": "get_policy",
+    "got": {
+     "name": "get_policy",
+     "args": {},
+     "id": "624hhc040",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1973,
+    "usd": 0.0
+   },
+   {
+    "id": 8,
+    "expected": "search_evidence",
+    "got": null,
+    "tool_ok": false,
+    "args_ok": false,
+    "tokens": null,
+    "usd": null,
+    "error": "Error code: 400 - tool call validation failed: attempted to call tool 'search_e evidence' which was not in request.tools",
+    "excluded": false
+   },
+   {
+    "id": 9,
+    "expected": "get_case_study",
+    "got": {
+     "name": "get_case_study",
+     "args": {
+      "item_id": "data_analyst:cs:07"
+     },
+     "id": "0xft4rf2f",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 2004,
+    "usd": 0.0
+   },
+   {
+    "id": 10,
+    "expected": "list_skills",
+    "got": {
+     "name": "list_skills",
+     "args": {},
+     "id": "ej7kc77q9",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1972,
+    "usd": 0.0
+   },
+   {
+    "id": 11,
+    "expected": "list_messages",
+    "got": {
+     "name": "list_messages",
+     "args": {
+      "thread_id": "th_4be21a9c0d"
+     },
+     "id": "d252r6n44",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 2005,
+    "usd": 0.0
+   },
+   {
+    "id": 12,
+    "expected": "list_threads",
+    "got": {
+     "name": "list_threads",
+     "args": {},
+     "id": "nk3r0hd2v",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1971,
+    "usd": 0.0
+   },
+   {
+    "id": 13,
+    "expected": "free_slots",
+    "got": {
+     "name": "free_slots",
+     "args": {
+      "duration_minutes": 30
+     },
+     "id": "4a0fkkjnm",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1996,
+    "usd": 0.0
+   },
+   {
+    "id": 14,
+    "expected": "create_interview_hold",
+    "got": {
+     "name": "create_interview_hold",
+     "args": {
+      "days_ahead": 5,
+      "duration_minutes": 30,
+      "idempotency_key": "hold-2026-11-18T15:00:00+05:00",
+      "start": "2026-11-18T15:00:00+05:00",
+      "title": "Client interview (tentative)"
+     },
+     "id": "5aced4c70",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 2124,
+    "usd": 0.0
+   },
+   {
+    "id": 15,
+    "expected": "list_events",
+    "got": {
+     "name": "list_events",
+     "args": {
+      "after_seq": 12
+     },
+     "id": "pdtdsdqy5",
+     "type": "tool_call"
+    },
+    "tool_ok": true,
+    "args_ok": true,
+    "tokens": 1990,
+    "usd": 0.0
+   }
+  ]
+ }
+}

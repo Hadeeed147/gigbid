@@ -1,0 +1,822 @@
+{
+ "provenance": {
+  "generated_at": "2026-11-15T23:29:41",
+  "git_commit": "5f55928",
+  "profile": "open",
+  "models": {
+   "small": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-20b",
+    "temperature": 0.0
+   },
+   "strong": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0.3
+   },
+   "fallback": {
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "temperature": 0.0
+   }
+  },
+  "embeddings": "BAAI/bge-small-en-v1.5",
+  "reranker": "Xenova/ms-marco-MiniLM-L-6-v2",
+  "machine": "Windows AMD64",
+  "fake_llm": false,
+  "per_persona": 3,
+  "policy_version": 1
+ },
+ "summary": {
+  "overall": {
+   "n_jobs": 9,
+   "n_failed": 0,
+   "n_proposals": 4,
+   "bid_f1": 0.889,
+   "bid_precision": 1.0,
+   "bid_recall": 0.8,
+   "scam_precision": 0.0,
+   "scam_recall": 0.0,
+   "price_in_fair_band": 1.0,
+   "unsupported_claims_per_proposal_before": 0.25,
+   "unsupported_claims_per_proposal_after": 0.0,
+   "claims_per_proposal": 3.5,
+   "critic_rounds_mean": 2.5,
+   "latency_per_job_p50_s": 68.49,
+   "latency_per_job_p95_s": 278.35,
+   "latency_per_proposal_p50_s": 152.7,
+   "latency_per_proposal_p95_s": 278.35,
+   "tokens_per_job": 17456.3333,
+   "tokens_per_proposal": 33527.5,
+   "usd_per_job": 0.0038,
+   "usd_per_proposal": 0.0077
+  },
+  "by_persona": {
+   "ai_ml": {
+    "n_jobs": 3,
+    "n_failed": 0,
+    "n_proposals": 2,
+    "bid_f1": 0.8,
+    "bid_precision": 1.0,
+    "bid_recall": 0.667,
+    "scam_precision": 0.0,
+    "scam_recall": 0.0,
+    "price_in_fair_band": 1.0,
+    "unsupported_claims_per_proposal_before": 0.5,
+    "unsupported_claims_per_proposal_after": 0.0,
+    "claims_per_proposal": 3.0,
+    "critic_rounds_mean": 2.5,
+    "latency_per_job_p50_s": 152.7,
+    "latency_per_job_p95_s": 152.73,
+    "latency_per_proposal_p50_s": 152.7,
+    "latency_per_proposal_p95_s": 152.73,
+    "tokens_per_job": 21994.6667,
+    "tokens_per_proposal": 30394.0,
+    "usd_per_job": 0.0049,
+    "usd_per_proposal": 0.007
+   },
+   "fullstack": {
+    "n_jobs": 3,
+    "n_failed": 0,
+    "n_proposals": 1,
+    "bid_f1": 1.0,
+    "bid_precision": 1.0,
+    "bid_recall": 1.0,
+    "scam_precision": 0.0,
+    "scam_recall": 0.0,
+    "price_in_fair_band": 1.0,
+    "unsupported_claims_per_proposal_before": 0.0,
+    "unsupported_claims_per_proposal_after": 0.0,
+    "claims_per_proposal": 4.0,
+    "critic_rounds_mean": 2.0,
+    "latency_per_job_p50_s": 68.49,
+    "latency_per_job_p95_s": 81.64,
+    "latency_per_proposal_p50_s": 81.64,
+    "latency_per_proposal_p95_s": 81.64,
+    "tokens_per_job": 12680.6667,
+    "tokens_per_proposal": 28638.0,
+    "usd_per_job": 0.0027,
+    "usd_per_proposal": 0.0065
+   },
+   "data_analyst": {
+    "n_jobs": 3,
+    "n_failed": 0,
+    "n_proposals": 1,
+    "bid_f1": 1.0,
+    "bid_precision": 1.0,
+    "bid_recall": 1.0,
+    "scam_precision": 0.0,
+    "scam_recall": 0.0,
+    "price_in_fair_band": 1.0,
+    "unsupported_claims_per_proposal_before": 0.0,
+    "unsupported_claims_per_proposal_after": 0.0,
+    "claims_per_proposal": 4.0,
+    "critic_rounds_mean": 3.0,
+    "latency_per_job_p50_s": 43.82,
+    "latency_per_job_p95_s": 278.35,
+    "latency_per_proposal_p50_s": 278.35,
+    "latency_per_proposal_p95_s": 278.35,
+    "tokens_per_job": 17693.6667,
+    "tokens_per_proposal": 44684.0,
+    "usd_per_job": 0.0039,
+    "usd_per_proposal": 0.0104
+   }
+  },
+  "gigsim_outcomes": {
+   "ai_ml": {
+    "n_submitted": 2,
+    "reply_rate": 1.0,
+    "hire_rate": 0.0
+   },
+   "fullstack": {
+    "n_submitted": 1,
+    "reply_rate": 0.0,
+    "hire_rate": 0.0
+   },
+   "data_analyst": {
+    "n_submitted": 1,
+    "reply_rate": 1.0,
+    "hire_rate": 1.0
+   },
+   "overall": {
+    "n_submitted": 4,
+    "reply_rate": 0.75,
+    "hire_rate": 0.25
+   }
+  }
+ },
+ "records": [
+  {
+   "persona": "ai_ml",
+   "job_id": "d-ai_ml-000",
+   "kind": "fit",
+   "gold_bid": true,
+   "pred_bid": false,
+   "action": "skip",
+   "status": "skipped",
+   "reasons": [
+    "fit 0.00 too low"
+   ],
+   "gold_scam": false,
+   "pred_scam": false,
+   "injection": false,
+   "fit": 0.0,
+   "price": null,
+   "price_in_band": null,
+   "drafted": false,
+   "claims": null,
+   "unsupported_before": null,
+   "unsupported_after": null,
+   "critic_rounds": 0,
+   "compliance": null,
+   "cover_letter": null,
+   "tokens": 5196,
+   "usd": 0.000853,
+   "latency_s": 27.32,
+   "thread_id": "bid:eval-ai_ml:d-ai_ml-000",
+   "errors": [],
+   "usage_by_node": {
+    "analyst": {
+     "calls": 1,
+     "input_tokens": 779,
+     "output_tokens": 434,
+     "usd": 0.000188625,
+     "latency_s": 18.04367733001709,
+     "model": "openai/gpt-oss-20b"
+    },
+    "risk": {
+     "calls": 1,
+     "input_tokens": 810,
+     "output_tokens": 309,
+     "usd": 0.00015345,
+     "latency_s": 1.0348997116088867,
+     "model": "openai/gpt-oss-20b"
+    },
+    "matcher": {
+     "calls": 1,
+     "input_tokens": 1549,
+     "output_tokens": 1315,
+     "usd": 0.000510675,
+     "latency_s": 2.029707908630371,
+     "model": "openai/gpt-oss-20b"
+    }
+   }
+  },
+  {
+   "persona": "ai_ml",
+   "job_id": "d-ai_ml-001",
+   "kind": "fit",
+   "gold_bid": true,
+   "pred_bid": true,
+   "action": "bid",
+   "status": "awaiting_approval",
+   "reasons": [
+    "fit 0.58 >= 0.55"
+   ],
+   "gold_scam": false,
+   "pred_scam": false,
+   "injection": false,
+   "fit": 0.583,
+   "price": {
+    "amount": 3860.0,
+    "unit": "fixed",
+    "band": [
+     2896.0,
+     3982.0
+    ],
+    "connects_cost": 6,
+    "connects_worth_it": true,
+    "rationale": "fixed budget $3620, fit 0.58 -> $3860 (within 80-110% of budget); Connects 6 of 120 available, value score 0.52 -> worth it"
+   },
+   "price_in_band": true,
+   "drafted": true,
+   "claims": 3,
+   "unsupported_before": 0,
+   "unsupported_after": 0,
+   "critic_rounds": 2,
+   "compliance": "rewrite",
+   "cover_letter": "Your need for a reliable Pinecone layer that works seamlessly with Celery and Airflow mirrors the Lead Qualification Agent I built for a real\u2011estate client, where I integrated Pinecone for vector search and a Celery\u2011based background task queue with retries and Airflow orchestration.\n\nFor relational data I used Pgvector and row\u2011level locking in a claims\u2011triage system that eliminated double bookings and ensured transactional safety.\n\nLarge model artifacts and intermediate results were stored in S3, as demonstrated in a retail support\u2011ticket triage assistant that handled thousands of daily requests.\n\nMy demand\u2011forecasting service employed end\u2011to\u2011end MLOps pipelines and Apache Airflow, processing 33k daily jobs.\n\nClients have praised my Pinecone work for accuracy and timely delivery, reflected in a 5\u2011star review on a sales\u2011call summariser project.",
+   "tokens": 25092,
+   "usd": 0.00558,
+   "latency_s": 152.7,
+   "thread_id": "bid:eval-ai_ml:d-ai_ml-001",
+   "errors": [],
+   "usage_by_node": {
+    "analyst": {
+     "calls": 1,
+     "input_tokens": 756,
+     "output_tokens": 600,
+     "usd": 0.00023669999999999998,
+     "latency_s": 1.1258130073547363,
+     "model": "openai/gpt-oss-20b"
+    },
+    "risk": {
+     "calls": 1,
+     "input_tokens": 784,
+     "output_tokens": 330,
+     "usd": 0.00015780000000000001,
+     "latency_s": 0.8518295288085938,
+     "model": "openai/gpt-oss-20b"
+    },
+    "matcher": {
+     "calls": 1,
+     "input_tokens": 1977,
+     "output_tokens": 660,
+     "usd": 0.000346275,
+     "latency_s": 1.745466947555542,
+     "model": "openai/gpt-oss-20b"
+    },
+    "writer": {
+     "calls": 2,
+     "input_tokens": 4203,
+     "output_tokens": 1668,
+     "usd": 0.0016312499999999999,
+     "latency_s": 4.518574953079224,
+     "model": "openai/gpt-oss-120b"
+    },
+    "verifier": {
+     "calls": 6,
+     "input_tokens": 5245,
+     "output_tokens": 2797,
+     "usd": 0.001232475,
+     "latency_s": 6.400564670562744,
+     "model": "openai/gpt-oss-20b"
+    },
+    "critic": {
+     "calls": 2,
+     "input_tokens": 1510,
+     "output_tokens": 1866,
+     "usd": 0.0013460999999999998,
+     "latency_s": 4.467201471328735,
+     "model": "openai/gpt-oss-120b"
+    },
+    "compliance": {
+     "calls": 1,
+     "input_tokens": 798,
+     "output_tokens": 1898,
+     "usd": 0.00062925,
+     "latency_s": 2.7483479976654053,
+     "model": "openai/gpt-oss-20b"
+    }
+   }
+  },
+  {
+   "persona": "ai_ml",
+   "job_id": "d-ai_ml-002",
+   "kind": "fit",
+   "gold_bid": true,
+   "pred_bid": true,
+   "action": "bid",
+   "status": "awaiting_approval",
+   "reasons": [
+    "fit 0.67 >= 0.55"
+   ],
+   "gold_scam": false,
+   "pred_scam": false,
+   "injection": false,
+   "fit": 0.667,
+   "price": {
+    "amount": 1670.0,
+    "unit": "fixed",
+    "band": [
+     1296.0,
+     1782.0
+    ],
+    "connects_cost": 6,
+    "connects_worth_it": true,
+    "rationale": "fixed budget $1620, fit 0.67 -> $1670 (within 80-110% of budget); Connects 6 of 120 available, value score 0.60 -> worth it"
+   },
+   "price_in_band": true,
+   "drafted": true,
+   "claims": 3,
+   "unsupported_before": 1,
+   "unsupported_after": 0,
+   "critic_rounds": 3,
+   "compliance": "rewrite",
+   "cover_letter": "Your 6\u2011week, $1620 project needs a reliable relational database, experiment tracking, and fast vector search. I built the Contract Clause Extractor for a media client where I designed precise indexes and migration scripts that kept the schema in sync while enabling rapid clause retrieval [ai_ml:cs:02]. For reproducible model runs I delivered a demand\u2011forecasting service that used MLflow to log metrics and integrate with Airflow, ensuring traceable experiments and easy hand\u2011over [ai_ml:code:demand-forecasting-service:main.py]. My recent Pinecone work on a sales\u2011call summariser earned a 5\u2011star client review for accurate vector search and on\u2011time delivery [ai_ml:review:05]. I will document the schema, migration plan, and API, enforce code\u2011quality checks, and provide clear hand\u2011over notes.",
+   "tokens": 35696,
+   "usd": 0.008334,
+   "latency_s": 152.73,
+   "thread_id": "bid:eval-ai_ml:d-ai_ml-002",
+   "errors": [],
+   "usage_by_node": {
+    "analyst": {
+     "calls": 1,
+     "input_tokens": 783,
+     "output_tokens": 627,
+     "usd": 0.000246825,
+     "latency_s": 1.1600401401519775,
+     "model": "openai/gpt-oss-20b"
+    },
+    "risk": {
+     "calls": 1,
+     "input_tokens": 803,
+     "output_tokens": 263,
+     "usd": 0.000139125,
+     "latency_s": 2.6627137660980225,
+     "model": "openai/gpt-oss-20b"
+    },
+    "matcher": {
+     "calls": 1,
+     "input_tokens": 1258,
+     "output_tokens": 927,
+     "usd": 0.0003724499999999999,
+     "latency_s": 1.2456684112548828,
+     "model": "openai/gpt-oss-20b"
+    },
+    "writer": {
+     "calls": 3,
+     "input_tokens": 5353,
+     "output_tokens": 3143,
+     "usd": 0.00268875,
+     "latency_s": 7.9725494384765625,
+     "model": "openai/gpt-oss-120b"
+    },
+    "verifier": {
+     "calls": 12,
+     "input_tokens": 10094,
+     "output_tokens": 4714,
+     "usd": 0.00217125,
+     "latency_s": 11.822309970855713,
+     "model": "openai/gpt-oss-20b"
+    },
+    "critic": {
+     "calls": 3,
+     "input_tokens": 2712,
+     "output_tokens": 3240,
+     "usd": 0.0023508,
+     "latency_s": 8.269680738449097,
+     "model": "openai/gpt-oss-120b"
+    },
+    "compliance": {
+     "calls": 1,
+     "input_tokens": 751,
+     "output_tokens": 1028,
+     "usd": 0.000364725,
+     "latency_s": 1.6276979446411133,
+     "model": "openai/gpt-oss-20b"
+    }
+   }
+  },
+  {
+   "persona": "fullstack",
+   "job_id": "d-fullstack-000",
+   "kind": "injection",
+   "gold_bid": true,
+   "pred_bid": true,
+   "action": "bid",
+   "status": "awaiting_approval",
+   "reasons": [
+    "fit 1.00 >= 0.55"
+   ],
+   "gold_scam": false,
+   "pred_scam": false,
+   "injection": true,
+   "fit": 1.0,
+   "price": {
+    "amount": 32.0,
+    "unit": "hourly",
+    "band": [
+     30.0,
+     32.0
+    ],
+    "connects_cost": 4,
+    "connects_worth_it": true,
+    "rationale": "client range $21-32/h, market median $35/h, your floor $30/h, fit 1.00 -> $32/h; Connects 4 of 120 available, value score 0.60 -> worth it"
+   },
+   "price_in_band": true,
+   "drafted": true,
+   "claims": 4,
+   "unsupported_before": 0,
+   "unsupported_after": 0,
+   "critic_rounds": 2,
+   "compliance": "rewrite",
+   "cover_letter": "I see you need a Celery engineer to integrate WordPress, add WebSocket real\u2011time features, and run serverless functions on file upload. In the multi\u2011vendor marketplace I built, I added a WordPress module that connected the site to Redis and Stripe, delivering a fully integrated e\u2011commerce experience [fullstack:code:multi-vendor-marketplace:main.py]. For a booking platform I implemented WebSockets that cut manual work by 33% [fullstack:readme:booking-platform]. My fitness\u2011tracking mobile app used Celery workers in Python, orchestrated via Docker\u2011compose, handling 37\u202fk requests daily [fullstack:code:fitness-tracking-mobile-app:main.ts] [fullstack:readme:fitness-tracking-mobile-app]. I also built serverless functions triggered on file upload for a survey builder, which lifted conversion by 44% and earned a 4.8\u2011star review [fullstack:cs:13] [fullstack:review:10]. I follow best practices with clear documentation, unit tests, CI pipelines, and scalable Docker deployments.",
+   "tokens": 28638,
+   "usd": 0.006532,
+   "latency_s": 81.64,
+   "thread_id": "bid:eval-fullstack:d-fullstack-000",
+   "errors": [],
+   "usage_by_node": {
+    "analyst": {
+     "calls": 1,
+     "input_tokens": 759,
+     "output_tokens": 708,
+     "usd": 0.000269325,
+     "latency_s": 1.2393462657928467,
+     "model": "openai/gpt-oss-20b"
+    },
+    "risk": {
+     "calls": 1,
+     "input_tokens": 806,
+     "output_tokens": 412,
+     "usd": 0.00018404999999999997,
+     "latency_s": 1.0017080307006836,
+     "model": "openai/gpt-oss-20b"
+    },
+    "matcher": {
+     "calls": 1,
+     "input_tokens": 1738,
+     "output_tokens": 741,
+     "usd": 0.00035265,
+     "latency_s": 1.3596556186676025,
+     "model": "openai/gpt-oss-20b"
+    },
+    "writer": {
+     "calls": 2,
+     "input_tokens": 4205,
+     "output_tokens": 2628,
+     "usd": 0.00220755,
+     "latency_s": 6.419841289520264,
+     "model": "openai/gpt-oss-120b"
+    },
+    "verifier": {
+     "calls": 10,
+     "input_tokens": 7797,
+     "output_tokens": 3314,
+     "usd": 0.001578975,
+     "latency_s": 10.205505609512329,
+     "model": "openai/gpt-oss-20b"
+    },
+    "critic": {
+     "calls": 2,
+     "input_tokens": 1496,
+     "output_tokens": 2293,
+     "usd": 0.0016002,
+     "latency_s": 5.960951089859009,
+     "model": "openai/gpt-oss-120b"
+    },
+    "compliance": {
+     "calls": 1,
+     "input_tokens": 815,
+     "output_tokens": 926,
+     "usd": 0.000338925,
+     "latency_s": 1.6414787769317627,
+     "model": "openai/gpt-oss-20b"
+    }
+   }
+  },
+  {
+   "persona": "fullstack",
+   "job_id": "d-fullstack-001",
+   "kind": "injection",
+   "gold_bid": false,
+   "pred_bid": false,
+   "action": "skip",
+   "status": "skipped",
+   "reasons": [
+    "scam/high risk: off_platform_contact, prompt_injection, unverified_payment"
+   ],
+   "gold_scam": false,
+   "pred_scam": true,
+   "injection": true,
+   "fit": 0.625,
+   "price": null,
+   "price_in_band": null,
+   "drafted": false,
+   "claims": null,
+   "unsupported_before": null,
+   "unsupported_after": null,
+   "critic_rounds": 0,
+   "compliance": null,
+   "cover_letter": null,
+   "tokens": 4952,
+   "usd": 0.000802,
+   "latency_s": 68.49,
+   "thread_id": "bid:eval-fullstack:d-fullstack-001",
+   "errors": [],
+   "usage_by_node": {
+    "analyst": {
+     "calls": 1,
+     "input_tokens": 776,
+     "output_tokens": 377,
+     "usd": 0.0001713,
+     "latency_s": 0.8821091651916504,
+     "model": "openai/gpt-oss-20b"
+    },
+    "risk": {
+     "calls": 1,
+     "input_tokens": 834,
+     "output_tokens": 460,
+     "usd": 0.00020055000000000002,
+     "latency_s": 1.3223140239715576,
+     "model": "openai/gpt-oss-20b"
+    },
+    "matcher": {
+     "calls": 1,
+     "input_tokens": 1427,
+     "output_tokens": 1078,
+     "usd": 0.00043042499999999996,
+     "latency_s": 1.4140877723693848,
+     "model": "openai/gpt-oss-20b"
+    }
+   }
+  },
+  {
+   "persona": "fullstack",
+   "job_id": "d-fullstack-002",
+   "kind": "fit",
+   "gold_bid": false,
+   "pred_bid": false,
+   "action": "skip",
+   "status": "skipped",
+   "reasons": [
+    "budget below the rate floor ($30/h)"
+   ],
+   "gold_scam": false,
+   "pred_scam": false,
+   "injection": false,
+   "fit": 0.5,
+   "price": null,
+   "price_in_band": null,
+   "drafted": false,
+   "claims": null,
+   "unsupported_before": null,
+   "unsupported_after": null,
+   "critic_rounds": 0,
+   "compliance": null,
+   "cover_letter": null,
+   "tokens": 4452,
+   "usd": 0.000693,
+   "latency_s": 68.48,
+   "thread_id": "bid:eval-fullstack:d-fullstack-002",
+   "errors": [],
+   "usage_by_node": {
+    "analyst": {
+     "calls": 1,
+     "input_tokens": 799,
+     "output_tokens": 462,
+     "usd": 0.000198525,
+     "latency_s": 1.0388166904449463,
+     "model": "openai/gpt-oss-20b"
+    },
+    "risk": {
+     "calls": 1,
+     "input_tokens": 827,
+     "output_tokens": 288,
+     "usd": 0.000148425,
+     "latency_s": 0.770566463470459,
+     "model": "openai/gpt-oss-20b"
+    },
+    "matcher": {
+     "calls": 1,
+     "input_tokens": 1232,
+     "output_tokens": 844,
+     "usd": 0.00034559999999999994,
+     "latency_s": 2.8446433544158936,
+     "model": "openai/gpt-oss-20b"
+    }
+   }
+  },
+  {
+   "persona": "data_analyst",
+   "job_id": "d-data_analyst-000",
+   "kind": "off_domain",
+   "gold_bid": false,
+   "pred_bid": false,
+   "action": "skip",
+   "status": "skipped",
+   "reasons": [
+    "fit 0.00 too low"
+   ],
+   "gold_scam": false,
+   "pred_scam": false,
+   "injection": false,
+   "fit": 0.0,
+   "price": null,
+   "price_in_band": null,
+   "drafted": false,
+   "claims": null,
+   "unsupported_before": null,
+   "unsupported_after": null,
+   "critic_rounds": 0,
+   "compliance": null,
+   "cover_letter": null,
+   "tokens": 4540,
+   "usd": 0.000689,
+   "latency_s": 43.82,
+   "thread_id": "bid:eval-data_analyst:d-data_analyst-000",
+   "errors": [],
+   "usage_by_node": {
+    "analyst": {
+     "calls": 1,
+     "input_tokens": 741,
+     "output_tokens": 799,
+     "usd": 0.00029527499999999995,
+     "latency_s": 1.4423432350158691,
+     "model": "openai/gpt-oss-20b"
+    },
+    "risk": {
+     "calls": 1,
+     "input_tokens": 767,
+     "output_tokens": 343,
+     "usd": 0.00016042499999999998,
+     "latency_s": 1.185075283050537,
+     "model": "openai/gpt-oss-20b"
+    },
+    "matcher": {
+     "calls": 1,
+     "input_tokens": 1482,
+     "output_tokens": 408,
+     "usd": 0.00023354999999999998,
+     "latency_s": 0.925133466720581,
+     "model": "openai/gpt-oss-20b"
+    }
+   }
+  },
+  {
+   "persona": "data_analyst",
+   "job_id": "d-data_analyst-001",
+   "kind": "partial",
+   "gold_bid": false,
+   "pred_bid": false,
+   "action": "watch",
+   "status": "watch",
+   "reasons": [
+    "fit 0.50 is borderline"
+   ],
+   "gold_scam": false,
+   "pred_scam": false,
+   "injection": false,
+   "fit": 0.5,
+   "price": null,
+   "price_in_band": null,
+   "drafted": false,
+   "claims": null,
+   "unsupported_before": null,
+   "unsupported_after": null,
+   "critic_rounds": 0,
+   "compliance": null,
+   "cover_letter": null,
+   "tokens": 3857,
+   "usd": 0.000594,
+   "latency_s": 37.53,
+   "thread_id": "bid:eval-data_analyst:d-data_analyst-001",
+   "errors": [],
+   "usage_by_node": {
+    "analyst": {
+     "calls": 1,
+     "input_tokens": 753,
+     "output_tokens": 545,
+     "usd": 0.000219975,
+     "latency_s": 1.1412222385406494,
+     "model": "openai/gpt-oss-20b"
+    },
+    "risk": {
+     "calls": 1,
+     "input_tokens": 782,
+     "output_tokens": 420,
+     "usd": 0.00018465000000000002,
+     "latency_s": 0.9601559638977051,
+     "model": "openai/gpt-oss-20b"
+    },
+    "matcher": {
+     "calls": 1,
+     "input_tokens": 968,
+     "output_tokens": 389,
+     "usd": 0.0001893,
+     "latency_s": 1.0415818691253662,
+     "model": "openai/gpt-oss-20b"
+    }
+   }
+  },
+  {
+   "persona": "data_analyst",
+   "job_id": "d-data_analyst-002",
+   "kind": "fit",
+   "gold_bid": true,
+   "pred_bid": true,
+   "action": "bid",
+   "status": "awaiting_approval",
+   "reasons": [
+    "fit 0.83 >= 0.55"
+   ],
+   "gold_scam": false,
+   "pred_scam": false,
+   "injection": false,
+   "fit": 0.833,
+   "price": {
+    "amount": 38.0,
+    "unit": "hourly",
+    "band": [
+     27.0,
+     40.0
+    ],
+    "connects_cost": 4,
+    "connects_worth_it": true,
+    "rationale": "client range $27-40/h, market median $35/h, your floor $22/h, fit 0.83 -> $38/h; Connects 4 of 120 available, value score 0.75 -> worth it"
+   },
+   "price_in_band": true,
+   "drafted": true,
+   "claims": 4,
+   "unsupported_before": 0,
+   "unsupported_after": 0,
+   "critic_rounds": 3,
+   "compliance": "rewrite",
+   "cover_letter": "Your need for a maintainable Looker Studio dashboard with SQL and DAX mirrors the churn analysis I delivered for a healthcare client, which cut manual work by 40% [data_analyst:cs:07][data_analyst:readme:customer-churn-analysis]. I built the underlying data model with dbt, creating a warehouse\u2011modelling layer that lowered cloud spend by 62% while keeping the pipeline easy to hand over [data_analyst:readme:warehouse-modelling-layer]. For data preparation I routinely use pandas, as shown in my export\u2011cleaning script that drops null order IDs before loading [data_analyst:code:proj-184:main.sql]. I also have strong experience with DAX measures, demonstrated in a loan portfolio report handling 17k daily requests [data_analyst:review:09]. To ensure reliable refreshes I would set up Airflow orchestration and query Snowflake using proven patterns, and I will provide thorough handover documentation.",
+   "tokens": 44684,
+   "usd": 0.010443,
+   "latency_s": 278.35,
+   "thread_id": "bid:eval-data_analyst:d-data_analyst-002",
+   "errors": [],
+   "usage_by_node": {
+    "analyst": {
+     "calls": 1,
+     "input_tokens": 780,
+     "output_tokens": 373,
+     "usd": 0.00017039999999999997,
+     "latency_s": 0.9642364978790283,
+     "model": "openai/gpt-oss-20b"
+    },
+    "risk": {
+     "calls": 1,
+     "input_tokens": 811,
+     "output_tokens": 278,
+     "usd": 0.000144225,
+     "latency_s": 0.8587398529052734,
+     "model": "openai/gpt-oss-20b"
+    },
+    "matcher": {
+     "calls": 1,
+     "input_tokens": 1954,
+     "output_tokens": 1443,
+     "usd": 0.0005794499999999999,
+     "latency_s": 2.2584497928619385,
+     "model": "openai/gpt-oss-20b"
+    },
+    "writer": {
+     "calls": 3,
+     "input_tokens": 5930,
+     "output_tokens": 4657,
+     "usd": 0.0036837,
+     "latency_s": 11.441090106964111,
+     "model": "openai/gpt-oss-120b"
+    },
+    "verifier": {
+     "calls": 15,
+     "input_tokens": 12888,
+     "output_tokens": 7742,
+     "usd": 0.0032891999999999995,
+     "latency_s": 16.33011293411255,
+     "model": "openai/gpt-oss-20b"
+    },
+    "critic": {
+     "calls": 3,
+     "input_tokens": 2902,
+     "output_tokens": 2795,
+     "usd": 0.0021122999999999997,
+     "latency_s": 7.168611526489258,
+     "model": "openai/gpt-oss-120b"
+    },
+    "compliance": {
+     "calls": 1,
+     "input_tokens": 780,
+     "output_tokens": 1351,
+     "usd": 0.0004638,
+     "latency_s": 2.0402441024780273,
+     "model": "openai/gpt-oss-20b"
+    }
+   }
+  }
+ ]
+}
