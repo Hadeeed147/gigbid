@@ -1,0 +1,40 @@
+{"id": 1, "task": "Find open Web Development jobs that mention LangGraph.", "tool": "search_jobs", "args": {"query": "LangGraph", "category": "Web Development"}}
+{"id": 2, "task": "Any new jobs about Celery? Show me the latest ones.", "tool": "search_jobs", "args": {"query": "Celery"}}
+{"id": 3, "task": "Show me the full post for job d-data_analyst-101.", "tool": "get_job", "args": {"job_id": "d-data_analyst-101"}}
+{"id": 4, "task": "Is client c0350 trustworthy? Check their hiring history.", "tool": "get_client_history", "args": {"client_id": "c0350"}}
+{"id": 5, "task": "How many Connects do I have left?", "tool": "get_connects_balance", "args": {}}
+{"id": 6, "task": "What is the going hourly rate for Web Development work?", "tool": "get_market_stats", "args": {"category": "Web Development"}}
+{"id": 7, "task": "What are the current platform rules for submitting proposals?", "tool": "get_policy", "args": {}}
+{"id": 8, "task": "Do I have any proof in my portfolio that I have done Celery work?", "tool": "search_evidence", "args": {"requirement": "Celery"}}
+{"id": 9, "task": "Open my case study data_analyst:cs:07 so I can read it.", "tool": "get_case_study", "args": {"item_id": "data_analyst:cs:07"}}
+{"id": 10, "task": "Which skills can my portfolio actually back up?", "tool": "list_skills", "args": {}}
+{"id": 11, "task": "Read the messages in conversation th_4be21a9c0d.", "tool": "list_messages", "args": {"thread_id": "th_4be21a9c0d"}}
+{"id": 12, "task": "Which clients have written back to me?", "tool": "list_threads", "args": {}}
+{"id": 13, "task": "When am I free for a 30 minute call in the next few days?", "tool": "free_slots", "args": {}}
+{"id": 14, "task": "Put a tentative hold on my calendar at 2026-11-18T15:00:00+05:00 for the client interview.", "tool": "create_interview_hold", "args": {"start": "2026-11-18T15:00:00+05:00"}}
+{"id": 15, "task": "Show what has happened to my proposals since event 12.", "tool": "list_events", "args": {"after_seq": 12}}
+{"id": 16, "task": "Find open Web Development jobs that mention LangGraph.", "tool": "search_jobs", "args": {"query": "LangGraph", "category": "Web Development"}}
+{"id": 17, "task": "Any new jobs about dbt? Show me the latest ones.", "tool": "search_jobs", "args": {"query": "dbt"}}
+{"id": 18, "task": "Show me the full post for job d-fullstack-044.", "tool": "get_job", "args": {"job_id": "d-fullstack-044"}}
+{"id": 19, "task": "Is client c0350 trustworthy? Check their hiring history.", "tool": "get_client_history", "args": {"client_id": "c0350"}}
+{"id": 20, "task": "How many Connects do I have left?", "tool": "get_connects_balance", "args": {}}
+{"id": 21, "task": "What is the going hourly rate for Data Analytics work?", "tool": "get_market_stats", "args": {"category": "Data Analytics"}}
+{"id": 22, "task": "What are the current platform rules for submitting proposals?", "tool": "get_policy", "args": {}}
+{"id": 23, "task": "Do I have any proof in my portfolio that I have done Celery work?", "tool": "search_evidence", "args": {"requirement": "Celery"}}
+{"id": 24, "task": "Open my case study fullstack:cs:11 so I can read it.", "tool": "get_case_study", "args": {"item_id": "fullstack:cs:11"}}
+{"id": 25, "task": "Which skills can my portfolio actually back up?", "tool": "list_skills", "args": {}}
+{"id": 26, "task": "Read the messages in conversation th_77aa0c19e2.", "tool": "list_messages", "args": {"thread_id": "th_77aa0c19e2"}}
+{"id": 27, "task": "Which clients have written back to me?", "tool": "list_threads", "args": {}}
+{"id": 28, "task": "When am I free for a 30 minute call in the next few days?", "tool": "free_slots", "args": {}}
+{"id": 29, "task": "Put a tentative hold on my calendar at 2026-11-19T11:30:00+05:00 for the client interview.", "tool": "create_interview_hold", "args": {"start": "2026-11-19T11:30:00+05:00"}}
+{"id": 30, "task": "Show what has happened to my proposals since event 0.", "tool": "list_events", "args": {"after_seq": 0}}
+{"id": 31, "task": "Find open Web Development jobs that mention Stripe webhooks.", "tool": "search_jobs", "args": {"query": "Stripe webhooks", "category": "Web Development"}}
+{"id": 32, "task": "Any new jobs about Celery? Show me the latest ones.", "tool": "search_jobs", "args": {"query": "Celery"}}
+{"id": 33, "task": "Show me the full post for job d-ai_ml-012.", "tool": "get_job", "args": {"job_id": "d-ai_ml-012"}}
+{"id": 34, "task": "Is client c0207 trustworthy? Check their hiring history.", "tool": "get_client_history", "args": {"client_id": "c0207"}}
+{"id": 35, "task": "How many Connects do I have left?", "tool": "get_connects_balance", "args": {}}
+{"id": 36, "task": "What is the going hourly rate for Data Analytics work?", "tool": "get_market_stats", "args": {"category": "Data Analytics"}}
+{"id": 37, "task": "What are the current platform rules for submitting proposals?", "tool": "get_policy", "args": {}}
+{"id": 38, "task": "Do I have any proof in my portfolio that I have done Celery work?", "tool": "search_evidence", "args": {"requirement": "Celery"}}
+{"id": 39, "task": "Open my case study ai_ml:cs:03 so I can read it.", "tool": "get_case_study", "args": {"item_id": "ai_ml:cs:03"}}
+{"id": 40, "task": "Which skills can my portfolio actually back up?", "tool": "list_skills", "args": {}}
