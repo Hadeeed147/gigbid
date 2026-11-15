@@ -16,8 +16,7 @@ providers:
     prices:
       openai/gpt-oss-20b: [0.075, 0.30]
       openai/gpt-oss-120b: [0.15, 0.60]
-      llama-3.1-8b-instant: [0.05, 0.08]
-      qwen/qwen3-32b: [0.29, 0.59]
+      # qwen/qwen3.8-27b: no list price recorded here, so its USD column reads 0 (free tier, nothing billed)
   ollama:
     base_url: ${OLLAMA_BASE_URL:-http://localhost:11434/v1}
     api_key_env: OLLAMA_API_KEY   # ignored by Ollama, any value works
@@ -40,11 +39,12 @@ profiles:
   open:
     small:    {provider: groq, model: openai/gpt-oss-20b, temperature: 0.0}
     strong:   {provider: groq, model: openai/gpt-oss-120b, temperature: 0.3}
-    fallback: {provider: groq, model: llama-3.1-8b-instant, temperature: 0.0}
-  # Alternative open configuration compared on the dev set (see docs/adr/0004).
+    fallback: {provider: groq, model: qwen/qwen3.8-27b, temperature: 0.0}   # separate Groq rate-limit bucket
+  # Alternative open configuration compared on the dev set (one dense 27B model for every node).
+  # (llama-3.1-8b-instant and qwen3-32b were retired from Groq in 2026; this replaces them.)
   open_alt:
-    small:    {provider: groq, model: llama-3.1-8b-instant, temperature: 0.0}
-    strong:   {provider: groq, model: qwen/qwen3-32b, temperature: 0.3}
+    small:    {provider: groq, model: qwen/qwen3.8-27b, temperature: 0.0}
+    strong:   {provider: groq, model: qwen/qwen3.8-27b, temperature: 0.3}
     fallback: {provider: groq, model: openai/gpt-oss-20b, temperature: 0.0}
   local:
     small:    {provider: ollama, model: "qwen3:4b", temperature: 0.0}
@@ -53,7 +53,7 @@ profiles:
   paid:
     small:    {provider: groq, model: openai/gpt-oss-20b, temperature: 0.0}
     strong:   {provider: openai, model: gpt-4.1-mini, temperature: 0.3}
-    fallback: {provider: groq, model: llama-3.1-8b-instant, temperature: 0.0}
+    fallback: {provider: groq, model: qwen/qwen3.8-27b, temperature: 0.0}
 
 # Which tier each node uses.
 node_models:
@@ -120,6 +120,7 @@ loops:
 node_runtime:
   timeout_s: 60
   max_retries: 2
+  llm_max_retries: ${GIGBID_LLM_RETRIES:-2}   # per model call; evals raise it to ride out free-tier rate limits
   backoff_base_s: 1.5
 
 # ---------------------------------------------------------------------------

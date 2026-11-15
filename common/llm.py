@@ -123,7 +123,7 @@ def chat(node: str, messages: list[dict], schema: type[T] | None = None, *, prof
             + json.dumps(schema.model_json_schema())}]
     use_cache = os.environ.get("GIGBID_LLM_CACHE") == "1"
     ck = _cache_key(spec, messages, schema.__name__ if schema else "")
-    retries = cfg("node_runtime.max_retries", 2)
+    retries = int(cfg("node_runtime.llm_max_retries", 2))
     backoff = cfg("node_runtime.backoff_base_s", 1.5)
     specs = [spec] + ([fallback_spec(profile)] if spec.get("tier", "small") == "small" else [])
     last_err: Exception | None = None
@@ -159,8 +159,8 @@ def chat(node: str, messages: list[dict], schema: type[T] | None = None, *, prof
                 last_err = e
                 msg = str(e)
                 wait = backoff ** (attempt + 1)
-                m = re.search(r"try again in ([\d.]+)s", msg)
+                m = re.search(r"try again in (?:(\d+)m)?([\d.]+)s", msg)
                 if m:
-                    wait = min(30.0, float(m.group(1)) + 0.5)
+                    wait = min(65.0, 60 * int(m.group(1) or 0) + float(m.group(2)) + 0.5)
                 time.sleep(wait)
     raise LLMError(f"{node}: all attempts failed: {last_err}")
