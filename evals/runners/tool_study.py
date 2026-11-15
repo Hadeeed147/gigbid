@@ -190,10 +190,11 @@ def run_set(name: str, tools: list[dict], tasks: list[dict]) -> dict:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--make-tasks", action="store_true")
+    ap.add_argument("--limit", type=int, default=None, help="first N tasks only (free-tier token budget)")
     a = ap.parse_args()
     if a.make_tasks or not TASKS.exists():
         make_tasks()
-    tasks = [json.loads(x) for x in TASKS.read_text(encoding="utf-8").splitlines() if x]
+    tasks = [json.loads(x) for x in TASKS.read_text(encoding="utf-8").splitlines() if x][:a.limit]
     fine = asyncio.run(fine_tools())
     res = {n: run_set(n, ts, tasks) for n, ts in (("fine", fine), ("coarse", coarse_tools()), ("best", best_tools(fine)))}
     out = {"provenance": provenance({"n_tasks": len(tasks)}),
