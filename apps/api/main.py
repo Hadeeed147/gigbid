@@ -49,3 +49,27 @@ async def trace_middleware(request: Request, call_next):
 
 for r in (auth.router, jobs.router, proposals.router, messages.router, settings.router, streaming.router):
     app.include_router(r, prefix="/api")
+
+
+# Single-container deployment (infra/deploy): the API also serves the built React app,
+# so web and /api share one origin. Locally the Vite dev server or nginx does this instead.
+_WEB_DIST = env("WEB_DIST", "")
+if _WEB_DIST:
+    from pathlib import Path
+
+    from fastapi.responses import FileResponse
+    from fastapi.staticfiles import StaticFiles
+
+    _dist = Path(_WEB_DIST)
+    app.mount("/assets", StaticFiles(directory=_dist / "assets"), name="assets")
+
+    @app.get("/{path:path}", include_in_schema=False)
+    def spa(path: str) -> FileResponse:
+        """Static files from the build; any other non-API path falls back to index.html (client routing)."""
+        if path.startswith("api/"):
+            from fastapi import HTTPException
+            raise HTTPException(404, "not found")
+        f = (_dist / path).resolve()
+        if path and f.is_file() and _dist.resolve() in f.parents:
+            return FileResponse(f)
+        return FileResponse(_dist / "index.html")
